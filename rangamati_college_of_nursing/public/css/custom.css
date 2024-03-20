@@ -43,3 +43,103 @@
 .list-group{
     height: 100px;
 }
+
+/* breadcrumb */
+.breadcrumb-area {
+    background-size: cover;
+    position: relative;
+        min-height: 200px;
+        background-repeat: no-repeat;
+        background-color: #000;
+    }
+    .breadcrumb-wrap2 {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      bottom: -25px;
+        z-index: 1;
+    }
+    .breadcrumb-wrap.text-left {
+      text-align: center !important;
+    }
+    .breadcrumb {
+    display: inline-block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: unset;
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: unset;
+    border-radius: 30px;
+    background:var(--main-color);
+    padding: 15px 35px;
+    position: relative;
+    }
+    .breadcrumb li {display: inline-block;}
+    .breadcrumb li a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+        display: inline-block;
+        padding-right: 15px;
+        padding-left: 10px;
+        color: #ddd;
+        content: "|";
+    }
+    .breadcrumb-title h2 {
+        font-size: 70px;
+        margin-bottom: 25px;
+        line-height: 1;
+        color: #fff;
+          letter-spacing: 1px;
+    }
+    .breadcrumb-title p {
+        margin-bottom: 0;
+    color: #777;
+    font-size: 16px;
+    }
+    .breadcrumb > .active {
+        color:#fffc !important;
+        font-weight: 500;
+    }
+    .cart-top {
+        display: inline-block;
+    }
+    .cart-top li {
+        display: inline-block;
+        padding: 0px 17px;
+    }
+    .cart-top li a {
+        color: #fff;
+        font-size: 18px;
+        float: none !important;
+    }
+    .cart-top li:last-child {
+        border: none;
+    }
+    .call-box .icon {   
+        display: inline-block;
+    }
+    .call-box li {
+       float: left;
+        color: #fff;
+    }
+    
+    .call-box .text{
+    margin-left: 10px;
+    }
+    .call-box span {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: -5px;
+    }
+   
+    .header-social a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+    }

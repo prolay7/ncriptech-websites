@@ -20,7 +20,7 @@ $logo_bottom=$base_url.'public/img/logo/footer-logo.png';
 $logo_alt='Gyanjyoti Public School';
 $slogan="Affiliated to CBSE, New Delhi.Affiliation No. : 2430409.
 <br>It is the mission of our educational institution to provide a nurturing environment for the students. We aim totransform the youngsters through sound academic education with a distinct worldview.";
-$breadcrumb_bg=$base_url.'public/img/nursing/inner-banner-bg.jpg';
+$breadcrumb_bg=$base_url.'public/img/page-bg/page-bg-1.jpg);';
 $bg_404=$base_url.'public/img/bg/404-img.png';
 $bg_comeingsoon=$base_url.'public/img/class/comeing.jpg';
 $features_img='public/img/features/img-07.jpeg';
@@ -168,30 +168,42 @@ $bread_cumbs=array(
 //header top nav section
 
 $header_menus = array(
-    "Home" => $base_url,
-    "About Us" => array(
-        'Overview' => $base_url ."about-us",
-        "NOC Govt of W.B" => "noc",
-        "WBNC" => "wbnc",
-        "WBUHS Affiliation 2023-2024" => "wbush_affiliation",
-        "INC BSC Nursing documents" => "inc_bsc_nursing",
-        "INC GNM Nursing documents" => "inc_gnm_nursing"
+    "Home" => "$base_url",
+    "About" => array(
+        "About Us" => "about-us",
+        "Message From Chairman" => "#",
+        "Message From Director" => "#",
+        "Management" => "#",
+        "Teaching Staff" => "#",
+        "Non Teaching Staff" => "#",
+        "Technical Support Staff" => "#",
+        "GALLERY" => "#"
     ),
-    "College" => array(
-        "Gitanjali College Of Pharmacy" => "https://www.gitanjalicollegegroup.org/",
-        "Gitanjali College Of Education" => "https://www.gitanjalicollegeedu.org/",
-        "Gitanjali Institute Of Nursing" => "https://www.gitanjalicn.in/"
+    "Course Details" => array(
+        "Courses" => "#",
+        "Method Subject" => "#",
+        "Fee Structure" => "#",
+        "Student List" => "#"
     ),
-    "Courses" => array(
-        "BSC Nursing" => "bsc_course",
-        "GNM Nursing" => "gnm_course"
+    "Accounts" => array(
+        "Balance Sheet" => "#",
+        "Income and Expense" => "#",
+        "Receipt and Payment" => "#"
     ),
-    "Prospectus" => array(
-        "BSC Nursing" => "bsc_prospectus",
-        "GNM Nursing" => "gnm_prospectus"
+    "Documents" => array(
+        "B.Ed" => "#",
+        "D.El.Ed" => "#",
+        "WBBPE Certificate" => "#",
+        "Affidavit" => "#",
+        "Mandatory Disclosure" => "#",
+        "Teacher Attendance" => "#",
+        "Student Attendance" => "#"
     ),
-    "Gallery" => $base_url ."gallery",
-    "Contact" => "contact_us"
+    "Notification" => array(
+        "Latest Notification" => "#",
+        "Academic Calendar" => "#"
+    ),
+    "Contact" => "#"
 );
 
 $header_menu_special=array('text'=>'Apply Now','url'=>$base_url.'apply_now');
@@ -255,67 +267,6 @@ $footer_menues=[
 	'Privacy & Policy'=>$base_url.'Privacy Policy'
 ];
 
-$course_curriculam=[
-	'Playgroup'=>array(
-		'img'=>'public/img/class/img-20.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Rosebud / Playgroup',
-		'sub_heading'=>'English, Mathematics, Drawing (No book concern).',
-		'link'=>$base_url.'curriculum'
-	),
-	
-	'class Nursury'=>array(
-		'img'=>'public/img/class/img-02.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Nursery & KG',
-		'sub_heading'=>'Bengali/Hindi, English, Mathematics, Art and Drawing.',
-		'link'=>$base_url.'curriculum'
-	),
-	'class I-IV'=>array(
-		'img'=>'public/img/class/img-10.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class I to Class IV',
-		'sub_heading'=>' Bengali/Hindi, English, Mathematics, Science, Social Science......',
-		'link'=>$base_url.'curriculum'
-	),
-	'class V-VIII'=>array(
-		'img'=>'public/img/class/img-14.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class V to VIII',
-		'sub_heading'=>'Bengali/Hindi, English, Maths, Science, Social Science......',
-		'link'=>$base_url.'curriculum'
-	),
-	'class IX-X'=>array(
-		'img'=>'public/img/class/img-08.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class IX and X',
-		'sub_heading'=>'Bengali/Hindi, English, Maths, Science, Social Science......',
-		'link'=>$base_url.'curriculum'
-	),
-	'class XI-XII (Science Stream)'=>array(
-		'img'=>'public/img/class/img-04.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class XI and XII',
-		'sub_heading'=>'(Science Stream)Any five of the following: English, Maths, Physics......',
-		'link'=>$base_url.'curriculum'
-	),
-
-	'class XI-XII (Commerce Stream)'=>array(
-		'img'=>'public/img/class/img-04.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class XI and XII',
-		'sub_heading'=>'(Commerce Stream)Any five of the following :English, Maths......',
-		'link'=>$base_url.'curriculum'
-	),
-	'class XI-XII (Humanities)'=>array(
-		'img'=>'public/img/class/img-04.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class XI and XII',
-		'sub_heading'=>'(Humanities)Any five of the following : English, History......',
-		'link'=>$base_url.'curriculum'
-	),
-];
-
 
 
 
@@ -351,117 +302,9 @@ $partners_logo=[
 ];
 
 
-$dcuments_info=[
-	'SOCIETIES/TRUST/COMPANY REGISTRATION CERTIFICATE'=>'public/docs/Society-Registration-Certificate.pdf',
-	'NO OBJECTION CERTIFICATE (NOC)'=>'public/docs/No-Objection-Certificate.pdf',
-	'VALID BUILDING SAFETY CERTIFICATE'=>'public/docs/Building-Safety-Certificate.pdf',
-	'DEO CERTIFICATE'=>'public/docs/DEO-Certificate.pdf',
-	'VALID WATER, HEALTH AND SANITATION CERTIFICATES'=>'public/docs/Safe-Drinking-Water-Sanitary-Condition-Certificate-June23.pdf',
-	'RECOGNITION CERTIFICATE'=>'public/docs/Recognition-Certificate.pdf',
-	'VALID FIRE SAFETY CERTIFICATE'=>'public/docs/Fire-Safety-Certificate.pdf',
-	'Valid Land Certificate'=>'public/docs/Certificate-of-Land-Annexure-X.pdf',
-	'Self Declaration'=>'public/docs/Self-Declaration.pdf'
-];
-
-$results_info=[
-	'FEE STRUCTURE OF THE SCHOOL'=>'public/docs/Fee-Structure-23-24.pdf',
-	'ANNUAL ACADEMIC CALANDER'=>'public/docs/Academic-Calender-23-24.pdf',
-	'SCHOOL MANAGEMENT COMMITTEE (SMC)'=>'public/docs/School-Managing-Committee-23-24.pdf',
-	'PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS'=>'public/docs/Parent-Teacher-Association-23-24.pdf',
-	'POSH Committee'=>'public/docs/POSH-Committee-23-24.pdf',
-	'POSCO Committee'=>'public/docs/POSCO-Committee-23-24.pdf'
-];
 
 
-$infras_info['one']=[
-	'public/img/class/img-18.jpeg'=>array(
-		'TOTAL CAMPUS AREA OF THE SCHOOL (IN SQ MTR)'=>array(
-			'type'=>'text',
-			'text'=>'8660 sq.mtr.'
-		),
-	
-		'NO. AND SIZE OF THE CLASS ROOMS'=>array(
-			'type'=>'text',
-			'text'=>'14 (48.03sq.mtr. / 517 sq.ft.)'
-		),
-	
-		'NO. AND SIZE OF LABORATORIES (INCLUDING COMPUTER LABS)'=>array(
-			'type'=>'text',
-			'text'=>'6 (97.08 sq.mtr. / 1045 sq.ft.)'
-		),
-		'INTERNET FACILITY'=>array(
-			'type'=>'text',
-			'text'=>'YES'
-		),
-		'NO. OF GIRLS TOILETS'=>array(
-			'type'=>'text',
-			'text'=>'Urinal 9, Toilet 9'
-		),
-	
-		'NO. OF BOYS TOILETS'=>array(
-			'type'=>'text',
-			'text'=>'Urinal 18, Toilet 9'
-		)
-	)
-];
 
-$infras_info['two']=[
-	'public/img/class/img-08.jpeg'=>array(		
-		'SCHOOL INSPECTION (COVERING THE INFRASTRUCTURE)'=>array(
-			'type'=>'video',
-			'text'=>'<iframe width="560" height="315" src="https://www.youtube.com/embed/LscU89wol0g?si=e4vK_7l5kDS5j_XA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-		)
-	)
-];
-
-
-$cwsn_lift_infos=[
-	'3 year AMC Kingfisher Elevator'=>'',
-	'Undertaking Kingfisher Elevator'=>'',
-	'Invoice of Lift'=>'',
-	'Undertaking Gyanjyoti Public School'=>'',
-	'CWSN access Plan through Lift'=>''
-];
-
-$cwsn_toilet_infos=[
-	'CWSN Toilet Gr. Fl. for Boys'=>'',
-	'CWSN Toilet 1st Fl. for Boys'=>'',
-	'CWSN Toilet 2nd Fl. for Boys'=>'',
-	'CWSN Toilet Gr. Fl. for Girls'=>'',
-	'CWSN Toilet 1st Fl. for Girls'=>'',
-	'CWSN Toilet 2nd Fl. for Girls'=>''
-];
-
-$teaching_staff['one']=[
-	'public/img/class/img-18.jpeg'=>array(
-		'PRINCIPAL'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Bidisha Chatterjee'
-		),
-	
-		'Teacher-in-Charge'=>array(
-			'type'=>'text',
-			'text'=>'14 (48.03sq.mtr. / 517 sq.ft.)'
-		),
-	
-		'Co-Ordinator'=>array(
-			'type'=>'text',
-			'text'=>'Smt Deepika Mustafi'
-		),
-		'PGT'=>array(
-			'type'=>'text',
-			'text'=>'0'
-		),
-		'TGT'=>array(
-			'type'=>'text',
-			'text'=>'13'
-		),	
-		'PRT'=>array(
-			'type'=>'text',
-			'text'=>'2'
-		)
-	)
-];
 
 //Meta data
 

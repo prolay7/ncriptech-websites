@@ -19,142 +19,25 @@
 </a>
 <div class="collapse navbar-collapse mean-menu">
 <ul class="navbar-nav m-auto">
-<li class="nav-item">
-<a href="#" class="nav-link active">
-Home
-</a>
-</li>
-
-
-<li class="nav-item">
-<a href="#" class="nav-link">
-About
-<i class="bx bx-chevron-down"></i>
-</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="courses.html" class="nav-link">About Us</a>
-</li>
-<li class="nav-item">
-<a href="single-course.html" class="nav-link">Message From Chairman</a>
-</li>
-<li class="nav-item">
-<a href="single-course.html" class="nav-link">Message From Director</a>
-</li>
-<li class="nav-item">
-<a href="single-course.html" class="nav-link">Management</a>
-</li>
-<li class="nav-item">
-<a href="single-course.html" class="nav-link">Teaching Staff</a>
-</li>
-<li class="nav-item">
-<a href="single-course.html" class="nav-link">Non Teaching Staff</a>
-</li>
-<li class="nav-item">
-<a href="single-course.html" class="nav-link">Technical Support Staff</a>
-</li>
-<li class="nav-item">
-<a href="single-course.html" class="nav-link">GALLERY</a>
-</li>
+<?php foreach ($header_menus as $key => $value): ?>
+    <?php if (is_array($value)): ?>
+        <li class="nav-item">
+            <a href="#" class="nav-link"><?php echo $key; ?><i class="bx bx-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+                <?php foreach ($value as $k => $v): ?>
+                    <li class="nav-item">
+                        <a href="<?php echo $v; ?>" class="nav-link"><?php echo $k; ?></a>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </li>
+    <?php else: ?>
+        <li class="nav-item">
+            <a href="<?php echo $value; ?>" class="nav-link"><?php echo $key; ?></a>
+        </li>
+    <?php endif; ?>
+<?php endforeach; ?>
 </ul>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">
-Course Details 
-<i class="bx bx-chevron-down"></i>
-</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="about.html" class="nav-link">Courses</a>
-</li>
-<li class="nav-item">
-<a href="feedback.html" class="nav-link">Method Subject</a>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">
-Fee Structure
-</a>
-</li>
-<li class="nav-item">
-<a href="instructors.html" class="nav-link">Student List</a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">
-Accounts
-<i class="bx bx-chevron-down"></i>
-</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="shop.html" class="nav-link">Balance Sheet</a>
-</li>
-<li class="nav-item">
-<a href="cart.html" class="nav-link">Income and Expense</a>
-</li>
-<li class="nav-item">
-<a href="checkout.html" class="nav-link">Receipt and Payment</a>
-</li>
-</ul>
-</li>
-
-<li class="nav-item">
-<a href="#" class="nav-link">
-Documents
-<i class="bx bx-chevron-down"></i>
-</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="blog-column-one.html" class="nav-link">B.Ed</a>
-</li>
-<li class="nav-item">
-<a href="blog-column-two.html" class="nav-link">D.El.Ed</a>
-</li>
-<li class="nav-item">
-<a href="blog-column-three.html" class="nav-link">WBBPE Certificate</a>
-</li>
-<li class="nav-item">
-<a href="blog-left-sidebar.html" class="nav-link">Affidavit</a>
-</li>
-<li class="nav-item">
-<a href="single-blog.html" class="nav-link">Mandatory Disclosure</a>
-</li>
-<li class="nav-item">
-<a href="single-blog.html" class="nav-link">Teacher Attendance</a>
-</li>
-<li class="nav-item">
-<a href="single-blog.html" class="nav-link">Student Attendance</a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">
-Notification
-<i class="bx bx-chevron-down"></i>
-</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="shop.html" class="nav-link">Latest Notification</a>
-</li>
-<li class="nav-item">
-<a href="cart.html" class="nav-link">Academic Calendar</a>
-</li>
-
-</ul>
-</li>
-<li class="nav-item">
-<a href="contact.html" class="nav-link">Contact</a>
-</li>
-</ul>
-
-
-<div class="register">
-<a href="my-account.html" class="default-btn">
-Apply Now
-</a>
-</div>
-</div>
-
 </div>
 </nav>
 </div>
@@ -191,7 +74,7 @@ Apply Now
 </a>
 </div>
 <div class="register">
-<a href="my-account.html" class="default-btn">
+<a href="" class="default-btn">
 Login / Register
 </a>
 </div>
