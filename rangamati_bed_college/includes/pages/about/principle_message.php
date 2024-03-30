@@ -10,7 +10,8 @@
                         <p>
                         I am delighted to address you as we embark on a new academic year at <strong>Rangamati Siksha Ashram</strong>. As the Principle of this esteemed institution, I extend a warm welcome to each of you, and I am filled with pride as I reflect on our shared commitment to excellence in teacher education.
                          </p>
-                        <div class="text">Education is the fundamental force for the complete development of children. For the complete development of a child to help him become a complete human being, we should inculcate moral, cultural and spiritual values in our students along with cognitive development. These are possible if we are able to manifest the potentialities already inherent in child. Educational institutions are the laboratories wherein all these efforts are inculcated. Teachers should play as a ‘friend, philosopher and guide’ for shaping vision of academic and attitudinal success for all students. Teachers’ Training institutions act as the living agency to make trainees (student teachers) to be more competent in the teaching learning process.</div>
+                        <div class="text">
+Education fosters holistic child development by integrating moral, cultural, and spiritual values alongside cognitive growth. Teachers, as mentors, nurture academic and attitudinal success, embodying the roles of friend, philosopher, and guide. Training institutions empower educators to enhance teaching efficacy, facilitating effective learning experiences.</div>
                     
                         <div class="btn-box">
                             <a href="#" class="theme-btn btn-style-one">Contact Us</a>
@@ -31,8 +32,8 @@
                 </div>
               
             </div>
-           <div class="sec-title">
-                            <span class="title">Our Future Goal</span>
+           <div class="sec-title1">
+                        
                             <h2>We want to lead in Education</h2>
                         </div>
           <div class="text">

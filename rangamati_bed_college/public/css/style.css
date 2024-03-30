@@ -102,7 +102,7 @@ ul {
 }
 
 .form-control {
-	height: 50px;
+	height: 60px;
 	color: var(--main-color);
 	border: 1px solid #ececed;
 	background-color: #f5f6fa;
@@ -197,7 +197,7 @@ textarea.form-control {
 
 .default-btn {
 	font-size: 16px;
-	color: var(--black-color);
+	color: var(--white-color);
 	padding: 15px 15px;
 	line-height: 1;
 	-webkit-transition: var(--transition);
@@ -206,7 +206,7 @@ textarea.form-control {
 	background-color: var(--main-color);
 	border-radius: var(--border-radius);
 	border: 1px solid var(--main-color);
-	margin-bottom: -4px;
+	margin-bottom: 30px;
 	text-transform: capitalize
 }
 
@@ -218,7 +218,7 @@ textarea.form-control {
 
 .section-title {
 	max-width: 750px;
-	margin: -6px auto 50px;
+	margin: 30px auto 30px;
 	text-align: center
 }
 
@@ -1245,8 +1245,9 @@ textarea.form-control {
 }
 
 .partner-area .owl-carousel .owl-item img {
-	width: auto;
-	margin: auto
+	width: 100%;
+	margin: auto;
+	height:120px;
 }
 
 .partner-area .partner-item {
@@ -1311,7 +1312,7 @@ textarea.form-control {
 }
 
 .education-img {
-	background-image: url(../img/education-img.png);
+	background-image: url(../img/rangamati/infra1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1781,7 +1782,7 @@ textarea.form-control {
 .enroll-wrap .courses-form .form-group .form-control {
 	background-color: var(--main-color);
 	border-color: #f9d98c;
-	background-color: #f2ad09;
+
 	color: var(--white-color)
 }
 
@@ -1802,7 +1803,7 @@ textarea.form-control {
 }
 
 .enroll-wrap .courses-form .form-group .nice-select {
-	height: 50px;
+	height: 60px;
 	width: 100%;
 	line-height: 48px;
 	font-size: 13px;
@@ -1811,7 +1812,7 @@ textarea.form-control {
 	color: var(--white-color);
 	border-radius: 0;
 	border-color: #f9d98c;
-	background-color: #f2ad09
+	background-color: var(--main-color);
 }
 
 .enroll-wrap .courses-form .form-group .nice-select .option {
@@ -1822,7 +1823,7 @@ textarea.form-control {
 	text-align: left;
 	font-weight: 400;
 	font-size: 16px;
-	margin-top: 0
+	margin-top: -5px;
 }
 
 .enroll-wrap .courses-form .form-group .nice-select::after {
@@ -1840,7 +1841,8 @@ textarea.form-control {
 .enroll-wrap .courses-form .default-btn {
 	background-color: var(--white-color);
 	color: var(--heading-color);
-	margin-bottom: 0
+	margin-bottom: 0;
+	width:340px;
 }
 
 .enroll-wrap .courses-form .default-btn:hover {

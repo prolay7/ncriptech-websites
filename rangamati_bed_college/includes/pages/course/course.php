@@ -21,30 +21,36 @@
 <div class="tab_content">
 <div class="tabs_item" style="">
 <h3>Course Description</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has svived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
-<h3>Certification Online</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+<p>The Bachelor of Education (B.Ed) program is designed to equip aspiring educators with the knowledge and skills necessary to excel in the field of teaching. Through a comprehensive curriculum, students will delve into various aspects of education, including pedagogy, curriculum development, classroom management, and educational psychology. This program is tailored to meet the needs of individuals passionate about shaping the future through education.</p>
+
+
 <h3>What you’ll learn?</h3>
 <ul class="course-list">
 <li>
 <i class="bx bx-check"></i>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+Gain a deep understanding of educational theories and principles.
 </li>
 <li>
 <i class="bx bx-check"></i>
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Learn effective teaching strategies for diverse learners.
 </li>
 <li>
 <i class="bx bx-check"></i>
-Quis ipsum suspendisse ultrices gravida.
+Develop skills in lesson planning, curriculum design, and assessment methods.
 </li>
 <li>
 <i class="bx bx-check"></i>
-Risus commodo viverra maecenas accumsan lacus vel facilisis.
+Explore the use of technology in education and its integration into the classroom.
 </li>
+
+
 </ul>
-<h3>Who This Course is for</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+<h3>The Bachelor of Education (B.Ed) program is ideal for:</h3>
+<p>Individuals aspiring to become certified teachers in primary, secondary, or higher education.
+Current educators seeking to enhance their teaching practices and advance their careers.
+Professionals from diverse backgrounds interested in transitioning into the field of education.
+Anyone passionate about making a positive impact on students' lives and contributing to the field of education.
+</p>
 </div>
 <div class="tabs_item" style="display: none;">
 <div class="curriculum-content">
@@ -276,30 +282,33 @@ Web module
 <div class="tab_content">
 <div class="tabs_item" style="">
 <h3>Course Description</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has svived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
-<h3>Certification Online</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+<p>The Diploma in Elementary Education (DElEd) program is crafted to provide aspiring educators with the foundational knowledge and practical skills required to excel in the elementary education sector. Through a blend of theoretical learning and hands-on experiences, this program aims to prepare individuals for the dynamic and rewarding field of teaching young learners..</p>
+
 <h3>What you’ll learn?</h3>
 <ul class="course-list">
 <li>
 <i class="bx bx-check"></i>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+Develop a solid understanding of foundational concepts in education.
 </li>
 <li>
 <i class="bx bx-check"></i>
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore innovative approaches to curriculum development and instructional design.
 </li>
 <li>
 <i class="bx bx-check"></i>
-Quis ipsum suspendisse ultrices gravida.
+Enhance skills in classroom management, assessment, and student engagement.
 </li>
 <li>
 <i class="bx bx-check"></i>
-Risus commodo viverra maecenas accumsan lacus vel facilisis.
+Learn how to integrate technology and multimedia resources into teaching practices effectively.
 </li>
 </ul>
-<h3>Who This Course is for</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+<h3>The Diploma in Elementary Education (DElEd) program is ideal for</h3>
+<p>Aspiring teachers seeking to specialize in elementary education.
+Current educators working in elementary schools who wish to further their professional development.
+Individuals passionate about working with young children and making a positive impact on their lives.
+Career changers looking to transition into the field of elementary education.
+</p>
 </div>
 <div class="tabs_item" style="display: none;">
 <div class="curriculum-content">

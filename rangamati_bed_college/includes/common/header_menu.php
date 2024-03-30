@@ -1,7 +1,7 @@
 <!-- header -->
 <section>
 
-<div class="navbar-area">
+<div class="navbar-area deskto-menu">
 
 <div class="mobile-nav">
 <a href="index.html" class="logo">
@@ -43,49 +43,138 @@
 </div>
 </div>
 
-<div class="others-option-for-responsive">
-<div class="container">
-<div class="dot-menu">
-<div class="inner">
-<div class="circle circle-one"></div>
-<div class="circle circle-two"></div>
-<div class="circle circle-three"></div>
-</div>
-</div>
-<div class="container">
-<div class="option-inner">
-<div class="others-option justify-content-center d-flex align-items-center">
-<div class="option-item">
-<i class="search-btn bx bx-search"></i>
-<i class="close-btn bx bx-x"></i>
-<div class="search-overlay search-popup">
-<div class="search-box">
-<form class="search-form">
-<input class="search-input" name="search" placeholder="Search" type="text">
-<button class="search-button" type="submit"><i class="bx bx-search"></i></button>
-</form>
-</div>
-</div>
-</div>
-<div class="cart-icon">
-<a href="cart.html">
-<i class="flaticon-shopping-cart"></i>
-<span>0</span>
-</a>
-</div>
-<div class="register">
-<a href="" class="default-btn">
-Login / Register
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+<!-- another header -->
+<div class="mobile-menu sticky-top">
+    <img src="public/img/rangamati/logo.png" alt="logo" style="height:auto; width:300px;">
+ <button class="ticon" type="button" data-bs-toggle="offcanvas" data-bs-target="#leftOffcanvas" aria-controls="leftOffcanvas">
+ &#9776
+</button>
+
+
+<div class="offcanvas offcanvas-start " tabindex="-1" id="leftOffcanvas" aria-labelledby="leftOffcanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="leftOffcanvasLabel"><img src="public/img/rangamati/logo.png" alt="Logo" style="height:auto; width:250px;"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style="
+    background-color: white;
+"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="nav flex-column">
+    <li class="nav-item">
+        <a class="nav-link" href="<?php echo $base_url; ?>" style="
+    background-color: aliceblue;
+">Home</a>
+      </li>
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="
+    background-color: aliceblue;
+"><p>About</p></a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about-us">About Us</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>principle_message">Message From Principle</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>chairman_message">Message From Chairman</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>director_message">Message From Director</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>management">Management</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>teaching_staff">Teaching Staff</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>non_teachingstaff">Non Teaching Staff</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>technical_support_staff">Technical Support Staff</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>gallery">GALLERY</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="
+    background-color: aliceblue;
+"><p>Facilities</p></a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>infrastructure">Infrastructure</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>library">Library</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>lab">LAB</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="
+    background-color: aliceblue;
+"><p>Course Details</p></a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>course">Courses</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>subject">Method Subject</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>fee_structure">Fee Structure</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>student_list">Student List</a></li>
+
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="
+    background-color: aliceblue;
+"><p>Accounts</p></a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>balance_sheet">Balance Sheet</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>income_expences">Income and Expense</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>receipt_payment">Receipt and Payment</a></li>
+
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="
+    background-color: aliceblue;
+"><p>Documents</p></a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>bed">B.Ed</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>deled">D.El.Ed</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>wbbpe_certificate">WBBPE Certificate</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>affidavit">Affidavit</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>disclosure">Mandatory Disclosure</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>T_attendence">Teacher Attendance</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>S_attendence">Student Attendance</a></li>
+
+        </ul>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="
+    background-color: aliceblue;
+"><p>Notification</p></a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>notification">Latest Notification</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>calender">Academic Calendar</a></li>
+       
+
+        </ul>
+      </li>
+     
+   
+   
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo $base_url; ?>contact" style="
+    background-color: aliceblue;
+">Contact</a>
+      </li>
+    </ul>
+   
+  </div>
 
 </div>
-<!-- another header -->
+
+                                        </div>
+                                        <!-- call to action button  -->
+                                        <!-- call to action button  -->
+                                        <div class="wrapper">
+    <div id="main-div">
+      <div id="main-button" class="wave open" >
+       
+      </div>
+      <!-- <button><i class="fas fa-phone-alt"></i> Free Consultation</button> -->
+    
+      <a href="https://api.whatsapp.com/send?phone=917076380855" class="whatsapp-color"><i class="fab fa-whatsapp"></i></a>
+      <a href="tel:917076380855" class="messenger-color "><i class="fab fa fa-phone"></i></a>
+      <a href="mailto:gitanjali.nursing@gmail.com"  class="telegram-color "><i class="fab fa fa-envelope"></i></a>
+    
+    
+    </div>
+  </div>
 
 
 </section>

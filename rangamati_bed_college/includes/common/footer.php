@@ -1,5 +1,5 @@
 
-<footer class="footer-top-area pt-100 pb-70">
+<footer class="footer-top-area pt-100 pb-70 desktop-footer">
 <div class="container">
 <div class="row">
 <div class="col-lg-3 col-sm-6">
@@ -8,17 +8,19 @@
 <ul class="address">
 <li class="location">
 <i class="bx bxs-location-plus"></i>
-6890 Blvd, The Bronx, NY 1058 New York, USA
+Plot No. - 82, Vill- Banior,P.O- Banior, P.S- Nalhati, Dist- Birbhum,
+Pin- 731243, West Bengal(India).
+7384052529
 </li>
 <li>
 <i class="bx bxs-envelope"></i>
-<a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#056d6069696a456061706a6b2b666a68"><span class="__cf_email__" data-cfemail="f49c9198989bb49190819b9ada979b99">[email&#160;protected]</span></a>
-<a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#166663747a7f755673726379783875797b"><span class="__cf_email__" data-cfemail="3e4e4b5c52575d7e5b5a4b5150105d5153">[email&#160;protected]</span></a>
+<a href=""><span class="" >secretary.rangamati@gmail.com</span></a>
+
 </li>
 <li>
 <i class="bx bxs-phone-call"></i>
-<a href="tel:+1(514)312-5678">+1 (514) 312-5678</a>
-<a href="tel:+1(514)312-6688">+1 (514) 312-6688</a>
+<a href="tel:+1(514)312-5678">+91-9091526251</a>
+
 </li>
 </ul>
 </div>
@@ -27,43 +29,26 @@
 <div class="footer-widget">
 <h3>Useful links</h3>
 <ul class="link">
-<li>
-<a href="courses.html">All Courses</a>
-</li>
-<li>
-<a href="about.html">About us</a>
-</li>
-<li>
-<a href="faq.html">Help (FAQ)</a>
-</li>
-<li>
-<a href="terms-conditions.html">Terms & Conditions</a>
-</li>
-<li>
-<a href="privacy-policy.html">Privacy Policy</a>
-</li>
+<li><a href="<?php echo $base_url."course" ;?>">Courses</a></li>
+<li><a href="<?php echo $base_url."about-us" ;?>">About</a></li>
+
+<li><a href="<?php echo $base_url."terms&condition";?>">Terms & Condition</a></li>
+<li><a href="<?php echo $base_url."privacy_policy";?>">Privacy policy</a></li>
 </ul>
 </div>
 </div>
 <div class="col-lg-3 col-sm-6">
 <div class="footer-widget">
-<h3>Top online courses</h3>
+<h3>our courses</h3>
 <ul class="link">
 <li>
-<a href="#">AI for everyone</a>
+<a href="<?php echo $base_url."course";?>">Bachalor of Education(B.ed)</a>
 </li>
 <li>
-<a href="#">Networks and deep learning</a>
+<a href="<?php echo $base_url."course";?>">Diploma in Education(B.ed)</a>
 </li>
-<li>
-<a href="#">Learning with python</a>
-</li>
-<li>
-<a href="#">Financial markets</a>
-</li>
-<li>
-<a href="#">Speak English professionally</a>
-</li>
+
+
 </ul>
 </div>
 </div>
@@ -72,19 +57,19 @@
 <h3>Popular subjects</h3>
 <ul class="link">
 <li>
-<a href="#">Data science</a>
+<a href="#">sanskrit</a>
 </li>
 <li>
-<a href="#">Computer science</a>
+<a href="#">Education</a>
 </li>
 <li>
-<a href="#">Business and Management</a>
+<a href="#">Mathematics</a>
 </li>
 <li>
-<a href="#">Business and Management</a>
+<a href="#">Science</a>
 </li>
 <li>
-<a href="#">Nature & Environment</a>
+<a href="#">Art Education</a>
 </li>
 </ul>
 </div>
@@ -94,17 +79,117 @@
 </footer>
 
 
-<footer class="footer-bottom-area">
+<footer class="footer-bottom-area desktop-footer">
 <div class="container">
 <div class="copyright-wrap">
-<p>
-Copyright <i class="bx bx-copyright"></i>2022 Eduon. Designed By
-<a href="https://hibootstrap.com/" target="blank">HiBootstrap.com</a>
+<p style="
+    text-align: center;
+">
+Copyright<i class="bx bx-copyright"></i>2024 Rangamati Shikshan Ashram. Designed By
+<a href="https://ncriptech.com/" target="blank">ncriptech.com</a>
 </p>
 </div>
 </div>
 </footer>
 
+
+<!-- mobile footer -->
+
+<footer class="footer-top-area pt-100 pb-70 mobile-footer">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-3 col-6 footer-2">
+<div class="footer-widget">
+<h3>Useful links</h3>
+<ul class="link">
+<li><a href="<?php echo $base_url."course" ;?>">Courses</a></li>
+<li><a href="<?php echo $base_url."about-us" ;?>">About</a></li>
+
+<li><a href="<?php echo $base_url."terms&condition";?>">Terms & Condition</a></li>
+<li><a href="<?php echo $base_url."privacy_policy";?>">Privacy_policy</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-3 col-6 footer-2">
+<div class="footer-widget">
+<h3>our courses</h3>
+<ul class="link">
+<li>
+<a href="#">Bachalor of Education(B.ed)</a>
+</li>
+<li>
+<a href="#">Diploma in Education(B.ed)</a>
+</li>
+
+
+</ul>
+</div>
+</div>
+<div class="col-lg-3 col-12 footer-3">
+<div class="footer-widget">
+<h3>Popular subjects</h3>
+<ul class="link">
+<li>
+<a href="#">sanskrit</a>
+</li>
+<li>
+<a href="#">Education</a>
+</li>
+<li>
+<a href="#">Mathematics</a>
+</li>
+<li>
+<a href="#">Science</a>
+</li>
+<li>
+<a href="#">Art Education</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+<footer class="footer-bottom-area mobile-footer">
+<div class="container">
+<div class="col-lg-3 col-sm-6">
+<div class="footer-widget">
+<h3>Find Us</h3>
+<ul class="address">
+<li class="location">
+
+Plot No. - 82, Vill- Banior,P.O- Banior, P.S- Nalhati, Dist- Birbhum,
+Pin- 731243, West Bengal(India).
+7384052529
+</li>
+<li>
+
+<a href=""><span class="" >secretary.rangamati@gmail.com</span></a>
+
+</li>
+<li>
+
+<a href="tel:+1(514)312-5678">+91-9091526251</a>
+
+</li>
+</ul>
+</div>
+</div>
+<div class="copyright-wrap">
+<p style="
+    text-align: center;
+">
+Copyright<i class="bx bx-copyright"></i>2024 Rangamati Shikshan Ashram. Designed By
+<a href="https://ncriptech.com/" target="blank">ncriptech.com</a>
+</p>
+</div>
+</div>
+
+</footer>
+<!-- end of mobile footer -->
 
 <div class="go-top">
 <i class="bx bx-chevrons-up"></i>
@@ -112,15 +197,14 @@ Copyright <i class="bx bx-copyright"></i>2022 Eduon. Designed By
 </div>
 
 
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
-
-</script><script src="public/js/jquery.min.js"></script>
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+ <script src="public/js/jquery.min.js"></script> 
 
 <script src="public/js/bootstrap.bundle.min.js"></script>
 
 <script src="public/js/meanmenu.min.js"></script>
 
-<script src="public/js/owl.carousel.min.js"></script>
+ <script src="public/js/owl.carousel.min.js"></script>
 
 <script src="public/js/wow.min.js"></script>
 

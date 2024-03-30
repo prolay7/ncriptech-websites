@@ -14,7 +14,7 @@ include_once('config/config.php');
 
 <link rel="stylesheet" href="public/css/owl.theme.default.min.css">
 
-<link rel="stylesheet" href="pubic/css/owl.carousel.min.css">
+ <link rel="stylesheet" href="pubic/css/owl.carousel.min.css"> 
 
 <link rel="stylesheet" href="public/css/magnific-popup.min.css">
 
@@ -32,10 +32,13 @@ include_once('config/config.php');
 
 <link rel="stylesheet" href="public/css/style.css">
 
-<link rel="stylesheet" href="public/css/dark.css">
+<!-- <link rel="stylesheet" href="public/css/dark.css"> -->
 <link rel="stylesheet" href="public/css/custom.css">
 
 <link rel="stylesheet" href="public/css/responsive.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 
 <link rel="icon" type="image/png" href="public/img/favicon.png">
 <link rel="stylesheet" href="<?php echo $base_url;?>public/dist/css/glightbox.css" />

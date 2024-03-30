@@ -3,7 +3,7 @@
 <div class="row">
 <div class="col-lg-6">
 <div class="education-content">
-<span class="top-title">Education For All</span>
+
 <h2>About <span>RANGAMATI SHIKSHAN ASHRAM</span></h2>
 <p>	
 RANGAMATI SHIKSHAN ASHRAM, B.Ed & D.El.Ed. embodies the spirit of collectivism and collaboration to create an institution of excellence. It was a dream dreamt by the visionaries of the students of West Bengal that have shared a common culture and a tradition of pursuit of excellence in learning. .</p>

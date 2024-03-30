@@ -2,7 +2,7 @@
 <div class="container">
 
 <div class="row">
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-3 col-6">
 <div class="single-achieve">
 <div class="achieve-shape shape-1">
 <img src="public/img/achieve-shape/achieve-shape-1.png" alt="Image">
@@ -17,7 +17,7 @@ Download Area
 </div>
 </div>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-3 col-6">
 <div class="single-achieve">
 <div class="achieve-shape shape-2">
 <img src="public/img/achieve-shape/achieve-shape-2.png" alt="Image">
@@ -45,7 +45,7 @@ Holiday
 </ul>
 </div>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-3 col-6">
 <div class="single-achieve">
 <div class="achieve-shape shape-3">
 <img src="public/img/achieve-shape/achieve-shape-3.png" alt="Image">
@@ -70,7 +70,7 @@ B.ED
 </ul>
 </div>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-3 col-6">
 <div class="single-achieve">
 <div class="achieve-shape shape-4">
 <img src="public/img/achieve-shape/achieve-shape-4.png" alt="Image">
@@ -87,3 +87,6 @@ View All Notice
 </div>
 </div>
 </section>
+
+
+

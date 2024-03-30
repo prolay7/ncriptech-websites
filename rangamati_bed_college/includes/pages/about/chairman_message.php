@@ -31,8 +31,8 @@
                 </div>
               
             </div>
-           <div class="sec-title">
-                            <span class="title">Our Future Goal</span>
+           <div class="sec-title1">
+                           
                             <h2>We want to lead in Education</h2>
                         </div>
           <div class="text">

@@ -354,8 +354,8 @@
         var number = $(this).index();
         bigimage.data("owl.carousel").to(number, 300, true);
     });
-    $('body').append("<a href='https://themeforest.net/checkout/from_item/27989048?license=regular&support=bundle_6month&_ga=2.214944023.1464546313.1649253347-1356931366.1645330919&_gac=1.115874292.1649351773.Cj0KCQjwl7qSBhD-ARIsACvV1X34Yvc4XKSYFq60iQ6auDlKjNhJLJW5j_1joCsZJCKQ-4m75Uw8RNcaArtlEALw_wcB' target='_blank' class='buy-now-btn'><img src='assets/img/envato.png' alt='envato'/>Buy Now</a>");
-    $('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
+    $('body').append("");
+   
 })(jQuery);
 
 function setTheme(themeName) {

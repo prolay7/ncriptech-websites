@@ -1,74 +1,76 @@
-<div class="gallery-area gallery-popup ptb-100">
+
+
+<div class="gallery-area gallery-popup pt-100 ">
 <div class="container">
 <div class="row">
 <div class="col-lg-4 col-sm-6">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-1.jpg">
-<img src="public/img/gallery/gallery-img-1.jpg" alt="Image">
+<a href="public/img/rangamati/infra(1).webp">
+<img src="public/img/rangamati/infra(1).webp" alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
 </div>
 <div class="col-lg-4 col-sm-6">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-2.jpg">
-<img src="public/img/gallery/gallery-img-2.jpg" alt="Image">
+<a href="public/img/rangamati/infra(2).webp">
+<img src="public/img/rangamati/infra(2).webp" alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
 </div>
 <div class="col-lg-4 col-sm-6">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-3.jpg">
-<img src="public/img/gallery/gallery-img-3.jpg" alt="Image">
+<a href="public/img/rangamati/infra(3).webp">
+<img src="public/img/rangamati/infra(3).webp" alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
 </div>
 <div class="col-lg-4 col-sm-6">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-4.jpg">
-<img src="public/img/gallery/gallery-img-4.jpg" alt="Image">
+<a href="public/img/rangamati/infra(4).webp">
+<img src="public/img/rangamati/infra(4).webp" alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
 </div>
 <div class="col-lg-4 col-sm-6">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-5.jpg">
-<img src="public/img/gallery/gallery-img-5.jpg" alt="Image">
+<a href="public/img/rangamati/gal(2).webp">
+<img src="public/img/rangamati/gal(2).webp" alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
 </div>
 <div class="col-lg-4 col-sm-6">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-6.jpg">
-<img src="public/img/gallery/gallery-img-6.jpg" alt="Image">
+<a href="public/img/rangamati/gal(3).webp">
+<img src="public/img/rangamati/gal(3).webp" alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
 </div>
 <div class="col-lg-4 col-sm-6">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-7.jpg">
-<img src="public/img/gallery/gallery-img-7.jpg" alt="Image">
+<a href="public/img/rangamati/rsa_img3.webp">
+<img src="public/img/rangamati/rsa_img3.webp"alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
 </div>
 <div class="col-lg-4 col-sm-6">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-8.jpg">
-<img src="public/img/gallery/gallery-img-8.jpg" alt="Image">
+<a href="public/img/rangamati/gal(6).webp">
+<img src="public/img/rangamati/gal(6).webp" alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
 </div>
 <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
 <div class="single-gallery">
-<a href="public/img/gallery/gallery-img-9.jpg">
-<img src="public/img/gallery/gallery-img-9.jpg" alt="Image">
+<a href="public/img/rangamati/rsa_img2.webp">
+<img src="public/img/rangamati/rsa_img2.webp" alt="Image">
 <i class="bx bx-show-alt"></i>
 </a>
 </div>
@@ -79,3 +81,4 @@
 </div>
 </div>
 </div>
+

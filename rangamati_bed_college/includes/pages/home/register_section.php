@@ -1,4 +1,4 @@
-<section class="enroll-area ptb-100">
+<section class="enroll-area ptb-50">
 <div class="container">
 <div class="row">
 <div class="col-lg-5">

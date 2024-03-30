@@ -20,7 +20,7 @@ $logo_bottom=$base_url.'public/img/logo/footer-logo.png';
 $logo_alt='Gyanjyoti Public School';
 $slogan="Affiliated to CBSE, New Delhi.Affiliation No. : 2430409.
 <br>It is the mission of our educational institution to provide a nurturing environment for the students. We aim totransform the youngsters through sound academic education with a distinct worldview.";
-$breadcrumb_bg=$base_url.'public/img/page-bg/page-bg-1.jpg);';
+$breadcrumb_bg=$base_url.'public/img/rangamati/Breadcrum.png);';
 $bg_404=$base_url.'public/img/bg/404-img.png';
 $bg_comeingsoon=$base_url.'public/img/class/comeing.jpg';
 $features_img='public/img/features/img-07.jpeg';
@@ -126,37 +126,37 @@ $bread_cumbs=array(
 	),
 
 
-	'privacy-policy'=>array(
+	'privacy_policy'=>array(
 		$base_url=>'Home',
 		''=>'Privacy Policy'
 	),
-	'apply_now'=>array(
+	'bed'=>array(
 		$base_url=>'Home',
-		''=>'APPLY NOW'
+		''=>'B.ed'
 	),
-	'school-activities'=>array(
+	'deled'=>array(
 		$base_url=>'Home',
-		''=>'school-activities'
+		''=>'D.el.ed'
 	),
-	'school-house'=>array(
+	'affidavit'=>array(
 		$base_url=>'Home',
-		''=>'school-house'
+		''=>'Affidavit'
 	),
-	'information'=>array(
+	'wbbpe_certificate'=>array(
 		$base_url=>'Home',
-		''=>'about-us'
+		''=>'certificate'
 	),
-	'students-details'=>array(
+	'disclosure'=>array(
 		$base_url=>'Home',
-		''=>'students-details'
+		''=>'Mandotory discloser'
 	),
-	'examination'=>array(
+	'S_attendence'=>array(
 		$base_url=>'Home',
-		''=>'examination'
+		''=>'Student Attendence'
 	),
-	'result'=>array(
+	'T_attendence'=>array(
 		$base_url=>'Home',
-		''=>'result'
+		''=>'Teacher Atttendence'
 	),
 	'syllabus'=>array(
 		$base_url=>'Home',
@@ -193,6 +193,18 @@ $bread_cumbs=array(
 	'coming-soon'=>array(
 		$base_url=>'Home',
 		''=>'coming-soon'
+	),
+	'notification'=>array(
+		$base_url=>'Home',
+		''=>'Latest Notification'
+	),
+	'calender'=>array(
+		$base_url=>'Home',
+		''=>'Academic Calender'
+	),
+	'terms&condition'=>array(
+		$base_url=>'Home',
+		''=>'Privacy Policy'
 	)
 
 
@@ -230,17 +242,17 @@ $header_menus = array(
         "Receipt and Payment" => "receipt_payment"
     ),
     "Documents" => array(
-        "B.Ed" => "#",
-        "D.El.Ed" => "#",
-        "WBBPE Certificate" => "#",
-        "Affidavit" => "#",
-        "Mandatory Disclosure" => "#",
-        "Teacher Attendance" => "#",
-        "Student Attendance" => "#"
+        "B.Ed" => "bed",
+        "D.El.Ed" => "deled",
+        "WBBPE Certificate" => "wbbpe_certificate",
+        "Affidavit" => "affidavit",
+        "Mandatory Disclosure" => "disclosure",
+        "Teacher Attendance" => "T_attendence",
+        "Student Attendance" => "S_attendence"
     ),
     "Notification" => array(
-        "Latest Notification" => "#",
-        "Academic Calendar" => "#"
+        "Latest Notification" => "notification",
+        "Academic Calendar" => "calender"
     ),
     "Contact" => "contact"
 );
@@ -269,6 +281,15 @@ $pages_arr=[
 	"income_expences"=>"Accounts",
 	"receipt_payment"=>"Accounts",
 	"contact"=>"others",
+	"bed"=>"others",
+	"deled"=>"others",
+	"disclosure"=>"others",
+	"S_attendence"=>"others",
+	"T_attendence"=>"others",
+	"calender"=>"others",
+	"notification"=>"others",
+	"wbbpe_certificate"=>"others",
+	"affidavit"=>"others",
 
 	"noc"=>"about",
 	"wbnc"=>"about",
@@ -278,7 +299,7 @@ $pages_arr=[
 	"bsc_prospectus"=>"others",
 	"gnm_prospectus"=>"others",
 	"contact_us"=>"others",
-	"privacy-policy"=>"others",
+	"privacy_policy"=>"others",
 	"terms-conditions"=>"others",
 	"apply_now"=>"others",
 
@@ -304,8 +325,8 @@ $pages_arr=[
 	"admission"=>"others",
 	"mandatory-disclosure"=>"others",
 	"contact-us"=>"others",
-	"privacy-policy"=>"others",
-	"terms-conditions"=>"others",
+	"privacy_policy"=>"others",
+	"terms&condition"=>"others",
 	"rules-regulation"=>"others",
 	"fee-structure"=>"others",
 	"curriculum"=>"others",
@@ -315,14 +336,13 @@ $pages_arr=[
 ];
 
 $footer_menues=[
-	'About MMIN'=>$base_url.'about-us',
-	'Vision & Mission'=>$base_url.'vision-mission',
-	'B.Sc Nursing'=>$base_url.'bsc-nursing-training-course',
-	'G.N.M Nursing'=>$base_url.'gnm-nursing-training-course',
-	'Admission'=>$base_url.'admission',
-	'Blog'=>$base_url.'blog',
+
+	'about-us'=>$base_url.'vision-mission',
+	'courses'=>$base_url.'course',
+	
+
 	'T & C'=>$base_url.'terms & Condition',
-	'Privacy & Policy'=>$base_url.'Privacy Policy'
+	'privacy & Policy'=>$base_url.'Privacy_Policy'
 ];
 
 
@@ -545,7 +565,7 @@ $page_meta=[
 		"title"=>"Terms & Conditions",
 		"page_heading"=>"Terms & Conditions"
 	),
-	"privacy-policy"=>array(
+	"privacy_policy"=>array(
 		"title"=>"Privacy Policy",
 		"page_heading"=>"Privacy Policy"
 	),
