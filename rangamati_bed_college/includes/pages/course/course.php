@@ -55,101 +55,18 @@ Anyone passionate about making a positive impact on students' lives and contribu
 <div class="tabs_item" style="display: none;">
 <div class="curriculum-content">
 <h3>Education introduction</h3>
-<div class="curriculum-list">
-<h4>Section 1</h4>
-<ul>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Introduction
-</a>
-<a href="#" class="meet-time">
-<span class="min">01 hour</span>
-<span class="preview">Preview</span>
-</a>
-</li>
-<li class="transparent">
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Environment setup
-</a>
-<a href="#" class="meet-time">
-<span class="min">02 hours</span>
-<span class="preview">Preview</span>
-</a>
-</li>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Quiz one
-</a>
-<a href="#" class="meet-time">
-<span class="min">01 min</span>
-<span class="preview">4 question</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-</ul>
+<div class="col-lg-12"><div id="Iframe-Master-CC-and-Rs" class="set-margin set-padding set-border set-box-shadow center-block-horiz">
+  <div class="responsive-wrapper
+     responsive-wrapper-wxh-572x612"
+     style="-webkit-overflow-scrolling: touch; overflow: auto;">
+
+    <iframe src="public/img/rangamati/B.Ed Syllabus.pdf"> 
+      <p style="font-size: 110%;"><em><strong>ERROR: </strong>  
+An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p>
+    </iframe>
+    
+  </div>
 </div>
-<div class="curriculum-list">
-<h4>Section 2</h4>
-<ul>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Utility modules
-</a>
-<a href="#" class="meet-time">
-<span class="min">03 hours</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-<li class="transparent">
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Express framework
-</a>
-<a href="#" class="meet-time">
-<span class="min">05 min</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Web module
-</a>
-<a href="#" class="meet-time">
-<span class="min">01 hour</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-</ul>
-</div>
-<div class="curriculum-list">
-<h4>Section 3</h4>
-<ul>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Video introduction
-</a>
-<a href="#" class="meet-time">
-<span class="min">30 min</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-<li class="transparent">
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Web module
-</a>
-<a href="#" class="meet-time">
-<span class="min">05 hours</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-</ul>
 </div>
 </div>
 </div>
@@ -313,101 +230,19 @@ Career changers looking to transition into the field of elementary education.
 <div class="tabs_item" style="display: none;">
 <div class="curriculum-content">
 <h3>Education introduction</h3>
-<div class="curriculum-list">
-<h4>Section 1</h4>
-<ul>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Introduction
-</a>
-<a href="#" class="meet-time">
-<span class="min">01 hour</span>
-<span class="preview">Preview</span>
-</a>
-</li>
-<li class="transparent">
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Environment setup
-</a>
-<a href="#" class="meet-time">
-<span class="min">02 hours</span>
-<span class="preview">Preview</span>
-</a>
-</li>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Quiz one
-</a>
-<a href="#" class="meet-time">
-<span class="min">01 min</span>
-<span class="preview">4 question</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-</ul>
+<div class="col-lg-12"><div id="Iframe-Master-CC-and-Rs" class="set-margin set-padding set-border set-box-shadow center-block-horiz">
+  <div class="responsive-wrapper
+     responsive-wrapper-wxh-572x612"
+     style="-webkit-overflow-scrolling: touch; overflow: auto;">
+
+    <iframe src="public/img/rangamati/DeledSyllabus.pdf"> 
+
+      <p style="font-size: 110%;"><em><strong>ERROR: </strong>  
+An &#105;frame should be displayed here but your browser version does not support &#105;frames. </em>Please update your browser to its most recent version and try again.</p>
+    </iframe>
+    
+  </div>
 </div>
-<div class="curriculum-list">
-<h4>Section 2</h4>
-<ul>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Utility modules
-</a>
-<a href="#" class="meet-time">
-<span class="min">03 hours</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-<li class="transparent">
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Express framework
-</a>
-<a href="#" class="meet-time">
-<span class="min">05 min</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Web module
-</a>
-<a href="#" class="meet-time">
-<span class="min">01 hour</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-</ul>
-</div>
-<div class="curriculum-list">
-<h4>Section 3</h4>
-<ul>
-<li>
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Video introduction
-</a>
-<a href="#" class="meet-time">
-<span class="min">30 min</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-<li class="transparent">
-<a href="#" class="meet-title">
-<i class="bx bx-right-arrow"></i>
-Web module
-</a>
-<a href="#" class="meet-time">
-<span class="min">05 hours</span>
-<i class="bx bxs-lock-alt"></i>
-</a>
-</li>
-</ul>
 </div>
 </div>
 </div>

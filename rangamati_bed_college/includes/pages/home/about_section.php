@@ -37,7 +37,7 @@ Teacher Development Approach
 </li>
 </ul>
 <a href="courses.html" class="default-btn">
-Learn More
+Read More
 </a>
 </div>
 </div>

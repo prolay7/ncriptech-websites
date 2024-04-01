@@ -175,6 +175,7 @@
     
     </div>
   </div>
-
+  <a class="btn book-now desktop open-datepicker-popup" href="#" title="Book Now">Apply Now</a>
+  <div class="scroll"></div>
 
 </section>

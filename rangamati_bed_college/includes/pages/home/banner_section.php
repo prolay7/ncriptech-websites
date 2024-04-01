@@ -35,7 +35,7 @@
 </div>
 </section>
 <div style="color:white;background-color:#002147;font-size:18px;font-weight:bold;position:relative;padding-top:6px;" id="section1">
-    <div class="blinking" style="display:inline-block;float:left;padding-left:20px;padding-right:20px;color: white;background-color:#002147;border-radius:11px;margin-left:-16px;"><i class="fa-solid fa-bullhorn" style="color: #FFD43B;"></i></div>
+    <div class="blinking" style="display:inline-block;float:left;padding-left:20px;color: white;background-color:#002147;border-radius:11px;margin-left:-16px;"><i class="fa-solid fa-bullhorn" style="color: #FFD43B;"></i></div>
     <marquee width="90%" onmouseover="this.stop();" onmouseout="this.start();">
        Important notice:       
     </marquee>

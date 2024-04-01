@@ -30,13 +30,11 @@ Mon - Fri
 &nbsp;
 8:30 - 17:00
 </li>
-<hr>
 <li>
 Saturday
 &nbsp;
 9:00 - 13:00
 </li>
-<hr>
 <li>
 Sunday
 &nbsp;

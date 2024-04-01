@@ -1258,8 +1258,13 @@ textarea.form-control {
 	text-align: center;
 	margin-bottom: 30px;
 	-webkit-transition: var(--transition);
-	transition: var(--transition)
+	transition: var(--transition);
+	border: 1px solid var(--black-color);
+	height:300px;
+	border-radius: 10px;
 }
+
+
 
 .single-achieve .achieve-shape {
 	position: relative;
@@ -1304,7 +1309,8 @@ textarea.form-control {
 
 .single-achieve:hover {
 	-webkit-transform: translateY(-5px);
-	transform: translateY(-5px)
+	transform: translateY(-5px);
+	background-color: #bcd1ec;
 }
 
 .education-area {
