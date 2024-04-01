@@ -2723,7 +2723,13 @@ margin: 0;
 .s-cta-p.pb-120 {
 	padding-bottom: 120px;
 }
-
+.courses-content {
+    padding: 30px;    
+    float: left;
+    position: relative;
+ height: auto;
+    
+}
 }
 
 /* Large Mobile :480px. */

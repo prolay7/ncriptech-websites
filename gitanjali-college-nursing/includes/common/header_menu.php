@@ -11,7 +11,7 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="marquee1 ">
-                            <div class="message">P.B B.Sc. & M.Sc. NURSING ADMISSION 2020: Next Allotment will be notified later</div>
+                            <div class="message">G.N.M. &amp; B.Sc. Nursing Admission 2023: Admissions Open G.N.M. &amp; B.Sc. Nursing 2023-2024,GITANJALI INSTITUTE OF NURSING, BIRBHUM.</div>
                         </div>
                     </div>
                 </div>

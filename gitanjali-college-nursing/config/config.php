@@ -87,11 +87,17 @@ $bread_cumbs=array(
 		$base_url=>'Home',
 		''=>'Contact Us'
 	),
-	'terms-conditions'=>array(
+	'terms&condition'=>array(
 		$base_url=>'Home',
-		''=>'T & C'
+		''=>'Terms & Condition'
 	),
-	'privacy-policy'=>array(
+
+	'refund_policy'=>array(
+		$base_url=>'Home',
+		''=>'refund policy'
+	),
+	
+	'privacy_policy'=>array(
 		$base_url=>'Home',
 		''=>'Privacy Policy'
 	),
@@ -148,8 +154,9 @@ $pages_arr=[
 	"bsc_prospectus"=>"others",
 	"gnm_prospectus"=>"others",
 	"contact"=>"others",
-	"privacy-policy"=>"others",
-	"terms-conditions"=>"others",
+	"privacy_policy"=>"others",
+	"terms&condition"=>"others",
+	"refund_policy"=>"others",
 	"apply_now"=>"others",
 
 	"wbush_affiliation"=>"about",
@@ -160,21 +167,21 @@ $pages_arr=[
 	'coming-soon'=>"others",
 	
 
-	"privacy-policy"=>"others",
-	"terms-conditions"=>"others",
-	
+
 ];
 
 $footer_menues=[
-	'About MMIN'=>$base_url.'about-us',
-	'Vision & Mission'=>$base_url.'vision-mission',
-	'B.Sc Nursing'=>$base_url.'bsc-nursing-training-course',
-	'G.N.M Nursing'=>$base_url.'gnm-nursing-training-course',
-	'Admission'=>$base_url.'admission',
-	'Blog'=>$base_url.'blog',
-	'T & C'=>$base_url.'terms & Condition',
-	'Privacy & Policy'=>$base_url.'Privacy Policy'
+	'Home'=>$base_url.'',
+	'About'=>$base_url.'about',
+	'courses'=>$base_url.'bscn',
+	'Contact-us'=>$base_url.'contact_us',
+	'Blog'=>$base_url.'',
+
+	'Terms & Condition'=>$base_url.'terms&condition',
+	'privacy & Policy'=>$base_url.'Privacy_Policy',
+	'refund policy'=>$base_url.'refund_policy',
 ];
+
 
 $course_curriculam=[
 	'Playgroup'=>array(
@@ -242,15 +249,15 @@ $course_curriculam=[
 
 $slides = [
     [
-        'image' => 'public/img/nursing/BBY.jpeg',
+        'image' => 'public/img/nursing/BBY.webp',
 		
     ],
     [
-        'image' => 'public/img/nursing/banner.jpeg',
+        'image' => 'public/img/nursing/banner.webp',
 		
     ],
 	[
-        'image' => 'public/img/nursing/bbn.jpeg',
+        'image' => 'public/img/nursing/bbn.webp',
 		
     ],
 

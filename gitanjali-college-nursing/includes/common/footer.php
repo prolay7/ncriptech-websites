@@ -26,10 +26,13 @@
                                 <div class="footer-link">
                                     <ul>                                        
                                         <li><a href="<?php echo $base_url; ?>">Home</a></li>
-                                        <li><a href="<?php echo $base_url; ?>about-us"> About</a></li>
-                                        <li><a href="<?php echo $base_url; ?>bsc_course">Courses</a></li>
-                                        <li><a href="<?php echo $base_url; ?>contact_us"> Contact Us</a></li>
+                                        <li><a href="<?php echo $base_url; ?>about"> About</a></li>
+                                        <li><a href="<?php echo $base_url; ?>bscn">Courses</a></li>
+                                        <li><a href="<?php echo $base_url; ?>contact"> Contact Us</a></li>
                                         <li><a href="">Blog </a></li>
+                                        <li><a href="<?php echo $base_url; ?>privacy_policy">Privacy-policy</a></li>
+                                        <li><a href="<?php echo $base_url; ?>terms&condition">Terms & Condition</a></li>
+                                        <li><a href="<?php echo $base_url; ?>refund_policy">Refund policy</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -115,7 +118,9 @@ Web : gitanjalicn.in</p>
                             
                         </div>
                        <div class="col-lg-4 text-right text-xl-right">
-                       All rights reserved | Developed By ncriptech
+                       All rights reserved | Developed By <a href="https://ncriptech.com/" target="blank" style="
+    color: white;
+">ncriptech.com</a>
                     
                         </div>
                     </div>
