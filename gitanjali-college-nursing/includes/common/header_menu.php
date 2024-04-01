@@ -153,11 +153,11 @@
   <div class="offcanvas-body">
     <ul class="nav flex-column">
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo $base_url; ?>">Home</a>
+        <a class="nav-link" href="<?php echo $base_url; ?>"><p>Home</p></a>
       </li>
      
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>About Us</p></a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>about">Overview</a></li>
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>noc">NOC govt of WB</a></li>
@@ -168,7 +168,7 @@
         </ul>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">College</a>
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>College</p></a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href=" https://www.gitanjalicollegegroup.org/">Gitanjali College Of Pharmacy</a></li>
           <li><a class="dropdown-item" href="https://www.gitanjalicollegeedu.org/">Gitanjali College Of Education</a></li>
@@ -176,7 +176,7 @@
         </ul>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Courses</p></a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>bscn">BSC Nursing</a></li>
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>pbins">GNM Nursing</a></li>
@@ -184,7 +184,7 @@
         </ul>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Prospectus</a>
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Prospectus</p></a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>bsc_prospectus">BSC Nursing</a></li>
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>gnm_prospectus">GNM Nursing</a></li>
@@ -194,10 +194,10 @@
      
    
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo $base_url; ?>our-gallery">Gallery</a>
+        <a class="nav-link" href="<?php echo $base_url; ?>our-gallery"><p>Gallery</p></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo $base_url; ?>contact">Contact</a>
+        <a class="nav-link" href="<?php echo $base_url; ?>contact"><p>Contact</p></a>
       </li>
     </ul>
    

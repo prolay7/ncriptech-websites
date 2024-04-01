@@ -626,12 +626,37 @@ textarea.form-control{
 .course_text{
   text-align: justify;
 }
+/* .offcanvas .nav-link {
+  color: #162542!important;
+  font-size: 18px;
+  line-height: 1.2rem;
+  font-weight: 600;
+  padding: 15px;
+} */
+
+/* .offcanvas .dropdown-menu {
+  border: none!important;
+  background-color: white;
+  width: 50%;
+  color: #162542!important;
+padding-left: 35px;
+padding-top:-10px ;
+
+
+} */
+
+
 .offcanvas .nav-link {
   color: #162542!important;
   font-size: 18px;
   line-height: 1.2rem;
   font-weight: 600;
   padding: 15px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+
 }
 
 .offcanvas .dropdown-menu {
@@ -641,16 +666,19 @@ textarea.form-control{
   color: #162542!important;
 padding-left: 35px;
 padding-top:-10px ;
+background-color: aliceblue;
 
 
 }
-.offcanvas .dropdown-menu  .dropdown-item{
+
+.offcanvas .dropdown-menu .dropdown-item{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #525252;
+  margin:12px 0;
   font-weight: 700;
-  font-size:18px ;
-  /* text-decoration: underline;
-  text-decoration-color: #FED700;
-  text-underline-offset: 5px; 
-  text-decoration-thickness: 2px; */
+  font-size: 18px;
 
 }
 .offcanvas .dropdown-menu  .dropdown-item:hover{
@@ -660,6 +688,9 @@ padding-top:-10px ;
  
  
 }
+.offcanvas .dropdown-toggle p{
+  width: 100%!important;
+    }
 .offcanvas-start{
   width:340px!important;
 }
