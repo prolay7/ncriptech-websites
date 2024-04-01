@@ -41,8 +41,14 @@ include_once('config/config.php');
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<link rel="apple-touch-icon" sizes="76x76" href="public/img/icon/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="152x152" href="public/img/icon/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="public/img/icon/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="public/img/icon/favicon/favicon-16x16.png">
+<link rel="manifest" href="public/img/icon/favicon/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 
-<link rel="icon" type="image/png" href="public/img/favicon.png">
 <link rel="stylesheet" href="<?php echo $base_url;?>public/dist/css/glightbox.css" />
 <link rel="stylesheet" href="<?php echo $base_url;?>public/dist/css/style.css" />
 

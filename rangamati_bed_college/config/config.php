@@ -205,7 +205,16 @@ $bread_cumbs=array(
 	'terms&condition'=>array(
 		$base_url=>'Home',
 		''=>'Privacy Policy'
-	)
+	),
+	'apply_now'=>array(
+		$base_url=>'Home',
+		''=>'APPLY NOW'
+	),
+	'prospectus'=>array(
+		$base_url=>'Home',
+		''=>'Prospectus'
+	),
+
 
 
 );
@@ -234,7 +243,8 @@ $header_menus = array(
         "Courses" => "course",
         "Method Subject" =>"subject",
         "Fee Structure" => "fee_structure",
-        "Student List" => "student_list"
+        "Student List" => "student_list",
+		"Prospectus"=>"prospectus"
     ),
     "Accounts" => array(
         "Balance Sheet" => "balance_sheet",
@@ -257,7 +267,10 @@ $header_menus = array(
     "Contact" => "contact"
 );
 
-$header_menu_special=array('text'=>'Apply Now','url'=>$base_url.'apply_now');
+$header_menu_special=array('text'=>'Apply Now',
+                           'url'=>$base_url.'apply_now'
+                          );
+					
 
 $pages_arr=[
 	""=>"home",
@@ -302,6 +315,7 @@ $pages_arr=[
 	"privacy_policy"=>"others",
 	"terms-conditions"=>"others",
 	"apply_now"=>"others",
+	"prospectus"=>"others",
 
 	"wbush_affiliation"=>"about",
 	"bsc_course"=>"course",

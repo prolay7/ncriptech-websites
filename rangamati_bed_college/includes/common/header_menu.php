@@ -175,7 +175,10 @@
     
     </div>
   </div>
-  <a class="btn book-now desktop open-datepicker-popup" href="#" title="Book Now">Apply Now</a>
+
+  <a href="<?php echo $header_menu_special['url'];?>" class="btn book-now desktop open-datepicker-popup"><?php echo $header_menu_special["text"];?></a>
   <div class="scroll"></div>
+
+
 
 </section>
