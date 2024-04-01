@@ -777,9 +777,9 @@ width: 100%!important;
   
 #main-div {
   position: fixed;
-  /* right: 20px; */
-  left:60px;
-  bottom: 5px;
+  right: 5px;
+  left:10px;
+  bottom:-20px;
   z-index: 10000;
 }
 

@@ -168,9 +168,9 @@
       </div>
       <!-- <button><i class="fas fa-phone-alt"></i> Free Consultation</button> -->
     
-      <a href="https://api.whatsapp.com/send?phone=917076380855" class="whatsapp-color"><i class="fab fa-whatsapp"></i></a>
-      <a href="tel:917076380855" class="messenger-color "><i class="fab fa fa-phone"></i></a>
-      <a href="mailto:gitanjali.nursing@gmail.com"  class="telegram-color "><i class="fab fa fa-envelope"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=+91 90915 26251" class="whatsapp-color"><i class="fab fa-whatsapp"></i></a>
+      <a href="tel:+91-9091526251" class="messenger-color "><i class="fab fa fa-phone"></i></a>
+      <a href="mailto:secretary.rangamati@gmail.com"  class="telegram-color "><i class="fab fa fa-envelope"></i></a>
     
     
     </div>
