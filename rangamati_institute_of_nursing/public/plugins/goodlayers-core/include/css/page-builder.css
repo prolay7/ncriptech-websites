@@ -48,7 +48,7 @@
 .gdlr-core-pbf-column,
 .gdlr-core-pbf-column-content-margin{ position: relative; }
 .gdlr-core-pbf-column-link{ position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
-.gdlr-core-pbf-column-content{ position: relative; margin-left: auto; margin-right: auto; min-height: 1px; }
+.gdlr-core-pbf-column-content{ position: relative; margin-left: auto; margin-right: auto;  }
 .gdlr-core-pbf-element{ clear: both; }
 .gdlr-core-pbf-section:first-child{ padding-top: 60px; }
 .gdlr-core-pbf-section:first-child:last-child{ padding-bottom: 30px; }
@@ -76,7 +76,11 @@
 }
 
 .gdlr-core-pbf-wrapper-full-no-space .gdlr-core-item-pdlr{ padding-left: 0px; padding-right: 0px; }
-.gdlr-core-pbf-wrapper-full-no-space .gdlr-core-item-mglr{ margin-left: 0px; margin-right: 0px; }
+.gdlr-core-pbf-wrapper-full-no-space .gdlr-core-item-mglr {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 25px;
+}
 .gdlr-core-pbf-wrapper-full-no-space .gdlr-core-item-mgb{ margin-bottom: 0px; }
 .gdlr-core-pbf-wrapper-full-no-space .gdlr-core-block-item-title-wrap{ margin-left: 70px; margin-right: 60px; }
 .gdlr-core-pbf-wrapper-full-no-space .gdlr-core-pagination{ padding-left: 40px; padding-right: 40px; }

@@ -333,6 +333,13 @@
 	                            tmp: '<span class="tp-bullet-inner"></span>'
 	                        }
 	                    },
+                        autoplay: {
+        enabled: true, // Set to true to enable autoplay
+        delay: 4000, // Set the delay between slides in milliseconds
+        stopAtAction: false, // Set to true to stop autoplay on user interaction (e.g., click)
+        stopOnHover: true, // Set to true to stop autoplay on hover
+        pauseOnFocus: true // Set to true to pause autoplay on slider focus
+    },
 	                    visibilityLevels: [1240, 1024, 778, 480],
 	                    gridwidth: 1380,
 	                    gridheight: 713,
@@ -372,5 +379,3 @@
 	        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
 	    } /*]]>*/
 	</script>
-</body>
-</html>

@@ -224,47 +224,25 @@ $header_menus = array(
     "Home" => "$base_url",
     "About" => array(
         "About Us" => "about-us",
-		"Message From Principle" => "principle_message",
-        "Message From Chairman" => "chairman_message",
-        "Message From Director" => "director_message",
-        "Management" => "management",
-        "Teaching Staff" => "teaching_staff",
-        "Non Teaching Staff" => "non_teachingstaff",
-        "Technical Support Staff" => "technical_support_staff",
-        "GALLERY" => "gallery"
+		"Vision & mission" => "about-us",
+		"Affilaiation" => "affiliation",
+        "Certificate" => "certificate",
+        "Our Brocher" => "brocher",
+        "Facilities" => "facilities",
+        "INC Documents" => "documents",
+      
     ),
 
-	"Facilities" =>array(
-		"Infrastructure"=>"infrastructure",
-		"Library"=>"library",
-		"LAB"=>"lab",
+	"Courses" =>array(
+		"GNM Nursing"=>"nursing",
+		
 	),
-    "Course Details" => array(
-        "Courses" => "course",
-        "Method Subject" =>"subject",
-        "Fee Structure" => "fee_structure",
-        "Student List" => "student_list",
-		"Prospectus"=>"prospectus"
-    ),
-    "Accounts" => array(
-        "Balance Sheet" => "balance_sheet",
-        "Income and Expense" => "income_expences",
-        "Receipt and Payment" => "receipt_payment"
-    ),
-    "Documents" => array(
-        "B.Ed" => "bed",
-        "D.El.Ed" => "deled",
-        "WBBPE Certificate" => "wbbpe_certificate",
-        "Affidavit" => "affidavit",
-        "Mandatory Disclosure" => "disclosure",
-        "Teacher Attendance" => "T_attendence",
-        "Student Attendance" => "S_attendence"
-    ),
-    "Notification" => array(
-        "Latest Notification" => "notification",
-        "Academic Calendar" => "calender"
-    ),
-    "Contact" => "contact"
+    "Prospectus" => "prospectus",
+ 
+    "Gallery" => "gallery",
+    
+    "Contact" => "contact",
+	"Notice Board"=>"notice_board",
 );
 
 $header_menu_special=array('text'=>'Apply Now',
