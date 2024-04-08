@@ -204,23 +204,27 @@
                     </ul>
                     <div class="kingster-navigation-slide-bar" id="kingster-navigation-slide-bar"></div>
                 </div>
-                <div class="kingster-main-menu-right-wrap clearfix ">
-                    <div class="kingster-main-menu-search" id="kingster-top-search"><i class="icon_search"></i></div>
-                    <div class="kingster-top-search-wrap">
-                        <div class="kingster-top-search-close"></div>
-                        <div class="kingster-top-search-row">
-                            <div class="kingster-top-search-cell">
-                                <form role="search" method="get" class="search-form" action="#">
-                                    <input type="text" class="search-field kingster-title-font" placeholder="Search..." value="" name="s">
-                                    <div class="kingster-top-search-submit"><i class="fa fa-search"></i></div>
-                                    <input type="submit" class="search-submit" value="Search">
-                                    <div class="kingster-top-search-close"><i class="icon_close"></i></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+             
             </div>
         </div>
     </div>
 </header>
+ <!-- call to action button  -->
+ <div class="wrapper">
+    <div id="main-div">
+      <div id="main-button" class="wave open" >
+       
+      </div>
+      <!-- <button><i class="fas fa-phone-alt"></i> Free Consultation</button> -->
+    
+      <a href="https://api.whatsapp.com/send?phone=+91 90915 26251" class="whatsapp-color"><i class="fab  fa fa-whatsapp"></i></a>
+      <a href="tel:+91-9091526251" class="messenger-color "><i class="fab fa fa-phone"></i></a>
+      <a href="mailto:secretary.rangamati@gmail.com"  class="telegram-color "><i class="fab fa fa-envelope"></i></a>
+    
+    
+    </div>
+  </div>
+
+  <a href="<?php echo $header_menu_special['url'];?>" class="btn book-now desktop open-datepicker-popup"><?php echo $header_menu_special["text"];?></a>
+  <div class="scroll"></div>
+

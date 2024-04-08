@@ -4233,6 +4233,7 @@ ul.sf-menu>.menu-item-language li:last-child {
 	padding: 15px 22px;
 	width: 100%;
 	display: block;
+	border:2px solid #3db166;
 }
 
 .wpcf7 select {
@@ -6023,6 +6024,11 @@ body .tribe-bar-views-inner {
     #gdlr-core-wrapper-1.gdlr-core-pbf-wrapper {
         margin-top: 0px !important
     }
+
+	
+	.gdlr-core-pbf-wrapper-container{
+		margin-bottom: 0px;
+	 }
 }
 
 @media only screen and (max-width: 767px) {
@@ -6196,9 +6202,9 @@ body .tribe-bar-views-inner {
 
 
 .input1 {
-	border: 0 !important;
+	border: 2px solid #3db166;
 	padding: 20px 10px !important;
-	color: #333;
+	/* color: #333; */
 }
 
 .submit-button { 
@@ -6224,9 +6230,9 @@ body .tribe-bar-views-inner {
 
 
 .input1 {
-	border: 0 !important;
+	
 	padding: 20px 10px !important;
-	color: #333;
+	
 }
 
 .submit-button { 
@@ -6234,7 +6240,7 @@ body .tribe-bar-views-inner {
 	font-weight: bold; 
 	letter-spacing: 0.8px; 
 	padding: 15px; 
-	width: 100%;
+	width: 30%;
 	display: block; -webkit-appearance: none; 
 	background-color:#3db166; 
 	border: 0;

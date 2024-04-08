@@ -20,7 +20,7 @@ $logo_bottom=$base_url.'public/img/logo/footer-logo.png';
 $logo_alt='Gyanjyoti Public School';
 $slogan="Affiliated to CBSE, New Delhi.Affiliation No. : 2430409.
 <br>It is the mission of our educational institution to provide a nurturing environment for the students. We aim totransform the youngsters through sound academic education with a distinct worldview.";
-$breadcrumb_bg=$base_url.'public/img/rangamati/Breadcrum.png);';
+$breadcrumb_bg=$base_url.'public/img/inner-banner-bg.jpg);';
 $bg_404=$base_url.'public/img/bg/404-img.png';
 $bg_comeingsoon=$base_url.'public/img/class/comeing.jpg';
 $features_img='public/img/features/img-07.jpeg';
@@ -41,30 +41,30 @@ $page_title=[
 ];
 
 $bread_cumbs=array(
-	'about-us'=>array(
+	'about_us'=>array(
 		$base_url=>'Home',
 		''=>'About Us'
 	),
-	'chairman_message'=>array(
+	'vision&mission'=>array(
 		$base_url=>'Home',
-		''=>'Message from Chairman'
+		''=>'Vision & Mission'
 	),
-	'principle_message'=>array(
+	'brocher'=>array(
 		$base_url=>'Home',
-		''=>'Message from Principle'
+		''=>'Our Brocher'
 	),
-	'director_message'=>array(
+	'certificate'=>array(
 		$base_url=>'Home',
-		''=>'Message from Director'
+		''=>'Certificate'
 	),
-	'management'=>array(
+	'facilities'=>array(
 		$base_url=>'Home',
-		''=>'Our Management'
+		''=>'Facilities'
 	),
 	
-	'teaching_staff'=>array(
+	'documents'=>array(
 		$base_url=>'Home',
-		''=>'Teaching staff'
+		''=>'INC Documents'
 	),
 	'non_teachingstaff'=>array(
 		$base_url=>'Home',
@@ -130,17 +130,17 @@ $bread_cumbs=array(
 		$base_url=>'Home',
 		''=>'Privacy Policy'
 	),
-	'bed'=>array(
+	'gnm'=>array(
 		$base_url=>'Home',
-		''=>'B.ed'
+		''=>'GNM NURSING'
 	),
-	'deled'=>array(
+	'notice'=>array(
 		$base_url=>'Home',
-		''=>'D.el.ed'
+		''=>'Notice Board'
 	),
-	'affidavit'=>array(
+	'affiliation'=>array(
 		$base_url=>'Home',
-		''=>'Affidavit'
+		''=>'Affiliation'
 	),
 	'wbbpe_certificate'=>array(
 		$base_url=>'Home',
@@ -223,8 +223,8 @@ $bread_cumbs=array(
 $header_menus = array(
     "Home" => "$base_url",
     "About" => array(
-        "About Us" => "about-us",
-		"Vision & mission" => "about-us",
+        "About Us" => "about_us",
+		"Vision & mission" => "vision&mission",
 		"Affilaiation" => "affiliation",
         "Certificate" => "certificate",
         "Our Brocher" => "brocher",
@@ -234,7 +234,7 @@ $header_menus = array(
     ),
 
 	"Courses" =>array(
-		"GNM Nursing"=>"nursing",
+		"GNM Nursing"=>"gnm",
 		
 	),
     "Prospectus" => "prospectus",
@@ -242,7 +242,7 @@ $header_menus = array(
     "Gallery" => "gallery",
     
     "Contact" => "contact",
-	"Notice Board"=>"notice_board",
+	// "Notice Board"=>"notice",
 );
 
 $header_menu_special=array('text'=>'Apply Now',
@@ -252,48 +252,26 @@ $header_menu_special=array('text'=>'Apply Now',
 
 $pages_arr=[
 	""=>"home",
-	"about-us"=>"about",
-	"chairman_message"=>"about",
-	"director_message"=>"about",
-	"principle_message"=>"about",
-	"management"=>"about",
-	"teaching_staff"=>"about",
-	"non_teachingstaff"=>"about",
-	"technical_support_staff"=>"about",
-	"gallery"=>"about",
-	"infrastructure"=>"facilities",
-	"library"=>"facilities",
-	"lab"=>"facilities",
-	"course"=>"course",
-	"fee_structure"=>"course",
-	"student_list"=>"course",
-	"subject"=>"course",
-	"balance_sheet"=>"Accounts",
-	"income_expences"=>"Accounts",
-	"receipt_payment"=>"Accounts",
-	"contact"=>"others",
-	"bed"=>"others",
-	"deled"=>"others",
-	"disclosure"=>"others",
-	"S_attendence"=>"others",
-	"T_attendence"=>"others",
-	"calender"=>"others",
-	"notification"=>"others",
-	"wbbpe_certificate"=>"others",
-	"affidavit"=>"others",
-
-	"noc"=>"about",
-	"wbnc"=>"about",
-	"inc_bsc_nursing"=>"about",
-	"inc_gnm_nursing"=>"about",
+	"about_us"=>"about",
+	"vision&mission"=>"about",
+	"affiliation"=>"about",
+	"brocher"=>"about",
+	"certificate"=>"about",
+	"documents"=>"about",
+	"facilities"=>"about",
+	"gallery"=>"others",
 	
-	"bsc_prospectus"=>"others",
-	"gnm_prospectus"=>"others",
-	"contact_us"=>"others",
-	"privacy_policy"=>"others",
-	"terms-conditions"=>"others",
-	"apply_now"=>"others",
-	"prospectus"=>"others",
+	
+	"contact"=>"others",
+		
+	"notice"=>"others",
+	"gnm"=>"course",
+	
+	
+
+
+	
+	
 
 	"wbush_affiliation"=>"about",
 	"bsc_course"=>"course",
@@ -303,28 +281,9 @@ $pages_arr=[
 	"school-activities"=>"about",
 	"school-house"=>"about",
 	"information"=>"about",
-	"result"=>"others",
-	"faculty"=>"others",
-	'coming-soon'=>"others",
-	"laboratory"=>"others",
-	"digital-classroom"=>"others",
-	"project"=>"others",
-	"house-event"=>"others",
-	"celebration"=>"others",
-	"excursion"=>"others",
-	"students-details"=>"others",
-	"examination"=>"others",
-	"admission"=>"others",
-	"mandatory-disclosure"=>"others",
-	"contact-us"=>"others",
-	"privacy_policy"=>"others",
-	"terms&condition"=>"others",
-	"rules-regulation"=>"others",
-	"fee-structure"=>"others",
-	"curriculum"=>"others",
-	"admission"=>"others",
+	
 
-	"classinfrastructure"=>"others"
+	"prospectus"=>"others"
 ];
 
 $footer_menues=[
@@ -337,7 +296,26 @@ $footer_menues=[
 	'privacy & Policy'=>$base_url.'Privacy_Policy'
 ];
 
+// gallery section
 
+
+//GALARY PAGE
+$projects = [
+    ['image' => 'public/img/gallery1.jpg'],
+    ['image' => 'public/img/gallery2.jpg'],
+    ['image' => 'public/img/gallery3.jpg'],
+    ['image' => 'public/img/gallery4.jpg'],
+    ['image' => 'public/img/gallery5.jpg'],
+    ['image' => 'public/img/gallery6.jpg'],
+    ['image' => 'public/img/gallery7.jpg'],
+    ['image' => 'public/img/gallery8.jpg'],
+    ['image' => 'public/img/gallery9.jpg'],
+	['image' => 'public/img/gallery10.jpg'],
+	['image' => 'public/img/gallery11.jpg'],
+	['image' => 'public/img/gallery13.jpg'],
+  
+    // Add more projects as needed
+];
 
 
 $slides = [
@@ -727,6 +705,10 @@ $galleries=[
 
 
 //Meta data
+//about page//facilities
+
+
+
 
 
 $styles=[
