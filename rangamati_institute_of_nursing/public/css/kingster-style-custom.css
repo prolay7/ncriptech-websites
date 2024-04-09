@@ -3395,13 +3395,13 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 .gdlr-core-page-builder-body [data-skin="Blue Title"] h6,
 .gdlr-core-page-builder-body [data-skin="Blue Title"] .gdlr-core-skin-title,
 .gdlr-core-page-builder-body [data-skin="Blue Title"] .gdlr-core-skin-title a {
-	color: #192f59
+	color: #192f59;
 }
 
 .gdlr-core-page-builder-body [data-skin="Blue Title"] .gdlr-core-skin-caption,
 .gdlr-core-page-builder-body [data-skin="Blue Title"] .gdlr-core-skin-caption a,
 .gdlr-core-page-builder-body [data-skin="Blue Title"] .gdlr-core-skin-caption a:hover {
-	color: #b7b7b7
+	color: black
 }
 
 .gdlr-core-page-builder-body [data-skin="Blue Title"],
@@ -3684,7 +3684,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_1 {
-	padding: 52px 0px 0px 66px;
+	padding: 40px 0px 0px 4px;
 }
 
 #div_1dd7_2 {
@@ -3705,7 +3705,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 
 #div_1dd7_4 {
 	margin: 0px 0px 0px 0px;
-	padding: 52px 0px 0px 66px;
+	padding: 40px 0px 0px 4px;
 }
 
 #div_1dd7_5 {
@@ -3725,7 +3725,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_7 {
-	padding: 52px 0px 0px 66px;
+	padding: 40px 0px 0px 4px;
 }
 
 #div_1dd7_8 {
@@ -3745,7 +3745,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_10 {
-	padding: 52px 0px 0px 46px;
+	padding: 40px 0px 0px 4px;
 }
 
 #div_1dd7_11 {
@@ -3781,7 +3781,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_15 {
-	background-image: url(../img/about.jpeg);
+	background-image: url(../img/gallery3.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -3791,7 +3791,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_17 {
-	background-image: url(../upload/about-bg-2.jpg);
+	background-image: url(../img/college_overley.png);
 	background-size: cover;
 	background-position: center;
 }
@@ -3822,7 +3822,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 #div_1dd7_20 {
 	font-size: 18px;
 	text-transform: none;
-	color: #c1d3ff;
+	color: white;
 }
 
 #a_1dd7_0 {
@@ -4829,7 +4829,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_28 {
-	background-image: url(../upload/nathan-dumlao-572047-unsplash.jpg);
+	background-image: url(../img/gallery10.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -4843,7 +4843,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_31 {
-	background-image: url(../upload/shutterstock_400221589.jpg);
+	background-image: url(../img/gallery3.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -4913,7 +4913,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_44 {
-	background-image: url(../upload/shutterstock_547272460.jpg);
+	background-image: url(../img/gallery4.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -5117,7 +5117,7 @@ padding-top: 6px;
      
      column-gap: 0;
      padding:20px;
-     color:black;
+     color:white;
      font-family: sans-serif;
      font-size: 17px;
      line-height: 1.4em;
@@ -5419,5 +5419,14 @@ padding-top: 6px;
 	media queries */
   }
   
+  .gdlr-core-skin{
+	color:white!important;
+  }
   
-  
+
+
+  .archive{
+	border-right: 1px solid #ffffff;
+	height: 200px;
+
+  }

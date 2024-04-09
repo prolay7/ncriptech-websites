@@ -76,7 +76,7 @@
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                                     <div class="gdlr-core-text-box-item-content" id="div_983a_14">
-                                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p>
+                                                        <p>At Rangamati Institute of Nursing, our philosophy centers around nurturing the holistic well-being of both patients and caregivers. We believe in the power of compassionate care.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -100,7 +100,8 @@
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                                     <div class="gdlr-core-text-box-item-content" id="div_983a_17">
-                                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p>
+                                                        <p>
+At Rangamati Institute of Nursing, it's not just about classes and books. It's about a close-knit community, like a family, all dedicated to doing their best and helping others. </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -124,7 +125,7 @@
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                                     <div class="gdlr-core-text-box-item-content" id="div_983a_20">
-                                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p>
+                                                        <p>The key to success at Rangamati Institute of Nursing lies in our unwavering dedication to excellence, integrity, and collaboration. .</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -150,13 +151,13 @@
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="div_983a_26">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_4">Special Campus Tour</h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_4">Excellence in Nursing Education</h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                                     <div class="gdlr-core-text-box-item-content" id="div_983a_27">
-                                                        <p>Campus on a tour designed for prospective graduate and professional students. You will see how our university like, facilities, studenst and life in this university. Meet our graduate admissions representative to learn more about our graduate programs and decide what it the best for you.</p>
+                                                        <p> To strive for excellence in nursing education by providing comprehensive and innovative programs that meet the highest standards of academic rigor and professional competence..</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -198,13 +199,13 @@
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="div_983a_35">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_5">Graduation</h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_5">Ethical Practice</h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                                     <div class="gdlr-core-text-box-item-content" id="div_983a_36">
-                                                        <p>Campus on a tour designed for prospective graduate and professional students. You will see how our university like, facilities, studenst and life in this university. Meet our graduate admissions representative to learn more about our graduate programs and decide what it the best for you.</p>
+                                                        <p> To uphold the highest standards of ethical conduct, integrity, and professionalism in all aspects of nursing education, research, and practice.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -230,13 +231,13 @@
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" id="div_983a_42">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_6">Powerful Alumni</h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_6">Empowerment and Equity</h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                                     <div class="gdlr-core-text-box-item-content" id="div_983a_43">
-                                                        <p>Campus on a tour designed for prospective graduate and professional students. You will see how our university like, facilities, studenst and life in this university. Meet our graduate admissions representative to learn more about our graduate programs and decide what it the best for you.</p>
+                                                        <p>To empower individuals from diverse backgrounds to pursue careers in nursing, promoting equity and inclusivity within the nursing profession and beyond..</p>
                                                     </div>
                                                 </div>
                                             </div>

@@ -1,4 +1,4 @@
-<div class="gdlr-core-pbf-wrapper " style="padding: 65px 0px 60px 0px;">
+<div class="gdlr-core-pbf-wrapper " style="padding: 65px 0px 60px 0px;margin-bottom: -60px;">
 
                         <div class="gdlr-core-pbf-background-wrap program" style="background-color: #192f59 ;"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">

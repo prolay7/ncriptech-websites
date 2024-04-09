@@ -1,12 +1,12 @@
 <div class="kingster-page-wrapper" id="kingster-page-wrapper">
                 <div class="gdlr-core-page-builder-body">
                    
-                    <div class="gdlr-core-pbf-wrapper " style="padding: 90px 0px 10px 0px;">
+                    <div class="gdlr-core-pbf-wrapper " style="padding: 50px 0px 10px 0px;">
                         <div class="gdlr-core-pbf-background-wrap"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
                                 <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 40px ;">
+                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr";>
                                         <div class="gdlr-core-title-item-left-image gdlr-core-media-image" style="margin: -23px 20px 0px 0px;"><img src="public/upload/title-icon.png" alt="" width="53" height="52" title="title-icon" /></div>
                                         <div class="gdlr-core-title-item-left-image-wrap">
                                             <div class="gdlr-core-title-item-title-wrap clearfix">
@@ -14,86 +14,24 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first" data-skin="Green Title">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-top gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 2px;">
-                                                    <div class="gdlr-core-column-service-content-wrapper">
-                                                        <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 22px ;">
-                                                            <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 19px ;font-weight: 600 ;text-transform: none ;">Kingsters' Scholarships</h3></div>
-                                                        <div class="gdlr-core-column-service-content" style="font-size: 16px ;text-transform: none ;">
-                                                            <p>Kingster University offers a variety of scholar ships and fellowships designed to help you and your family pay for university. Scholarships and grants are types of gift.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="#" style="font-size: 16px ;font-weight: 400 ;letter-spacing: 0px ;color: #3db166 ;padding: 0px 0px 0px 0px;text-transform: none ;border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;"><span class="gdlr-core-content" >Read More</span><i class="gdlr-core-pos-right arrow_right" style="font-size: 21px ;color: #3db166 ;"  ></i></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-column gdlr-core-column-20" data-skin="Green Title">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-top gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 2px;">
-                                                    <div class="gdlr-core-column-service-content-wrapper">
-                                                        <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 22px ;">
-                                                            <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 19px ;font-weight: 600 ;text-transform: none ;">Federal Grant Programs</h3></div>
-                                                        <div class="gdlr-core-column-service-content" style="font-size: 16px ;text-transform: none ;">
-                                                            <p>Kingster University offers a variety of scholar ships and fellowships designed to help you and your family pay for university. Scholarships and grants are types of gift.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="#" style="font-size: 16px ;font-weight: 400 ;letter-spacing: 0px ;color: #3db166 ;padding: 0px 0px 0px 0px;text-transform: none ;border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;"><span class="gdlr-core-content" >Read More</span><i class="gdlr-core-pos-right arrow_right" style="font-size: 21px ;color: #3db166 ;"  ></i></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-column gdlr-core-column-20" data-skin="Green Title">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-top gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 2px;">
-                                                    <div class="gdlr-core-column-service-content-wrapper">
-                                                        <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 22px ;">
-                                                            <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 19px ;font-weight: 600 ;text-transform: none ;">State Scholarships</h3></div>
-                                                        <div class="gdlr-core-column-service-content" style="font-size: 16px ;text-transform: none ;">
-                                                            <p>Kingster University offers a variety of scholar ships and fellowships designed to help you and your family pay for university. Scholarships and grants are types of gift.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="#" style="font-size: 16px ;font-weight: 400 ;letter-spacing: 0px ;color: #3db166 ;padding: 0px 0px 0px 0px;text-transform: none ;border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;"><span class="gdlr-core-content" >Read More</span><i class="gdlr-core-pos-right arrow_right" style="font-size: 21px ;color: #3db166 ;"  ></i></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                               
+                             
                             </div>
                         </div>
                     </div>
-                    <div class="gdlr-core-pbf-wrapper " style="padding: 60px 0px 20px 0px;">
+                    <div class="gdlr-core-pbf-wrapper " style="padding: 10px 0px 20px 0px;">
                         <div class="gdlr-core-pbf-background-wrap"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
                                 <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
                                     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: 0px 20px 0px 0px;">
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Requirements</h3></div>
-                                                </div>
-                                            </div>
+                                            
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 10px ;">
                                                     <div class="gdlr-core-text-box-item-content" style="font-size: 19px ;text-transform: none ;color: #3db166 ;">
-                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+                                                        <p>Rangamati Institute of Nursing strives to be a model of perfection via effective nursing programs, advanced practices, and excellence in research.We graduate extraordinary medical professionals fully compatible to bring revolutionary changes in the health of patients and transform the standards of healthcare and adoption of necessary preventive measures.We are devoted solely to training candidates for the various career opportunities in nursing and other medical disciplines. We believe in delivering academic excellence with perfection in extremely standardized medical practices.
+</p></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -101,16 +39,16 @@
                                                 <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 25px ;">
                                                     <ul>
                                                         <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #50bd77 ;font-size: 18px ;width: 18px ;" ></i></span>
-                                                            <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 17px ;">You are a full-time student (at least 12 points).</span></div>
+                                                            <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 17px ;">Excellence in Nursing Education</span></div>
                                                         </li>
                                                         <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #50bd77 ;font-size: 18px ;width: 18px ;" ></i></span>
-                                                            <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 17px ;">You applied for financial aid on time.</span></div>
+                                                            <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 17px ;">Compassionate Care.</span></div>
                                                         </li>
                                                         <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #50bd77 ;font-size: 18px ;width: 18px ;" ></i></span>
-                                                            <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 17px ;">You are meeting the Satisfactory Academic Progress standards.</span></div>
+                                                            <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 17px ;">Leadership Development</span></div>
                                                         </li>
                                                         <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #50bd77 ;font-size: 18px ;width: 18px ;" ></i></span>
-                                                            <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 17px ;">You have approximately the same amount of financial need that you had in prior years.</span></div>
+                                                            <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 17px ;">Lifelong Learning</span></div>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -123,13 +61,14 @@
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Guidance and Advice</h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Vission</h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                                                     <div class="gdlr-core-text-box-item-content" style="font-size: 17px ;text-transform: none ;color: #8f8f8f ;">
-                                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+                                                        <p>We aim at educating, empowering, and encouraging various medical specialists who encourage the health of patients, families, societies, and communities.The mission also features to intensify and spread awareness about the development and usage of human skills in the betterment of healthcare measures and improving the standards of medical care.
+</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -142,19 +81,19 @@
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-center-align" style="padding-bottom: 45px ;">
-                                                    <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" style="border-width: 0px;"><img src="public/upload/scholarship-student-600x387.jpg" width="800" height="517"  alt="" /></div>
+                                                    <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" style="border-width: 0px;"><img src="public/img/gallery2.jpg" width="800" height="517"  alt="" /></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 20px ;">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Featured Student (Scholarship)</h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Mission</h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 35px ;">
                                                     <div class="gdlr-core-text-box-item-content" style="font-size: 17px ;text-transform: none ;color: #8f8f8f ;">
-                                                        <p>Far far away, behind the word mountains, far.there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic.</p>
+                                                        <p>Rangamati Institute of Nursing dedicates its resources to supporting quality-rich nursing programs in an ambiance that concentrates on medical provision beyond the extents of practice, and that supports generating the professional and meditation abilitiesrequired to promote thriving career opportunities and sustained professional learning.</p>
                                                     </div>
                                                 </div>
                                             </div>

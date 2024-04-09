@@ -1,4 +1,21 @@
-  <div class="gdlr-core-pbf-wrapper " id="div_1dd7_105">
+  
+   <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                            <div class="gdlr-core-pbf-element">
+                                                <div class="gdlr-core-title-item gdlr-core-item-pdb  gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="text-align:center;" id="div_983a_4">
+                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_0">Get Admission Now</h3></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-core-pbf-element">
+                                                <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr ">
+                                                    <div class="gdlr-core-divider-container" id="div_983a_5">
+                                                        <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_983a_6"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+  <div class="gdlr-core-pbf-wrapper " >
                         <div class="gdlr-core-pbf-background-wrap">
                             <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_106" data-parallax-speed="0"></div>
                         </div>
@@ -12,12 +29,7 @@
                                 <div class="gdlr-core-pbf-column gdlr-core-column-30">
                                     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_34">Get Admission Now</h3></div>
-                                                </div>
-                                            </div>
+                                           
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-course-search-item gdlr-core-item-pdb gdlr-core-item-pdlr">
                                                     <form class="gdlr-core-course-form clearfix" action="#" method="GET">

@@ -1,9 +1,15 @@
+
 <div class="gdlr-core-pbf-wrapper "  id="gdlr-core-wrapper-2">
                         <div class="gdlr-core-pbf-background-wrap">
                             <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_13" data-parallax-speed="0.8"></div>
                         </div>
-                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom">
+
+                      
+                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js " style="
+    margin-bottom: -70px;
+">
+                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom" style="
+    margin-top: 60px;">
                                 <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
                                     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_14" data-sync-height="height-1">
                                         <div class="gdlr-core-pbf-background-wrap">
