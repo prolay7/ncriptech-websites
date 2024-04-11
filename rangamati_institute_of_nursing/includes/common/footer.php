@@ -71,10 +71,10 @@
                 
                 <div class="kingster-copyright-wrapper">
                     <div class="kingster-copyright-container kingster-container clearfix">
-                        <div class="kingster-copyright-left kingster-item-pdlr">  All rights reserved | Developed By <a href="https://ncriptech.com/" target="blank" style="
+                        <div class="kingster-copyright-left kingster-item-pdlr  copyright">  All rights reserved | Developed By <a href="https://ncriptech.com/" target="blank" style="
     color: white;
 ">ncriptech.com</a></div>
-                        <div class="kingster-copyright-right kingster-item-pdlr">
+                        <div class="kingster-copyright-right kingster-item-pdlr copyright">
                             <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_1dd7_112">
                                 <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
                                     <i class="fa fa-facebook" ></i>
@@ -120,7 +120,7 @@
     <script type="text/javascript" src="public/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
     <script type="text/javascript" src="public/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
     <script type="text/javascript" src="public/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
         /*<![CDATA[*/
         function setREVStartSize(e) {

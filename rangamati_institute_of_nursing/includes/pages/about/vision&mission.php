@@ -7,7 +7,7 @@
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr";>
-                                        <div class="gdlr-core-title-item-left-image gdlr-core-media-image" style="margin: -23px 20px 0px 0px;"><img src="public/upload/title-icon.png" alt="" width="53" height="52" title="title-icon" /></div>
+                                        <div class="gdlr-core-title-item-left-image gdlr-core-media-image"><img src="public/upload/title-icon.png" alt="" width="53" height="52" title="title-icon" /></div>
                                         <div class="gdlr-core-title-item-left-image-wrap">
                                             <div class="gdlr-core-title-item-title-wrap clearfix">
                                                 <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 27px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Vision & Mission</h3></div>
@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-column gdlr-core-column-30">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js  gdlr-core-column-extend-right" style="margin: 0px 0px 0px 20px;padding: 66px 0px 0px 46px;">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js vission_gap gdlr-core-column-extend-right" style="margin: 0px 0px 0px 20px;padding: 66px 0px 0px 46px;">
                                         <div class="gdlr-core-pbf-background-wrap" style="background-color: #f5f5f5 ;border-width: 0px 0px 3px 0px;border-color: #3db166 ;border-style: solid ;"></div>
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                             <div class="gdlr-core-pbf-element">

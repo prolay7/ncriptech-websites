@@ -3,7 +3,7 @@
 
 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                             <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb  gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="text-align:center;" id="div_983a_4">
+                                                <div class="gdlr-core-title-item gdlr-core-item-pdb  gdlr-core-title-item-caption-top gdlr-core-item-pdlr notice_heading " style="text-align:center;" id="div_983a_4">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
                                                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_0">Notice Board</h3></div>
                                                 </div>
@@ -30,8 +30,8 @@
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-column gdlr-core-column-30 "  >
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 20px 60px 140px 75px;	background-image: url(public/img/college_overley.png);" data-sync-height="quote-height" data-sync-height-center>
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js  " style="padding: 50px 20px 20px 20px;	background-image: url(public/img/college_overley.png);" data-sync-height="quote-height" data-sync-height-center>
+                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content notice">
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-blockquote-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-large-size" style="padding-bottom: 0px ;">
                                                     <div class="gdlr-core-blockquote gdlr-core-info-font">

@@ -1154,6 +1154,7 @@ blockquote {
 .kingster-line-height,
 .gdlr-core-line-height {
 	line-height: 1.7;
+	text-align: justify;
 }
 
 .kingster-navigation .sf-menu>li>a,
@@ -5430,3 +5431,9 @@ padding-top: 6px;
 	height: 200px;
 
   }
+
+  .archive_sec{
+	margin-top:-80px;
+  }
+/* back to top button */
+

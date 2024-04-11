@@ -5,7 +5,7 @@
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
                                 <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: 0px 20px 0px 0px;padding: 85px 0px 35px 0px;" data-sync-height="height-1">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: 0px 20px 0px 0px;padding: 60px 0px 0px 0px;" data-sync-height="height-1">
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
@@ -62,7 +62,7 @@ Internship</h3></div>
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-column gdlr-core-column-30">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js  gdlr-core-column-extend-right" style="margin: 0px 0px 0px 20px;padding: 80px 0px 25px 50px;" data-sync-height="height-1">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js  gdlr-core-column-extend-right faciliti" style="margin: 0px 0px 0px 20px;padding: 80px 0px 25px 50px;" data-sync-height="height-1">
                                         <div class="gdlr-core-pbf-background-wrap" style="background-color: #f5f5f5 ;"></div>
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
                                             <div class="gdlr-core-pbf-element">
@@ -72,7 +72,7 @@ Internship</h3></div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                    <div class="gdlr-core-title-item-left-image gdlr-core-media-image" style="margin: -6px 20px 0px 0px;"><img src="public/upload/about-icon-2.png" alt="" width="25" height="31" title="icon-transportation" /></div>
+                                                    <div class="gdlr-core-title-item-left-image gdlr-core-media-image"><img src="public/upload/about-icon-2.png" alt="" width="25" height="31" title="icon-transportation" /></div>
                                                     <div class="gdlr-core-title-item-left-image-wrap">
                                                         <div class="gdlr-core-title-item-title-wrap clearfix">
                                                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Classrooms and Lecture Halls:</h3></div>

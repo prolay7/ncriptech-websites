@@ -1,8 +1,7 @@
 <div class="gdlr-core-pbf-wrapper  hp1-col-services"  data-skin="Blue Title" id="gdlr-core-wrapper-1">
                         <div class="gdlr-core-pbf-background-wrap"></div>
-                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js " style="
-    margin-top: -80px;
-">
+                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js  archive_sec " 
+>
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space" style="
     margin-left: 20px;
     margin-right: 20px;

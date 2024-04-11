@@ -9,7 +9,7 @@
     margin-bottom: -70px;
 ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom" style="
-    margin-top: 60px;">
+    margin-top: 30px;">
                                 <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
                                     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_14" data-sync-height="height-1">
                                         <div class="gdlr-core-pbf-background-wrap">

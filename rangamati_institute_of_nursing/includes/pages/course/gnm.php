@@ -25,7 +25,7 @@
                                     <div class="gdlr-core-pbf-element">
                                         <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 15px ;">
                                             <div class="gdlr-core-text-box-item-content" style="font-size: 21px ;text-transform: none ;color: #3db166 ;">
-                                                <p>If you&#8217;re an educational professional who are looking to progress into management and consultancy, or an educational planning or development role, this is the best degree for you.</p>
+                                                <p>GNM programs include a lot of practical training where you get to work directly with patients in hospitals, clinics, and community settings. This hands-on experience helps you develop important skills and confidence in providing nursing care.</p>
                                             </div>
                                         </div>
                                     </div>

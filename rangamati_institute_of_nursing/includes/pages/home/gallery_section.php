@@ -4,7 +4,7 @@
                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb  gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="text-align:center;" id="div_983a_4">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                    <div class="clearfix">
                                                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_983a_0">Our Gallery</h3></div>
                                                 </div>
                                             </div>

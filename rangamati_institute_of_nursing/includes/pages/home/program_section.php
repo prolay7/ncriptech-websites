@@ -10,7 +10,7 @@
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 20px ;">
                                                 <div class="gdlr-core-title-item-title-wrap clearfix">
                                                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_34">Our Programs</h3></div>
-                                                    <div class="gdlr-core-text-box-item-content" style="font-size: 23px ;text-transform: none ;color: #ffffff ;">
+                                                    <div class="gdlr-core-text-box-item-content program_sec" style="font-size: 23px ;text-transform: none ;color: #ffffff ;">
                                                         <p>In Rangamati Institute of Nursing, we are offering GNM Nursing Programs,
 which are affiliated by West Bengal Nursing Council, Govt of West Bengal</p>
 
