@@ -148,8 +148,9 @@
 }
 
 .about-area img{
-    border: 2px solid var(--main-color);
-    border-radius: 15px;
+    /* border: 2px solid var(--main-color); */
+    border-radius: 10px;
+    /* box-shadow: #000; */
 }
 
 
@@ -725,7 +726,7 @@ background-color: aliceblue;
 	letter-spacing: 0;
 	line-height: 1;
 	margin-bottom: 0;
-	padding: 20px 30px;
+	padding: 10px 15px;
 	text-align: center;
 	text-transform: unset;
 	touch-action: manipulation;
@@ -736,7 +737,7 @@ background-color: aliceblue;
     z-index:1;
     text-transform: capitalize;
    background:var(--secondary-color);
-    border: 1px solid var(--main-color);
+    /* border: 1px solid var(--main-color); */
     overflow: hidden;
 }
 

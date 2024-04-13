@@ -208,7 +208,7 @@ li {
 p {
 
 	
-	margin-bottom: 15px;
+	margin-bottom: 1px;
 }
 hr {
 	border-bottom: 1px solid #eceff8;
@@ -395,6 +395,7 @@ color: #ff7350;
 .header-cta .call-box {
   display: flex;
   text-align: left;
+  font-size: 15px;
 }
 .header-cta .call-box .icon img{
     width: 35px;
@@ -780,13 +781,14 @@ transform: skew(30deg);
 .second-menu .main-menu ul li a::before{content: none;}
 .second-header-btn .btn {
 background: var(--secondary-color);
-font-size: 20px;
+font-size: 15px;
 color: #fff;
-padding: 15px 20px;
+padding: 10px 15px;
 position: relative;
-border-radius: 0;
+border-radius: 50px;
 margin-left: 30px;
-border:1px solid white;
+margin-top: 5px;
+/* border:1px solid white; */
 }
 .second-header-btn .btn:hover {
 color: #fff;
@@ -1156,6 +1158,7 @@ font-size: 16px;
 
 .call-box .text{
 margin-left: 10px;
+font-size: 15px;
 }
 .call-box span {
 display: block;
@@ -1480,7 +1483,8 @@ margin: auto;
     color: #fff;
 }
 .btn.ss-btn.active {
-color: #fff; border: 1px solid #fff; box-shadow: none;}
+color: #fff;
+  box-shadow: none;}
 .line {
     float: left;
     margin-right: 15px;

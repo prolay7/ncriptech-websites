@@ -41,9 +41,9 @@
                                         </div>
                                         <div class="text">
                                             <span>Call Now !</span>
-                                            <strong>
+                                            <p>
                                                 <a href="tel:+917052101786">7076380855</a>
-                                            </strong>
+</p>
                                         </div>
                                     </div>
                                 </li>
@@ -54,9 +54,9 @@
                                         </div>
                                         <div class="text">
                                             <span>Email Now</span>
-                                            <strong>
+                                            <p>
                                                 <a href="mailto:info@example.com">gitanjali.nursing@gmail.com</a>
-                                            </strong>
+</p>
                                         </div>
                                         <div class="second-header-btn">
                       <a href="<?php echo $header_menu_special['url'];?>" class="btn"><?php echo $header_menu_special["text"];?></a>
