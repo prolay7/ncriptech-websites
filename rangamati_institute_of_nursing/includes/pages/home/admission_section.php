@@ -32,27 +32,27 @@
                                            
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-course-search-item gdlr-core-item-pdb gdlr-core-item-pdlr">
-                                                    <form class="gdlr-core-course-form clearfix" action="#" method="GET">
+                                                    <form class="gdlr-core-course-form clearfix" action="#" method="post">
                                                         <div class=" gdlr-core-course-column gdlr-core-column-30 gdlr-core-column-first">
                                                             <div class="gdlr-core-course-search-field gdlr-core-course-field-keywords">
-                                                                <input type="text" placeholder="First Name" name="Name" value="" />
+                                                                <input type="text" placeholder="First Name" name="FName" value="" />
                                                             </div>
                                                         </div>
                                                         <div class=" gdlr-core-course-column gdlr-core-column-30">
                                                             <div class="gdlr-core-course-search-field gdlr-core-course-field-course-id">
-                                                                <input type="text" placeholder="Last Name" name="course-id" value="" />
-                                                            </div>
-                                                        </div>
-
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-course-id">
-                                                                <input type="text" placeholder="Your email" name="course-id" value="" />
+                                                                <input type="text" placeholder="Last Name" name="LName" value="" />
                                                             </div>
                                                         </div>
 
                                                         <div class=" gdlr-core-course-column gdlr-core-column-30">
                                                             <div class="gdlr-core-course-search-field gdlr-core-course-field-course-id">
-                                                                <input type="text" placeholder="Your Phone No" name="course-id" value="" />
+                                                                <input type="text" placeholder="Your email" name="email" value="" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class=" gdlr-core-course-column gdlr-core-column-30">
+                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-course-id">
+                                                                <input type="text" placeholder="Your Phone No" name="phone" value="" />
                                                             </div>
                                                         </div>
                                                       
@@ -72,12 +72,12 @@
                                                       
                                                         <div class=" gdlr-core-course-column gdlr-core-column-30">
                                                             <div class="gdlr-core-course-search-field gdlr-core-course-field-course-id">
-                                                                <input type="text" placeholder="Your Messages" name="course-id" value="" />
+                                                                <input type="text" placeholder="Your Messages" name="masg" value="" />
                                                             </div>
                                                         </div>
                                                       
                                                         <div class="gdlr-core-course-form-submit gdlr-core-course-column gdlr-core-column-first gdlr-core-center-align">
-                                                            <input class="gdlr-core-full-size" type="submit" value="Search Courses" />
+                                                            <input class="gdlr-core-full-size" name="send" type="submit" value="Search Courses" />
                                                         </div>
                                                     </form>
                                                 </div>
@@ -88,3 +88,55 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+// Check if the form is submitted
+if(isset($_POST['send'])) {
+    $name = $_POST['FName'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $msg = $_POST['masg'];
+
+    // Load Composer's autoloader
+    require 'php_mailer/Exception.php';
+    require 'php_mailer/PHPMailer.php';
+    require 'php_mailer/SMTP.php';
+
+    // Create an instance
+    $mail = new PHPMailer(true);
+
+    try {
+        // Server settings
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'waytoadmissions21@gmail.com'; // Your Gmail username
+        $mail->Password   = 'lgle pkre mzzy sebw'; // Your Gmail password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port       = 465;
+
+        // Recipients
+        $mail->setFrom('waytoadmissions21@gmail.com', 'Contact Form');
+        $mail->addAddress('ananyachoudhury32@gmail.com', 'Ananya'); // Recipient's email
+
+        // Content
+        $mail->isHTML(true);
+        $mail->Subject = 'Admission Query';
+        $mail->Body    = 'Sender Name: ' . $name . '<br>' .
+                         'Sender Phone: ' . $phone . '<br>' .
+                         'Sender Email: ' . $email . '<br>' .
+                         'Message: ' . $msg;
+
+        // Send email
+        $mail->send();
+        echo "<div class='success'>Message has been sent!</div>";
+    } catch (Exception $e) {
+        echo "<div class='error'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</div>";
+    }
+}
+?>

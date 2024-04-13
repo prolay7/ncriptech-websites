@@ -20,7 +20,7 @@ $logo_bottom=$base_url.'public/img/logo/footer-logo.png';
 $logo_alt='Gyanjyoti Public School';
 $slogan="Affiliated to CBSE, New Delhi.Affiliation No. : 2430409.
 <br>It is the mission of our educational institution to provide a nurturing environment for the students. We aim totransform the youngsters through sound academic education with a distinct worldview.";
-$breadcrumb_bg=$base_url.'public/img/inner-banner-bg.jpg);';
+$breadcrumb_bg=$base_url.'public/img/breadcrum2.jpg);';
 $bg_404=$base_url.'public/img/bg/404-img.png';
 $bg_comeingsoon=$base_url.'public/img/class/comeing.jpg';
 $features_img='public/img/features/img-07.jpeg';
@@ -129,6 +129,16 @@ $bread_cumbs=array(
 	'privacy_policy'=>array(
 		$base_url=>'Home',
 		''=>'Privacy Policy'
+	),
+
+	'refund_policy'=>array(
+		$base_url=>'Home',
+		''=>'Refund policy'
+	),
+
+	'terms&condition'=>array(
+		$base_url=>'Home',
+		''=>'Terms and Condition'
 	),
 	'gnm'=>array(
 		$base_url=>'Home',
@@ -246,7 +256,7 @@ $header_menus = array(
 );
 
 $header_menu_special=array('text'=>'Apply Now',
-                           'url'=>$base_url.'apply_now'
+                           'url'=>$base_url.'contact'
                           );
 					
 
@@ -268,7 +278,9 @@ $pages_arr=[
 	"gnm"=>"course",
 	
 	
-
+"terms&condition"=>"others",
+"refund_policy"=>"others",
+"privacy_policy"=>"others",
 
 	
 	
@@ -286,15 +298,8 @@ $pages_arr=[
 	"prospectus"=>"others"
 ];
 
-$footer_menues=[
 
-	'about-us'=>$base_url.'vision-mission',
-	'courses'=>$base_url.'course',
-	
 
-	'T & C'=>$base_url.'terms & Condition',
-	'privacy & Policy'=>$base_url.'Privacy_Policy'
-];
 
 // gallery section
 
@@ -317,6 +322,20 @@ $projects = [
     // Add more projects as needed
 ];
 
+// notice-board section(home)
+$notifications = [
+    "Notification regarding Interview for Ph.D. Programme, 2023-24 in Geography [Ref. No.: VU/GEO/193/23 Dated 20.03.2023].",
+    "Filling up vacancies for the post of Parliamentary Interpreter on Direct Recruitment basis in Lok Sabha Secretariat [Advt. No. 2/2023].",
+    "Notice regarding Marksheet Distribution of M.A./M.Sc. Part - II Examination - 2022 and M.Sc. in Botany Part - II Examination - 2021 under CDOE, Vidyasagar University [Ref. No.: VU/CDOE/D/49/2023 Dated 20.03.2023].",
+    "LLB Examination Notification and Examination Centre for Semester-1 Examinations 2022 (3 Years & 5 Years LLB) [Ref. No.: VU/CE/UG/Sem 1/LLB/GD-0107/2023 Dated 17.03.2023].",
+    "EXAMINATION SCHEDULE : B.Ed. (Special) 1st Semester Exam 2022 [Ref. No.: VU/CE/GD-0096/2023 Dated 14.03.2023]",
+    "Office Order regarding incharge of the Engineering Section, Vidyasagar University [Memo No.: VU/R/Off-Or./249/2023 Dated 16.03.2023]",
+    "Corrigendum: Change in Venue of BMLT 1st Semester Exam - 2022 [Ref. No.: VU/CE/GD-0101/2023 Dated 16.03.2023]",
+    "Supply and Installation of LCD Screen [Ref. No.: VU/FO/Tender/89/2023 Dated 15.03.2023]",
+    "Notice regarding Ph.D. committee meeting of the Dept. of Chemistry, Vidyasagar University [Dated 14.03.2023]",
+    "EXAMINATION SCHEDULE : DOCA 1st Semester Exam 2022 [Ref. No.: VU/CE/GD-0100/2023 Dated 14.03.2023]",
+    "EXAMINATION SCHEDULE : BSW 1st Semester Exam 2022 [Ref. No.: VU/CE/GD-0099/2023 Dated 14.03.2023]"
+];
 
 $slides = [
     [
@@ -371,119 +390,8 @@ $results_info=[
 ];
 
 
-$infras_info['one']=[
-	'public/img/class/img-18.jpeg'=>array(
-		'TOTAL CAMPUS AREA OF THE SCHOOL (IN SQ MTR)'=>array(
-			'type'=>'text',
-			'text'=>'8660 sq.mtr.'
-		),
-	
-		'NO. AND SIZE OF THE CLASS ROOMS'=>array(
-			'type'=>'text',
-			'text'=>'14 (48.03sq.mtr. / 517 sq.ft.)'
-		),
-	
-		'NO. AND SIZE OF LABORATORIES (INCLUDING COMPUTER LABS)'=>array(
-			'type'=>'text',
-			'text'=>'6 (97.08 sq.mtr. / 1045 sq.ft.)'
-		),
-		'INTERNET FACILITY'=>array(
-			'type'=>'text',
-			'text'=>'YES'
-		),
-		'NO. OF GIRLS TOILETS'=>array(
-			'type'=>'text',
-			'text'=>'Urinal 9, Toilet 9'
-		),
-	
-		'NO. OF BOYS TOILETS'=>array(
-			'type'=>'text',
-			'text'=>'Urinal 18, Toilet 9'
-		)
-	)
-];
-
-$infras_info['two']=[
-	'public/img/class/img-08.jpeg'=>array(		
-		'SCHOOL INSPECTION (COVERING THE INFRASTRUCTURE)'=>array(
-			'type'=>'video',
-			'text'=>'<iframe width="560" height="315" src="https://www.youtube.com/embed/LscU89wol0g?si=e4vK_7l5kDS5j_XA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-		)
-	)
-];
 
 
-$cwsn_lift_infos=[
-	'3 year AMC Kingfisher Elevator'=>'',
-	'Undertaking Kingfisher Elevator'=>'',
-	'Invoice of Lift'=>'',
-	'Undertaking Gyanjyoti Public School'=>'',
-	'CWSN access Plan through Lift'=>''
-];
-
-$cwsn_toilet_infos=[
-	'CWSN Toilet Gr. Fl. for Boys'=>'',
-	'CWSN Toilet 1st Fl. for Boys'=>'',
-	'CWSN Toilet 2nd Fl. for Boys'=>'',
-	'CWSN Toilet Gr. Fl. for Girls'=>'',
-	'CWSN Toilet 1st Fl. for Girls'=>'',
-	'CWSN Toilet 2nd Fl. for Girls'=>''
-];
-
-$teaching_staff['one']=[
-	'public/img/class/img-18.jpeg'=>array(
-		'PRINCIPAL'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Bidisha Chatterjee'
-		),
-	
-		'Teacher-in-Charge'=>array(
-			'type'=>'text',
-			'text'=>'14 (48.03sq.mtr. / 517 sq.ft.)'
-		),
-	
-		'Co-Ordinator'=>array(
-			'type'=>'text',
-			'text'=>'Smt Deepika Mustafi'
-		),
-		'PGT'=>array(
-			'type'=>'text',
-			'text'=>'0'
-		),
-		'TGT'=>array(
-			'type'=>'text',
-			'text'=>'13'
-		),	
-		'PRT'=>array(
-			'type'=>'text',
-			'text'=>'2'
-		)
-	)
-];
-$teaching_staff['two']=[
-	'public/img/class/img-17.jpeg'=>array(
-		'PET'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Swarnali Chakraborty ( B.A., B.P.Ed., M.P.Ed.)'
-		),
-		'NTT'=>array(
-			'type'=>'text',
-			'text'=>'4'
-		),
-		'DETAILS OF SPECIAL EDUCATOR'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Tulika Das ( B.A., Spl. B.Ed.)'
-		),
-		'Counselor & Wellness Teacher'=>array(
-			'type'=>'text',
-			'text'=>'Dr. Suparna Ray (Chatterjee), MBBS, M.D. (Neuro Psyciatrist)'
-		),
-		'Lab Attendent'=>array(
-			'type'=>'text',
-			'text'=>'1'
-		)
-	)
-];
 
 
 
@@ -605,61 +513,9 @@ $page_meta=[
 
 ];
 
-$teaching_staff['one']=[
-	'public/img/class/img-08.jpeg'=>array(
-		'PRINCIPAL'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Bidisha Chatterjee'
-		),
-	
-		'Teacher-in-Charge'=>array(
-			'type'=>'text',
-			'text'=>'14 (48.03sq.mtr. / 517 sq.ft.)'
-		),
-	
-		'Co-Ordinator'=>array(
-			'type'=>'text',
-			'text'=>'Smt Deepika Mustafi'
-		),
-		'PGT'=>array(
-			'type'=>'text',
-			'text'=>'0'
-		),
-		'TGT'=>array(
-			'type'=>'text',
-			'text'=>'13'
-		),	
-		'PRT'=>array(
-			'type'=>'text',
-			'text'=>'2'
-		)
-	)
-];
 
-$teaching_staff['two']=[
-	'public/img/class/img-17.jpeg'=>array(
-		'PET'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Swarnali Chakraborty ( B.A., B.P.Ed., M.P.Ed.)'
-		),
-		'NTT'=>array(
-			'type'=>'text',
-			'text'=>'4'
-		),
-		'DETAILS OF SPECIAL EDUCATOR'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Tulika Das ( B.A., Spl. B.Ed.)'
-		),
-		'Counselor & Wellness Teacher'=>array(
-			'type'=>'text',
-			'text'=>'Dr. Suparna Ray (Chatterjee), MBBS, M.D. (Neuro Psyciatrist)'
-		),
-		'Lab Attendent'=>array(
-			'type'=>'text',
-			'text'=>'1'
-		)
-	)
-];
+
+
 
 $page_keywords=[
 	"home"=>"nurse training institute in kolkata,kolkata nursing training institute,nursing college with own hospital,nursing college at hooghly",

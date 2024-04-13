@@ -38,18 +38,13 @@
                                                         <div class="gdlr-core-blockquote-item-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 30px ;">&#8220;Circulars/Latest Notification</div>
                                                         <div class="gdlr-core-blockquote-item-content-wrap">
                                                         <marquee behavior="scroll" gap="0" truespeed="" direction="up" scrollamount="2" scrolldelay="50" onmouseover="this.stop();" onmouseout="this.start();">
-                                    <ul class="list-group list-group-numbered">
-
-                                    
-  <li class="list-group-item"><strong>G.N.M. &amp; B.Sc. Nursing Admission 2023:Admissions open for G.N.M. &amp; B.Sc. Nursing 2023, Gitanjali Institute of Nursing, Lohapur,Birbhum, West Bengal.</strong></li>
-
-  <li class="list-group-item"><strong>G.N.M. &amp; B.Sc. Nursing Admission 2023:Admissions open for G.N.M. &amp; B.Sc. Nursing 2023, Gitanjali Institute of Nursing, Lohapur,Birbhum, West Bengal.</strong></li>
-
-  <li class="list-group-item"><strong>G.N.M. &amp; B.Sc. Nursing Admission 2023:Admissions open for G.N.M. &amp; B.Sc. Nursing 2023, Gitanjali Institute of Nursing, Lohapur,Birbhum, West Bengal.</strong></li>
- 
+                                                        <ul class="list-group list-group-numbered">
+    <?php foreach ($notifications as $index => $notification) : ?>
+        <li class="list-group-item"><strong><?php echo ($index + 1) . ". " . $notification; ?></strong></li>
+    <?php endforeach; ?>
 </ul>
 </marquee>
-                                                           
+                                                      
                                                     </div>
                                                 </div>
                                             </div>

@@ -26,12 +26,12 @@
                                 <h3 class="kingster-widget-title">Our Links</h3><span class="clear"></span>
                                 <div class="menu-our-campus-container">
                                     <ul id="menu-our-campus" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">Home</a></li>
-                                        <li class="menu-item"><a href="#">About</a></li>
-                                        <li class="menu-item"><a href="#">Courses</a></li>
-                                        <li class="menu-item"><a href="#">Prospectus</a></li>
-                                        <li class="menu-item"><a href="#">Gallery</a></li>
-                                        <li class="menu-item"><a href="#">Contact</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>">Home</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>about_us">About</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>gnm">Courses</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>prospectus">Prospectus</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>gallery">Gallery</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>contact">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -41,12 +41,12 @@
                                 <h3 class="kingster-widget-title">Campus Life</h3><span class="clear"></span>
                                 <div class="menu-campus-life-container">
                                     <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">vission & mission</a></li>
-                                        <li class="menu-item"><a href="#">Courses</a></li>
-                                        <li class="menu-item"><a href="#">Facilities</a></li>
-                                        <li class="menu-item"><a href="#">certificate</a></li>
-                                        <li class="menu-item"><a href="#">Our Brocher</a></li>
-                                        <li class="menu-item"><a href="#">Inc Document</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>vision&mission">vission & mission</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>gnm">Courses</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>facilities">Facilities</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>certificate">certificate</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>brocher">Our Brocher</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>document">Inc Document</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -56,10 +56,10 @@
                                 <h3 class="kingster-widget-title">Academics</h3><span class="clear"></span>
                                 <div class="menu-academics-container">
                                     <ul id="menu-academics" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">Terms & Condition</a></li>
-                                        <li class="menu-item"><a href="#">privacy policy</a></li>
-                                        <li class="menu-item"><a href="#">Refund policy</a></li>
-                                        <li class="menu-item"><a href="#">Blog</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>terms&condition">Terms & Condition</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>privacy_policy">privacy policy</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>refund_policy">Refund policy</a></li>
+                                        <li class="menu-item"><a href="<?php echo $base_url?>blog">Blog</a></li>
                                         
                                       
                                     </ul>
@@ -383,3 +383,5 @@
 	        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
 	    } /*]]>*/
 	</script>
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;">
+<i class="fa fa-long-arrow-up"></i></a>

@@ -16,7 +16,7 @@
                                                 <div class="gdlr-core-contact-form-7-item gdlr-core-item-pdlr gdlr-core-item-pdb ">
                                                     <div role="form" class="wpcf7" id="wpcf7-f1979-p1977-o1" lang="en-US" dir="ltr">
                                                         <div class="screen-reader-response"></div>
-                                                        <form class="quform" action="#" method="post" enctype="multipart/form-data" onclick="">
+                                                        <form class="quform" action="" method="post" enctype="multipart/form-data" onclick="">
 
                                                             <div class="quform-elements">
                                                                 <div class="quform-element">
@@ -39,7 +39,7 @@
                                                                     <p>Your Phone (required)
                                                                         <br>
                                                                         <span class="wpcf7-form-control-wrap your-email">
-                                                                            <input id="phone" type="text" name="phpne" size="40" class="input1" aria-required="true" aria-invalid="false">
+                                                                            <input id="phone" type="text" name="phone" size="40" class="input1" aria-required="true" aria-invalid="false">
                                                                         </span> 
                                                                     </p>
                                                                 </div>
@@ -47,7 +47,7 @@
                                                                     <p>Your Message
                                                                         <br>
                                                                         <span class="wpcf7-form-control-wrap your-message">
-                                                                            <textarea  id="message" name="message" cols="40" rows="10" class="input1" aria-invalid="false"></textarea>
+                                                                            <textarea  id="message" name="msg" cols="40" rows="10" class="input1" aria-invalid="false"></textarea>
                                                                         </span>
                                                                     </p>
                                                                 </div>
@@ -55,7 +55,7 @@
                                                                     <!-- Begin Submit button -->
                                                                     <div class="quform-submit">
                                                                         <div class="quform-submit-inner">
-                                                                            <button type="submit" class="submit-button"><span>Send</span></button>
+                                                                            <button type="submit" name="send" value="send" class="submit-button"><span>Send</span></button>
                                                                         </div>
                                                                         <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
                                                                     </div>
@@ -123,3 +123,54 @@
                         </div>
                     </div>
                    
+
+                    <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+// Check if the form is submitted
+if(isset($_POST['send'])) {
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $msg = $_POST['msg'];
+
+    // Load Composer's autoloader
+    require 'php_mailer/Exception.php';
+    require 'php_mailer/PHPMailer.php';
+    require 'php_mailer/SMTP.php';
+
+    // Create an instance
+    $mail = new PHPMailer(true);
+
+    try {
+        // Server settings
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'waytoadmissions21@gmail.com'; // Your Gmail username
+        $mail->Password   = 'lgle pkre mzzy sebw'; // Your Gmail password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port       = 465;
+
+        // Recipients
+        $mail->setFrom('waytoadmissions21@gmail.com', 'Contact Form');
+        $mail->addAddress('ananyachoudhury32@gmail.com', 'Ananya'); // Recipient's email
+
+        // Content
+        $mail->isHTML(true);
+        $mail->Subject = 'Admission Query';
+        $mail->Body    = 'Sender Name: ' . $name . '<br>' .
+                         'Sender Phone: ' . $phone . '<br>' .
+                         'Sender Email: ' . $email . '<br>' .
+                         'Message: ' . $msg;
+
+        // Send email
+        $mail->send();
+        echo "<div class='success'>Message has been sent!</div>";
+    } catch (Exception $e) {
+        echo "<div class='error'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</div>";
+    }
+}
+?>

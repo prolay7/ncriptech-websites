@@ -6,8 +6,8 @@
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
                                 <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr";>
-                                        <div class="gdlr-core-title-item-left-image gdlr-core-media-image"><img src="public/upload/title-icon.png" alt="" width="53" height="52" title="title-icon" /></div>
+                                    <div class="gdlr-core-title-item  clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr";>
+                                       
                                         <div class="gdlr-core-title-item-left-image-wrap">
                                             <div class="gdlr-core-title-item-title-wrap clearfix">
                                                 <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 27px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Vision & Mission</h3></div>
@@ -29,7 +29,7 @@
                                             
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 10px ;">
-                                                    <div class="gdlr-core-text-box-item-content" style="font-size: 19px ;text-transform: none ;color: #3db166 ;">
+                                                    <div class="gdlr-core-text-box-item-content" style="font-size: 19px ;text-transform: none ;color: #192f59;">
                                                         <p>Rangamati Institute of Nursing strives to be a model of perfection via effective nursing programs, advanced practices, and excellence in research.We graduate extraordinary medical professionals fully compatible to bring revolutionary changes in the health of patients and transform the standards of healthcare and adoption of necessary preventive measures.We are devoted solely to training candidates for the various career opportunities in nursing and other medical disciplines. We believe in delivering academic excellence with perfection in extremely standardized medical practices.
 </p></p>
                                                     </div>

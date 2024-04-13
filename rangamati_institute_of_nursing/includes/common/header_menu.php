@@ -1,9 +1,9 @@
-<div class="kingster-mobile-header-wrap">
+<div class="kingster-mobile-header-wrap ">
         <div class="kingster-mobile-header kingster-header-background kingster-style-slide kingster-sticky-mobile-navigation " id="kingster-mobile-header">
             <div class="kingster-mobile-header-container kingster-container clearfix">
                 <div class="kingster-logo  kingster-item-pdlr">
                     <div class="kingster-logo-inner">
-                        <a class="" href="index-2.html"><img src="public/img/logo.png" alt="" /></a>
+                        <a class="" href="<?php echo $base_url;?>"><img src="public/img/logo.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="kingster-mobile-menu-right">
@@ -130,8 +130,8 @@
       <!-- <button><i class="fas fa-phone-alt"></i> Free Consultation</button> -->
     
       <a href="https://api.whatsapp.com/send?phone=+91 90915 26251" class="whatsapp-color"><i class="fab  fa fa-whatsapp"></i></a>
-      <a href="tel:+91-9091526251" class="messenger-color "><i class="fab fa fa-phone"></i></a>
-      <a href="mailto:secretary.rangamati@gmail.com"  class="telegram-color "><i class="fab fa fa-envelope"></i></a>
+      <a href="tel:+91-7407584637" class="messenger-color "><i class="fab fa fa-phone"></i></a>
+      <a href="mailto:office.rinnursing@gmail.com "  class="telegram-color "><i class="fab fa fa-envelope"></i></a>
     
     
     </div>

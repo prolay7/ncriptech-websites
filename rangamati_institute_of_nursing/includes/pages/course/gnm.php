@@ -17,14 +17,14 @@
                                     </div>
                                     <div class="gdlr-core-pbf-element">
                                         <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 10px ;">
-                                            <div class="gdlr-core-text-box-item-content" style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">
+                                            <div class="gdlr-core-text-box-item-content" style="font-size: 19px ;font-weight: 400 ;letter-spacing: 0px ;text-transform: none ;">
                                                 <p>GNM is a three-year and six-month diploma course designed for aspirants who want to pursue a career in clinical nursing. The programme teaches candidates how to care for individuals who are sick or have been injured in order to help them attain full recovery.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="gdlr-core-pbf-element">
                                         <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 15px ;">
-                                            <div class="gdlr-core-text-box-item-content" style="font-size: 21px ;text-transform: none ;color: #3db166 ;">
+                                            <div class="gdlr-core-text-box-item-content" style="font-size: 21px ;text-transform: none ;color:  #192f59 ;">
                                                 <p>GNM programs include a lot of practical training where you get to work directly with patients in hospitals, clinics, and community settings. This hands-on experience helps you develop important skills and confidence in providing nursing care.</p>
                                             </div>
                                         </div>
@@ -61,7 +61,7 @@
                                         </div>
                                     </div>
                                     <div class="gdlr-core-pbf-element">
-                                        <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" ><a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border" href="#" style="font-size: 14px ;font-weight: 700 ;letter-spacing: 0px ;padding: 13px 29px 18px 32px;text-transform: none ;margin: 0px 10px 10px 0px;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;"><span class="gdlr-core-content" >Apply</span><i class="gdlr-core-pos-right fa fa-external-link" style="font-size: 14px ;"  ></i></a><a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border" href="public/img/BROCHER.pdf" style="font-size: 14px ;font-weight: 700 ;letter-spacing: 0px ;padding: 13px 29px 18px 32px;text-transform: none ;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;"><span class="gdlr-core-content" >Download Brochure</span><i class="gdlr-core-pos-right fa fa-file-pdf-o" style="font-size: 14px ;"  ></i></a></div>
+                                        <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" ><a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border" href="<?php echo $base_url ?>contact" style="font-size: 14px ;font-weight: 700 ;letter-spacing: 0px ;padding: 13px 29px 18px 32px;text-transform: none ;margin: 0px 10px 10px 0px;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;"><span class="gdlr-core-content" >Apply</span><i class="gdlr-core-pos-right fa fa-external-link" style="font-size: 14px ;"  ></i></a><a class="gdlr-core-button  gdlr-core-button-solid gdlr-core-button-no-border" href="public/img/BROCHER.pdf" style="font-size: 14px ;font-weight: 700 ;letter-spacing: 0px ;padding: 13px 29px 18px 32px;text-transform: none ;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;"><span class="gdlr-core-content" >Download Brochure</span><i class="gdlr-core-pos-right fa fa-file-pdf-o" style="font-size: 14px ;"  ></i></a></div>
                                     </div>
                                   
                                     
@@ -70,7 +70,8 @@
                             <div class="gdlr-core-pbf-sidebar-right gdlr-core-column-extend-right  kingster-sidebar-area gdlr-core-column-40 gdlr-core-pbf-sidebar-padding  gdlr-core-line-height" style="padding: 30px 0px 30px 0px;">
                                 <div class="gdlr-core-sidebar-item gdlr-core-item-pdlr">
                                     <div id="gdlr-core-custom-menu-widget-6" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                                        <h3 class="kingster-widget-title">GNM Course Highlight</h3><span class="clear"></span>
+                                        <h3 class="kingster-widget-title">GNM Course Highlight</h3>
+                                        <span class="clear"></span>
                                         <div class="menu-finance-menu-container">
                                             <ul id="menu-finance-menu" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-list">
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-5818"><a href="#">Degree : Diploma</a></li>
