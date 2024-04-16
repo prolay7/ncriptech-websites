@@ -156,7 +156,9 @@ if(isset($_POST['send'])) {
 
         // Recipients
         $mail->setFrom('waytoadmissions21@gmail.com', 'Contact Form');
-        $mail->addAddress('ananyachoudhury32@gmail.com', 'Ananya'); // Recipient's email
+        $mail->addAddress('gitanjali.nursing@gmail.com
+
+        ', 'gitanjali'); // Recipient's email
 
         // Content
         $mail->isHTML(true);
