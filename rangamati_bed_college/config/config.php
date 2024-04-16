@@ -204,7 +204,7 @@ $bread_cumbs=array(
 	),
 	'terms&condition'=>array(
 		$base_url=>'Home',
-		''=>'Privacy Policy'
+		''=>'Terms & Condition'
 	),
 	'apply_now'=>array(
 		$base_url=>'Home',
