@@ -2861,6 +2861,10 @@ mobile devices */
     a.meanmenu-reveal {
         display: none;
     }
+
+    .features-area-3{
+        margin-top: 120px;
+    }
 }
 
 

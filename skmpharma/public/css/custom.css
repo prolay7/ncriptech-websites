@@ -105,7 +105,7 @@
 
   .carousel-indicators {
     position: absolute;
-    bottom: 80%; /* Adjust the distance from the bottom */
+    bottom: 40%; /* Adjust the distance from the bottom */
     left: 90%; /* Center horizontally */
     transform: translateX(-50%);
     list-style: none;
@@ -715,7 +715,8 @@ background-color: aliceblue;
 
 
 .footer-link ul li {
-  display: inline-block; /* Display list items horizontally */
+  /* display: inline-block; */
+   /* Display list items horizontally */
   margin-right: 10px; /* Adjust spacing between list items if needed */
 }
 
@@ -915,6 +916,105 @@ background-color: aliceblue;
   font-size: 30px;
 }
 
+
+
+.section-title .title2{
+  color:var(--color-dark);
+  font-size: 45px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color:#1d3257;
+  text-align: center;
+  line-height: 2.5rem;
+
+}
+
 .shop-area{
   background-color: #1e3159;
 }
+.features-box.color-secondary-style .icon img{
+  width:50px;
+}
+
+.features-box.color-primary-style .icon img{
+  width:70px;
+}
+
+.features-box.color-extra05-style .icon img{
+  width:70px;
+}
+
+
+/* quick link section */
+
+.carousel-wrap {
+  margin: 50px 10px 50px 200px;
+  /* padding: 0 5%; */
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+.owl-carousel .owl-item img{
+  width: 50% !important;
+}
+
+
+/* counter section */
+.counter {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #4ad1e5;
+}
+
+.edu-campus-area{
+  background-image: url('/public/img/pharma/Circle.png');
+} 

@@ -7,56 +7,30 @@
                                 </h2>                             
                             </div>
                     <div class="row align-items-center">
-                                    <div class="col-lg-4 col-md-6 ">
-                            <div class="courses-item mb-30 hover-zoomin">
-                                <div class="thumb fix">
-                                    <a href="single-courses.html"><img src="public/img/bg/couress-img-1.jpg" alt="contact-bg-an-01"></a>
-                                </div>
-                                <div class="courses-content">                                    
-                                    <div class="cat"><i class="fal fa-graduation-cap"></i> Sciences</div>
-                                    <h3><a href="single-courses.html"> Biochemistry</a></h3>
-                                     <p>Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
-                                    <a href="single-courses.html" class="readmore">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="icon">
-                                 <img src="public/img/icon/cou-icon.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 ">
-                            <div class="courses-item mb-30 hover-zoomin">
-                                <div class="thumb fix">
-                                    <a href="single-courses.html"><img src="public/img/bg/couress-img-2.jpg" alt="contact-bg-an-01"></a>
-                                </div>
-                                <div class="courses-content">                                    
-                                    <div class="cat"><i class="fal fa-graduation-cap"></i> Economics</div>
-                                    <h3><a href="single-courses.html"> Major in Economics</a></h3>
-                                     <p>Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
-                                    <a href="single-courses.html" class="readmore">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="icon">
-                                 <img src="public/img/icon/cou-icon.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 ">
-                            <div class="courses-item mb-30 hover-zoomin">
-                                <div class="thumb fix">
-                                    <a href="single-courses.html"><img src="public/img/bg/couress-img-3.jpg" alt="contact-bg-an-01"></a>
-                                </div>
-                                <div class="courses-content">                                    
-                                    <div class="cat"><i class="fal fa-graduation-cap"></i> Media</div>
-                                    <h3><a href="single-courses.html"> Business Media</a></h3>
-                                     <p>Seamlessly visualize quality ellectual capital without superior collaboration and idea tically</p>
-                                    <a href="single-courses.html" class="readmore">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                </div>
-                                <div class="icon">
-                                 <img src="public/img/icon/cou-icon.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                       
-                        </div>
+                        <?php
+                    foreach ($courses as $course) {
+?>
+<div class="col-lg-4 col-md-6 ">
+    <div class="courses-item mb-30 hover-zoomin">
+        <div class="thumb fix">
+            <a href="<?php echo $course['link']; ?>"><img src="<?php echo $course['image']; ?>" alt="contact-bg-an-01"></a>
+        </div>
+        <div class="courses-content">                                    
+            
+            <h3><a href="<?php echo $course['link']; ?>"><?php echo $course['title']; ?></a></h3>
+            <p><?php echo $course['description']; ?></p>
+            <div class="second-header-btn">
+                      <a href="" class="btn">View Course</a>
+                    </div>
+        </div>
+        <div class="icon">
+            <img src="public/img/icon/cou-icon.png" alt="img">
+        </div>
+    </div>
+</div>
+<?php
+}
+?>
                      
                                                       
                     </div>

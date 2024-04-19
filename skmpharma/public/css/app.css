@@ -4216,7 +4216,7 @@ body.sal-disabled [data-sal|="flip"] {
   padding: 90px 0 60px;
 }
 .about-image-gallery .main-img-1{
-    width:350px;
+    width:320px;
     z-index: 1000;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4666,8 +4666,9 @@ body.sal-disabled [data-sal|="flip"] {
 .about-style-3 .about-image-gallery .shape-group li.shape-3 {
   top: inherit;
   right: inherit;
-  left: -50px;
-  bottom: 33px;
+  left: -60px;
+  bottom: -10px;
+  width:250px;
   /* z-index: 10; */
 }
 .about-style-3 .about-image-gallery .shape-group li.shape-4 {
@@ -6052,6 +6053,9 @@ body.sal-disabled [data-sal|="flip"] {
 }
 .campus-content .features-box .content .title {
   margin-bottom: 12px;
+  font-size:25px;
+  font-weight: 600;
+  color:#36538f;
 }
 .campus-content .features-box .content p {
   color: var(--color-body);
@@ -10884,22 +10888,22 @@ background-color: #1f325c;
 .features-box.color-primary-style .icon:after {
   background-color: var(--color-primary);
 }
-.features-box.color-primary-style:hover .icon {
+/* .features-box.color-primary-style:hover .icon {
   background-color: #1ab69d;
   color: var(--color-white);
-}
+} */
 .features-box.color-secondary-style .icon {
   background-color: rgba(238, 74, 98, 0.1);
   color: var(--color-secondary);
-  background-image: url(../img/pharma/clock.png);
+
 }
-.features-box.color-secondary-style .icon:after {
+/* .features-box.color-secondary-style .icon:after {
   background-color: var(--color-secondary);
-}
-.features-box.color-secondary-style:hover .icon {
+} */
+/* .features-box.color-secondary-style:hover .icon {
   background-color: #ee4a62;
   color: var(--color-white);
-}
+} */
 .features-box.color-extra05-style .icon {
   background-color: rgba(248, 148, 31, 0.1);
   color: var(--color-extra05);
@@ -10907,29 +10911,29 @@ background-color: #1f325c;
 .features-box.color-extra05-style .icon:after {
   background-color: var(--color-extra05);
 }
-.features-box.color-extra05-style:hover .icon {
+/* .features-box.color-extra05-style:hover .icon {
   background-color: #f8941f;
   color: var(--color-white);
-}
+} */
 .features-box.color-extra08-style .icon {
   background-color: rgba(70, 100, 228, 0.1);
   color: var(--color-extra08);
 }
-.features-box.color-extra08-style:hover .icon {
+/* .features-box.color-extra08-style:hover .icon {
   background-color: #4664e4;
   color: var(--color-white);
-}
+} */
 .features-box.color-extra02-style .icon {
   background-color: rgba(142, 86, 255, 0.1);
   color: var(--color-extra02);
 }
-.features-box.color-extra02-style .icon:after {
+/* .features-box.color-extra02-style .icon:after {
   background-color: var(--color-extra02);
-}
-.features-box.color-extra02-style:hover .icon {
+} */
+/* .features-box.color-extra02-style:hover .icon {
   background-color: #8e56ff;
   color: var(--color-white);
-}
+} */
 .features-box.color-extra03-style .icon {
   background-color: rgba(249, 37, 150, 0.1);
   color: var(--color-extra03);
@@ -10937,10 +10941,10 @@ background-color: #1f325c;
 .features-box.color-extra03-style .icon:after {
   background-color: var(--color-extra03);
 }
-.features-box.color-extra03-style:hover .icon {
+/* .features-box.color-extra03-style:hover .icon {
   background-color: #f92596;
   color: var(--color-white);
-}
+} */
 .features-box.color-extra04-style .icon {
   background-color: rgba(88, 102, 235, 0.1);
   color: var(--color-extra04);
@@ -21422,6 +21426,8 @@ blockquote .author {
 .gap-lg-top-equal {
   padding-top: 80px;
   padding-bottom: 80px;
+  /* background-image: url('/public/img/pharma/Circle.png');
+  z-index: 1; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .gap-lg-top-equal {

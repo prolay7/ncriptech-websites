@@ -120,27 +120,27 @@ $bread_cumbs=array(
 
 $header_menus = array(
     "Home" => $base_url,
-    "About Us" => array(
-        'Overview' => $base_url ."about",
-        "NOC Govt of W.B" => "noc",
-        "WBNC" => "wbnc",
-        "WBUHS Affiliation 2023-2024" => "wbush_affiliation",
-        "INC BSC Nursing documents" => "inc_bsc_nursing",
-        "INC GNM Nursing documents" => "inc_gnm_nursing"
-    ),
-    "College" => array(
-        "Gitanjali College Of Pharmacy" => "https://www.gitanjalicollegegroup.org/",
-        "Gitanjali College Of Education" => "https://www.gitanjalicollegeedu.org/",
-        "Gitanjali Institute Of Nursing" => "https://www.gitanjalicn.in/"
+    "About" => array(
+        'About Us' => $base_url ."about",
+        "Chairman message" => "noc",
+        "Principle message" => "wbnc",
+        "Secretory message" => "wbush_affiliation",
+        "vission & mission" => "inc_bsc_nursing",
+        "affiliation" => "inc_gnm_nursing"
     ),
     "Courses" => array(
-        "BSC Nursing" => "bscn",
-        "GNM Nursing" => "pbins"
+        "Course offered" => "https://www.gitanjalicollegegroup.org/",
+        "Admission Enquiry" => "https://www.gitanjalicollegeedu.org/",
+        "Fee Structure" => "",
+		"Online Fees payments" => "",
     ),
-    "Prospectus" => array(
-        "BSC Nursing" => "bsc_prospectus",
-        "GNM Nursing" => "gnm_prospectus"
+    "Facilities" => array(
+        "Infrastructure" => "bscn",
+        "Classroom" => "pbins",
+		"Accomodation" => "pbins",
+		"Transportation" => "pbins",
     ),
+  
     "Gallery" => $base_url ."our-gallery",
     "Contact" => "contact"
 );
@@ -250,24 +250,83 @@ $course_curriculam=[
 ];
 
 
-
+// home page slider
 
 $slides = [
     [
         'image' => 'public/img/pharma/banner1.jpg',
-		
+        'caption' => 'Welcome to SKM Institute of',
+        'subtitle' => 'Pharmaceutical Science &amp; Research',
+        'title' => 'World Best Diploma',
+        'programme' => 'Programme',
     ],
     [
-		'image' => 'public/img/pharma/banner2.jpg',
-		
+        'image' => 'public/img/pharma/banner2.jpg',
+        'caption' => 'World class education',
+        'subtitle' => 'Pharmaceutical Science &amp; Research',
+        'title' => 'World Best Diploma',
+        'programme' => 'Programme',
     ],
-	[
+    [
         'image' => 'public/img/pharma/banner3.jpg',
-		
+        'caption' => 'Best college',
+        'subtitle' => 'Pharmaceutical Science &amp; Research',
+        'title' => 'World Best Diploma',
+        'programme' => 'Programme',
     ],
-
 ];
 
+// home page course
+
+$courses = [
+    [
+        'image' => 'public/img/bg/couress-img-1.jpg',
+        'category' => 'diploma',
+        'title' => 'Diploma in Pharmacy',
+        'description' => 'Seamlessly visualize quality intellectual capital without superior collaboration and ideatically',
+        'link' => '',
+        'link_text' => 'Read More',
+        'icon' => 'fal fa-graduation-cap',
+    ],
+    [
+        'image' => 'public/img/bg/couress-img-2.jpg',
+        'category' => 'Economics',
+        'title' => 'Bachalor in Pharmacy',
+        'description' => 'Seamlessly visualize quality intellectual capital without superior collaboration and ideatically',
+        'link' => '',
+        'link_text' => 'Read More',
+        'icon' => 'fal fa-graduation-cap',
+    ],
+    [
+        'image' => 'public/img/bg/couress-img-3.jpg',
+        'category' => 'Media',
+        'title' => 'Masters in Pharmacy',
+        'description' => 'Seamlessly visualize quality intellectual capital without superior collaboration and ideatically',
+        'link' => '',
+        'link_text' => 'Read More',
+        'icon' => 'fal fa-graduation-cap',
+    ],
+    // Add more courses as needed
+];
+
+// campus section
+$features = [
+    [
+        'icon' => 'public/img/pharma/time.png',
+        'title' => 'Student Life',
+        'description' => 'Nostrud exer ciation laboris nis aliqup comodo perspiatix omnis iste natus.'
+    ],
+    [
+        'icon' => 'public/img/pharma/gym.png',
+        'title' => 'Arts & Clubs',
+        'description' => 'Omnis iste natus error sit voluptatem accusan tium doloreque laudantum.'
+    ],
+    [
+        'icon' => 'public/img/pharma/art_1.png',
+        'title' => 'Sports & Fitness',
+        'description' => 'Tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis.'
+    ]
+];
 $partners_logo=[
 	"public/images/home1/logo1.webp"=>'',
 	"public/images/home1/logo2.webp"=>'',

@@ -3,11 +3,12 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 sal-animate" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                         <div class="about-content">
-                            <div class="section-title section-left">
-                            
-                                <h2 class="title">About Us</h2>
-                                <span class="shape-line"><i class="icon-19"></i></span>
-                            </div>
+                        <div class="section-title center-align mb-50 wow fadeInDown   animated" data-animation="fadeInDown" data-delay=".4s" style="visibility: visible; animation-name: fadeInDown;">
+                               
+                               <h2 class="title">
+                                 About Us
+                               </h2>                             
+                           </div>
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#about-edu" type="button" role="tab" aria-selected="true">About SKM</button>
@@ -56,7 +57,7 @@
                                
                               
                                 <li class="shape-3 scene sal-animate" data-sal-delay="500" data-sal="fade" data-sal-duration="200" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-                                    <img data-depth="2" src="https://skmpharma.in/assets/frontend/assets/images/about/shape-07.png" alt="Shape" style="transform: translate3d(23.6px, -17.7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                                    <img data-depth="2" src="public/img/pharma/White_Dot.png" alt="Shape" style="transform: translate3d(23.6px, -17.7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
                                 </li>
                                 <!-- <li class="shape-4 sal-animate" data-sal-delay="500" data-sal="fade" data-sal-duration="200">
                                     <span></span>

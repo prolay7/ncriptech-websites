@@ -30,6 +30,9 @@ include_once('config/config.php');
         <link rel="stylesheet" href="<?php echo $base_url;?>public/css/responsive.css">
         <link rel="stylesheet" href="<?php echo $base_url;?>public/dist/css/glightbox.css" />
         <link rel="stylesheet" href="<?php echo $base_url;?>public/dist/css/style.css" />
+        <link rel="stylesheet" href=" <?php echo $base_url;?>public/css/assets/owl.theme.default.min.css">
+
+ <link rel="stylesheet" href="<?php echo $base_url;?>pubic/css/assets/owl.carousel.min.css"> 
        
        
 

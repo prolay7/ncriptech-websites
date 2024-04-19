@@ -168,7 +168,9 @@ bottom: -90px;
 	float: right
 }
 .fix {
-	overflow: hidden
+	overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+
 }
 a,
 .button {
@@ -724,6 +726,8 @@ color: #b8bfc3;
     z-index: 2;
     /* background-color: rgba(15, 11, 11, 0.5); */
     padding: 20px;
+    margin-bottom: 120px;
+    margin-left:-100px;
    
 }
 .slider-bg .banner-img {
@@ -836,19 +840,20 @@ transform: skew(30deg);
 .second-menu .main-menu ul li:first-child{margin-left: 0;}
 .second-menu .main-menu ul li a::before{content: none;}
 .second-header-btn .btn {
-background: var(--secondary-color);
-font-size: 15px;
-color: #fff;
-padding: 10px 15px;
-position: relative;
-border-radius: 50px;
-margin-left: 30px;
-margin-top: 5px;
-/* border:1px solid white; */
+    background: #193161;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 5px;
+    /* border: 1px solid white; */
+    width: 180px;
 }
 .second-header-btn .btn:hover {
 color: #fff;
-background: var(--main-color);
+background: var(--secondary-color);
 }
 
 .img-main {
@@ -1447,9 +1452,9 @@ font-weight: 600;
 .slider-content h1{
     background-color: #3854a7;
     color:white;
-    font-size: 35px;
-    width:350px;
-    padding: 5px;
+    font-size: 40px;
+    width:400px;
+    padding: 10px;
     font-weight: 600;
 }
 /* .slider-content h5::after {
@@ -4508,8 +4513,9 @@ margin-bottom: -8px;
   margin-right: 15px;
   position: relative;
    background: #f0f7ff;
-    border-radius: 4px;
+    border-radius: 10px;
     transition: all 0.3s ease 0s;
+    width:300px;
 }
 .courses-item:hover{
    box-shadow: 1px 1.732px 60px 0px rgba(0, 0, 0, 0.1); 
@@ -4525,7 +4531,7 @@ margin-bottom: -8px;
     padding: 30px;    
     float: left;
     position: relative;
-    height:250px;
+    height:230px;
     
 }
 .courses-content .cat {
@@ -4562,13 +4568,14 @@ margin-bottom: -8px;
 .courses-content a{
     color: #141b22;
     font-family: 'Jost', sans-serif;
+    font-size: 20px;
 }
 
 .courses-content a.readmore{
-     color:var(--secondary-color);
+     color:var(--primary-color);
 }
 .courses-content a.readmore:hover{
-     color: #141b22;
+     color: var(--secondary-color);
 }
 .courses-content a:hover{
     color: var(--secondary-color);
@@ -6216,7 +6223,7 @@ left: 0;
 bottom: 22px;
 height: 1px;
 width: 70px;
-background: #ec0b43;
+background:var(--secondary-color);
 }
 .f-widget-title img {
     width: 50%;
@@ -6307,7 +6314,7 @@ top: 5px;
 border-radius: 50px;
 }
 .copy-text img{
-    width: 100px;
+    width: 100%;
     margin-left: -10px;
 }
 .copyright-wrap li a{

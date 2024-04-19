@@ -8,6 +8,7 @@ include_once('includes/pages/home/counter.php');
 include_once('includes/pages/home/course.php');
 
 include_once('includes/pages/home/campus_section.php');
+include_once('includes/pages/home/quick_link.php');
 // include_once('includes/pages/home/gallery_section.php');
 // include_once('includes/pages/home/faq_section.php');
 // include_once('includes/pages/home/get_admission_section.php');
