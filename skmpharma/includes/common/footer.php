@@ -162,8 +162,13 @@ Web : gitanjalicn.in</p>
         <script src="<?php echo $base_url;?>public/js/element-in-view.js"></script>
         <script src="<?php echo $base_url;?>public/dist/js/glightbox.min.js"></script>
         <script src="<?php echo $base_url;?>public/js/main.js"></script>
-        <script src="public/js/owl.carousel.min.js"></script>
-        <script src="public/js/owl.carousel.js"></script>
+        <!-- <script src="public/js/owl.carousel.min.js"></script>
+        <script src="public/js/owl.carousel.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.min.js"></script>
+        <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js">
+</script>
+ <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
+   </script>
+

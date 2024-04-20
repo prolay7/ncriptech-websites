@@ -8,57 +8,38 @@
             <div class="container edublink-animated-shape">
                 <div class="row g-5">
                 <div class="col-xl-6 sal-animate" data-sal-delay="50" data-sal="slide-left" data-sal-duration="800">
-                        <div class="campus-content">
-                            <div class="inner">
-                                <div class="section-title section-left">
-                                 
-                                    <h2 class="title2 wow fadeInDown   animated">CAMPUS LIFE</h2>
-                                    <span class="shape-line"><i class="icon-19"></i></span>
-                                </div>
-                                <div class="features-list">
-                                    <div class="features-box color-secondary-style">
-                                        <div class="icon">
-                                           <img src="public/img/pharma/time.png">
-                                        </div>
-                                        <div class="content">
-                                            <h5 class="title">Student Life</h5>
-                                            <p>Nostrud exer ciation laboris nis aliqup comodo perspiatix omnis iste natus.</p>
-                                        </div>
-                                    </div>
-                                    <div class="features-box color-primary-style">
-                                        <div class="icon">
-                                        <img src="public/img/pharma/gym.png">
-                                        </div>
-                                        <div class="content">
-                                            <h5 class="title">Arts &amp; Clubs</h5>
-                                            <p>Omnis iste natus error sit voluptatem accusan tium doloreque laudantum.</p>
-                                        </div>
-                                    </div>
-                                    <div class="features-box color-extra05-style">
-                                        <div class="icon">
-                                        <img src="public/img/pharma/art_1.png">
-                                        </div>
-                                        <div class="content">
-                                            <h5 class="title">Sports &amp; Fitness</h5>
-                                            <p>Tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+    <div class="campus-content">
+        <div class="inner">
+            <div class="section-title section-left">
+                <h2 class="title2 wow fadeInDown animated">CAMPUS LIFE</h2>
+                <span class="shape-line"><i class="icon-19"></i></span>
+            </div>
+            <div class="features-list">
+                <?php foreach ($features as $feature): ?>
+                    <div class="features-box color-secondary-style">
+                        <div class="icon">
+                            <img src="<?php echo $feature['icon']; ?>">
+                        </div>
+                        <div class="content">
+                            <h5 class="title"><?php echo $feature['title']; ?></h5>
+                            <p><?php echo $feature['description']; ?></p>
                         </div>
                     </div>
-                    <div class="col-xl-6 sal-animate" data-sal-delay="50" data-sal="slide-right" data-sal-duration="800">
-                        <div class="campus-image-gallery">
-                            <div class="campus-thumbnail">
-                                <div class="thumbnail">
-                                    <img src="public/img/pharma/photo_collage.webp" alt="Campus">
-                                </div>
-                            </div>
-                          
-                        </div>
-                    </div>
-                   
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div><div class="col-xl-6 sal-animate" data-sal-delay="50" data-sal="slide-right" data-sal-duration="800">
+    <div class="campus-image-gallery">
+        <div class="campus-thumbnail">
+            <div class="thumbnail">
+                <?php foreach ($imagePaths as $imagePath): ?>
+                    <img src="<?php echo $imagePath; ?>" alt="Campus">
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div>
                 </div>
             </div>
         </div>

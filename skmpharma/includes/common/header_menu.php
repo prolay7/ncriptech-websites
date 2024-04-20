@@ -1,10 +1,39 @@
 <!-- header -->
 <section class="desktop-menu">
-    <header class="header-area header-three">  
-       
-        		
+    <header class="header-area header-three">  		
         <div id="header-sticky" class="menu-area">
             <div class="container">
+            <div class="header-cta">
+                            <ul>
+                                <li>
+                                    <div class="call-box">
+                                        <div class="icon">
+                                            <i class="icon fal fa-phone"></i>
+                                            <i class="fa-thin fa-phone-flip"></i>
+                                        </div>
+                                        <div class="text">
+                                           
+                                            <p>
+                                                <a href="tel:+91-8768000093">+91-8768000093</a>
+</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="call-box">
+                                        <div class="icon">
+                                            <i class="icon fal fa-envelope"></i>
+                                        </div>
+                                        <div class="text">
+                                         
+                                            <p>
+                                                <a href="mailto:info@example.com">director.skmipsr@gmail.com</a>
+</p>
+                                        </div>
+</div>
+                                </li>                                 
+                            </ul>
+</div>
                 <div class="second-menu">
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-3">
@@ -74,7 +103,7 @@
     <!-- offcanvas-end -->
 
     <div class="mobile-menu sticky-top">
-    <img src="public/img/logo/logomain.png" alt="logo" style="height: 75px; width: auto; margin-left:20px;">
+    <img src="public/img/pharma/main_logo.png" alt="logo" style="height: 75px; width: auto; margin-left:20px;">
  <button class="btn  ticon" type="button" data-bs-toggle="offcanvas" data-bs-target="#leftOffcanvas" aria-controls="leftOffcanvas">
  &#9776
 </button>
@@ -82,7 +111,7 @@
 
 <div class="offcanvas offcanvas-start " tabindex="-1" id="leftOffcanvas" aria-labelledby="leftOffcanvasLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="leftOffcanvasLabel"><img src="public/img/logo/logomain.png" alt="Logo" style="height: 75px; width: auto; margin-right: 15px;"></h5>
+    <h5 class="offcanvas-title" id="leftOffcanvasLabel"><img src="public/img/pharma/skm_logo.png" alt="Logo" style="height: 75px; width: auto; margin-right: 15px;"></h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
@@ -92,40 +121,36 @@
       </li>
      
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>About Us</p></a>
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>About</p></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about">Overview</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>noc">NOC govt of WB</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>wbnc">WBNC</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>wbush_affiliation">WBUHS Affiliation 2023-2024</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>inc_bsc_nursing">INC BSC Nursing documents</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>inc_gnm_nursing">INC GNM Nursing documents</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>College</p></a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href=" https://www.gitanjalicollegegroup.org/">Gitanjali College Of Pharmacy</a></li>
-          <li><a class="dropdown-item" href="https://www.gitanjalicollegeedu.org/">Gitanjali College Of Education</a></li>
-          <li><a class="dropdown-item" href="https://www.gitanjalicn.in/">Gitanjali Institute Of Nursing</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about">About Us</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>noc">Chairman message</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>wbnc">Principle Message</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>wbush_affiliation">Secretory Message</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>inc_bsc_nursing">Vission & mission</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>inc_gnm_nursing">Affiliation</a></li>
         </ul>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Courses</p></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>bscn">BSC Nursing</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>pbins">GNM Nursing</a></li>
-
+          <li><a class="dropdown-item" href="">Courses offered </a></li>
+          <li><a class="dropdown-item" href="">Admission Enquiry</a></li>
+          <li><a class="dropdown-item" href="">Fee Structure</a></li>
+          <li><a class="dropdown-item" href="">Online Fees payments</a></li>
         </ul>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Prospectus</p></a>
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Facilities</p></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>bsc_prospectus">BSC Nursing</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>gnm_prospectus">GNM Nursing</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>bscn">Infrastructure</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>pbins">Classroom</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>pbins">Accomodation</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>pbins">Transportation</a></li>
 
         </ul>
       </li>
+ 
      
    
       <li class="nav-item">

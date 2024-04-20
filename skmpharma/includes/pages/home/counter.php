@@ -1,4 +1,4 @@
-<div class="counterup-area-1 gap-lg-bottom-equal">
+<div class="counterup-area-1 gap-lg-bottom-equal desktop-counter">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-3 col-sm-6 sal-animate" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
@@ -87,3 +87,54 @@
                 </div>
             </div>
         </div>
+
+        <div class="counterup-area-1 gap-lg-bottom-equal mobile-counter">
+        <div class="container">
+            <div class="row g-5">
+                <div class="owl-carousel">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="edu-counterup counterup-style-1">
+                            <h2 class="counter-item count-number primary-color">203 N</h2>
+                            <h6 class="title">STUDENT ENROLLED</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="edu-counterup counterup-style-1">
+                            <h2 class="counter-item count-number primary-color">205.5 H</h2>
+                            <h6 class="title">CLASS COMPLETED</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="edu-counterup counterup-style-1">
+                            <h2 class="counter-item count-number primary-color">100%</h2>
+                            <h6 class="title">SATISFACTION RATE</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="edu-counterup counterup-style-1">
+                            <h2 class="counter-item count-number primary-color">345+</h2>
+                            <h6 class="title">TOP PROFESSORS</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: false,
+                responsiveClass: true,
+                autoplay: true, 
+                autoplayTimeout: 3000,
+                responsive:{
+                    0:{
+                        items: 1
+                    }
+                }
+            });
+        });
+    </script>

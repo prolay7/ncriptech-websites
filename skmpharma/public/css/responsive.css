@@ -1313,6 +1313,11 @@ box-shadow: 0 0 0 0;
   padding-top: 50px;
   padding-left: 0;
 }
+.about-style-3 .about-content .nav-tabs .nav-item {
+    margin: 7px 8px;
+    position: relative;
+
+}
     .faq-wrap.mt-30.pr-30 {
   padding-right: 0;
 }
@@ -1607,7 +1612,7 @@ margin-bottom: 50px;
     margin: 0;
 }
     .about-content .nav-tabs {
-    width: 94%;
+    width: 130%;
 }
     .logo img{
         width: 185px;
@@ -2830,7 +2835,7 @@ margin: 0;
 mobile devices */
 @media (max-width: 767px) {
     .c-img{
-        height: auto;
+        height: 300px;
     }
 
     .slider-content {
@@ -2843,9 +2848,20 @@ mobile devices */
     .desktop-menu {
        display: block;  /* Show desktop menu on desktop */
     }
-  
+    .desktop-course{
+        display: block;
+    }
     .mobile-menu {
        display: none;  /* Hide mobile menu on desktop */
+    }
+    .mobile-course{
+        display: none;
+    }
+    .desktop-counter{
+        display: block;
+    }
+    .mobile-counter{
+        display: none;
     }
 }
 
@@ -2854,9 +2870,25 @@ mobile devices */
     .desktop-menu {
       display: none; /* Hide desktop menu on mobile */
     }
-  
+
+    .desktop-course{
+        display:none;
+    }
+    .desktop-counter{
+     display:none;
+    }
+
+    .mobile-course{
+        display: block;
+    }
     .mobile-menu {
       display: block; /* Show mobile menu on mobile */
+    }
+.mobile-counter{
+    display: block;
+}
+    .mobile-course{
+        display: block;
     }
     a.meanmenu-reveal {
         display: none;
@@ -2864,6 +2896,32 @@ mobile devices */
 
     .features-area-3{
         margin-top: 120px;
+    }
+    .mobile-course .owl-carousel .owl-item img {
+        width:100%!important;
+    }
+
+    .quick-link .owl-carousel .owl-item img {
+   width:30%!important;
+   margin-left: -100px;
+   margin-right: -100px;
+    }
+
+ 
+    .carousel-wrap {
+        margin: 5px 5px 5px 5px;
+        padding: 0 2px;
+        width: 100%;
+        position: relative;
+      }
+
+      .ticon{
+        margin-left: 200px;
+        color: white!important;
+    }
+
+    .footer-link ul{
+        display: flex;
     }
 }
 
@@ -2886,7 +2944,7 @@ mobile devices */
   @media only screen and (min-width: 390px) and (max-width: 392px) {
    
       .ticon{
-        margin-left: 70px;
+        margin-left: 200px;
     }
   }
 

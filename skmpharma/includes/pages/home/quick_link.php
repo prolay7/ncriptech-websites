@@ -5,41 +5,42 @@
  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
    </script>
 
-<div class="carousel-wrap">
-  <div class="owl-carousel">
-    <div class="item"><img src="public/img/pharma/link1.png"></div>
-    <div class="item"><img src="public/img/pharma/link2.png"></div>
-    <div class="item"><img src="public/img/pharma/link3.png"></div>
-    <div class="item"><img src="public/img/pharma/link4.png"></div>
-    <div class="item"><img src="public/img/pharma/link5.png"></div>
-    <div class="item"><img src="public/img/pharma/link6.png"></div>
-    <div class="item"><img src="public/img/pharma/link1.png"></div>
-    <div class="item"><img src="public/img/pharma/link2.png"></div>
-    <div class="item"><img src="public/img/pharma/link3.png"></div>
-    <div class="item"><img src="public/img/pharma/link4.png"></div>
-    <div class="item"><img src="public/img/pharma/link5.png"></div>
-    <div class="item"><img src="public/img/pharma/link6.png"></div>
-  </div>
+<div class="container affiliation">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div id="college-slider" class="owl-carousel owl-theme">
+                <div class="item"><img src="public/img/pharma/link1.png" alt="" class="img-fluid"></div>
+                <div class="item"><img src="public/img/pharma/link2.png" alt="" class="img-fluid"></div>
+                <div class="item"><img src="public/img/pharma/link3.png" alt="" class="img-fluid"></div>
+                <div class="item"><img src="public/img/pharma/link4.png" alt="" class="img-fluid"></div>
+                <div class="item"><img src="public/img/pharma/link5.png" alt="" class="img-fluid"></div>
+                <div class="item"><img src="public/img/pharma/link6.png" alt="" class="img-fluid"></div>
+                <div class="item"><img src="public/img/pharma/link1.png" alt="" class="img-fluid"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
-    $('.owl-carousel').owlCarousel({
-  loop: true,
-  margin: 10,
-  dots:true,
-
-  autoplay: true,
-  autoplayHoverPause: true,
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 3
-    },
-    1000: {
-      items: 5
-    }
-  }
-})
-    </script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 5,
+         
+            dots: true,
+            autoplay: true,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 3
+                },
+                992: {
+                    items: 5
+                }
+            }
+        });
+    });
+</script>

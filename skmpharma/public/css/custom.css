@@ -620,8 +620,10 @@ textarea.form-control{
 .sticky-top{
   margin-top: 0px;
   padding-top: 0px;
-  background-color: white;
+  /* background-color: white; */
+  background-image: linear-gradient(to right, #1E3259, #3854A6);
 }
+
 
 
 .course_text{
@@ -701,6 +703,7 @@ background-color: aliceblue;
 
 .offcanvas-header {
   box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to right, #1E3259, #3854A6);
 }
 .mobile-menu .btn {
   background: none !important;
@@ -755,7 +758,7 @@ background-color: aliceblue;
   /* right: 20px; */
   left:60px;
   bottom: 5px;
-  z-index: 1;
+  z-index: 100;
 }
 
 
@@ -945,44 +948,6 @@ background-color: aliceblue;
 }
 
 
-/* quick link section */
-
-.carousel-wrap {
-  margin: 50px 10px 50px 200px;
-  /* padding: 0 5%; */
-  width: 80%;
-  position: relative;
-}
-
-/* fix blank or flashing items on carousel */
-.owl-carousel .item {
-  position: relative;
-  z-index: 100; 
-  -webkit-backface-visibility: hidden; 
-}
-
-/* end fix */
-.owl-nav > div {
-  margin-top: -26px;
-  position: absolute;
-  top: 50%;
-  color: #cdcbcd;
-}
-
-.owl-nav i {
-  font-size: 52px;
-}
-
-.owl-nav .owl-prev {
-  left: -30px;
-}
-
-.owl-nav .owl-next {
-  right: -30px;
-}
-.owl-carousel .owl-item img{
-  width: 50% !important;
-}
 
 
 /* counter section */
@@ -1018,3 +983,29 @@ background-color: aliceblue;
 .edu-campus-area{
   background-image: url('/public/img/pharma/Circle.png');
 } 
+
+.header-cta ul{
+  text-align: end;
+  margin-bottom: -75px;
+  margin-right: -30px;
+}
+
+.main-menu{
+  margin-top: 15px;
+  margin-bottom: -20px;
+
+}
+
+.text p a{
+  color:white;
+}
+
+.logo{
+  background-color:  #29417d;
+}
+/* quick links */
+ #college-slider .item img{
+  height: 100px!important;
+  width: 100px!important;
+  margin: 50px 50px;
+  } 

@@ -442,7 +442,7 @@ display: inline-block;
 margin-right: 5px;
 position: relative;
 top: 1px;
-color: #ff7350;
+color: white;
 }
 .header-top-cta ul li {
 	display: inline-block;
@@ -1222,6 +1222,7 @@ font-size: 16px;
 .call-box .text{
 margin-left: 10px;
 font-size: 15px;
+display:ruby;
 }
 .call-box span {
 display: block;
@@ -4532,6 +4533,9 @@ margin-bottom: -8px;
     float: left;
     position: relative;
     height:230px;
+    background-image:url(../img/pharma/taB.jpg);
+    background-position: bottom;
+    border-radius: 20px;
     
 }
 .courses-content .cat {
@@ -4595,7 +4599,7 @@ margin-bottom: -8px;
 }
 
 .shop-area .courses-item{
-    margin-left: 0;
+    margin-left: 30px;
     margin-right: 0;
 }
 .class-area2 h2{

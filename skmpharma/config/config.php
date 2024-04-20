@@ -308,7 +308,30 @@ $courses = [
     ],
     // Add more courses as needed
 ];
+// home page about 
+$tab_panes = [
+    [
+        'id' => 'about-edu',
+        'title' => 'About SKM',
+        'content' => 'We are committed to impart quality “Education and Training” in Pharmacy course details that satisfy the requirements of our students in the fields of “Engineering, Pharmacy and Management” and our aim is to be an institute of excellence in global terms in the field of quality technical education through continual improvement.'
+    ],
+    [
+        'id' => 'about-mission',
+        'title' => 'Our Mission',
+        'content' => 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.'
+    ],
+    [
+        'id' => 'about-vision',
+        'title' => 'Our Vision',
+        'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer.'
+    ]
+];
 
+$image_paths = [
+    'main-img-1' => 'public/img/pharma/about_2.webp',
+    'main-img-2' => 'public/img/pharma/about_1.webp',
+    'shape-3' => 'public/img/pharma/White_Dot.png'
+];
 // campus section
 $features = [
     [
@@ -326,6 +349,30 @@ $features = [
         'title' => 'Sports & Fitness',
         'description' => 'Tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis.'
     ]
+];
+
+// campus section
+
+$features = [
+    [
+        'icon' => 'public/img/pharma/time.png',
+        'title' => 'Student Life',
+        'description' => 'Nostrud exer ciation laboris nis aliqup comodo perspiatix omnis iste natus.'
+    ],
+    [
+        'icon' => 'public/img/pharma/gym.png',
+        'title' => 'Arts & Clubs',
+        'description' => 'Omnis iste natus error sit voluptatem accusan tium doloreque laudantum.'
+    ],
+    [
+        'icon' => 'public/img/pharma/art_1.png',
+        'title' => 'Sports & Fitness',
+        'description' => 'Tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis.'
+    ]
+];
+$imagePaths = [
+    'public/img/pharma/photo_collage.webp',
+    
 ];
 $partners_logo=[
 	"public/images/home1/logo1.webp"=>'',

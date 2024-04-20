@@ -31,6 +31,10 @@ include_once('config/config.php');
         <link rel="stylesheet" href="<?php echo $base_url;?>public/dist/css/glightbox.css" />
         <link rel="stylesheet" href="<?php echo $base_url;?>public/dist/css/style.css" />
         <link rel="stylesheet" href=" <?php echo $base_url;?>public/css/assets/owl.theme.default.min.css">
+        <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+        
 
  <link rel="stylesheet" href="<?php echo $base_url;?>pubic/css/assets/owl.carousel.min.css"> 
        
@@ -46,7 +50,7 @@ include_once('config/config.php');
 </head>
 <body class="sticky-header">
 
-
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fas fa-level-up-alt"></i></a>
 <?php
 include_once('includes/common/header_menu.php'); 
 include_once('includes/pages/pages.php'); 
