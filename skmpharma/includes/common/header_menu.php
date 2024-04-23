@@ -123,21 +123,21 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>About</p></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about">About Us</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>noc">Chairman message</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>wbnc">Principle Message</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>wbush_affiliation">Secretory Message</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>inc_bsc_nursing">Vission & mission</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>inc_gnm_nursing">Affiliation</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about_us">About Us</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>chairman_message">Chairman message</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>principle_message">Principle Message</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>secretory_message">Secretory Message</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>vision_mission">Vission & mission</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>affiliation">Affiliation</a></li>
         </ul>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Courses</p></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="">Courses offered </a></li>
-          <li><a class="dropdown-item" href="">Admission Enquiry</a></li>
-          <li><a class="dropdown-item" href="">Fee Structure</a></li>
-          <li><a class="dropdown-item" href="">Online Fees payments</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>course">Courses offered </a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>">Admission Enquiry</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about_us">Fee Structure</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about_us">Online Fees payments</a></li>
         </ul>
       </li>
       <li class="nav-item dropdown">

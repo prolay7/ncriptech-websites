@@ -2834,9 +2834,7 @@ margin: 0;
 /* 
 mobile devices */
 @media (max-width: 767px) {
-    .c-img{
-        height: 300px;
-    }
+    
 
     .slider-content {
         display: none;
@@ -2863,6 +2861,14 @@ mobile devices */
     .mobile-counter{
         display: none;
     }
+
+    .desktop-banner{
+        display: block;
+    }
+
+    .mobile-banner{
+        display:none;
+    }
 }
 
   /* Media query for mobile devices */
@@ -2870,7 +2876,15 @@ mobile devices */
     .desktop-menu {
       display: none; /* Hide desktop menu on mobile */
     }
-
+    .section-title .title2 {
+        color: var(--color-dark);
+        font-size: 40px;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: #1d3257;
+        text-align: center;
+        line-height: 2.5rem;
+    }
     .desktop-course{
         display:none;
     }
@@ -2922,6 +2936,14 @@ mobile devices */
 
     .footer-link ul{
         display: flex;
+    }
+
+    .desktop-banner{
+        display: none;
+    }
+
+    .mobile-banner{
+        display:block;
     }
 }
 

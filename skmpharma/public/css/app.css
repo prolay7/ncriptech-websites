@@ -777,7 +777,7 @@ a:focus,
 a:active {
   text-decoration: none;
   outline: none;
-  color: var(--color-primary);
+  color: var(--secondary-color);
 }
 a:focus {
   outline: none;
@@ -1210,14 +1210,14 @@ ul.liststyle.bullet li::before {
 ul.liststyle.bullet li + li {
   margin-top: 8px;
 }
-ul li {
+/* ul li {
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
   margin-top: 10px;
   margin-bottom: 10px;
   color: var(--color-body);
-}
-ul li a {
+} */
+/* ul li a {
   text-decoration: none;
   color: var(--color-body);
   -webkit-transition: var(--transition);
@@ -1225,7 +1225,7 @@ ul li a {
 }
 ul li a:hover {
   color: var(--color-primary);
-}
+} */
 ul ul {
   margin-bottom: 0;
 }
@@ -4369,6 +4369,8 @@ body.sal-disabled [data-sal|="flip"] {
 }
 .about-content {
   padding-left: 30px;
+ 
+  padding-right: 50px;
 }
 @media only screen and (max-width: 991px) {
   .about-content {

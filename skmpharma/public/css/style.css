@@ -94,7 +94,7 @@
 :root{
     /* background color */
   --primary-color: #0d1a3a;
-  --secondary-color:#deb043;
+  --secondary-color:#1438A6;
   /* --secondary-color:#f48e3a; */
   --main-color:#283f97;
   --bg-color:#f4f4f4;
@@ -574,6 +574,8 @@ top: -3px;
 .main-menu ul li.active a {
 	color: #ff7350;
 }
+
+
 .main-menu ul li a {
 	display: block;
 	color: #141b22;
@@ -586,7 +588,7 @@ top: -3px;
 .main-menu ul li a::after {
   content: "+";
   margin-left: 10px;
-  color: #ff7350;
+  color: white;
     display: none;
 }
 .main-menu ul li:last-child a::after,.main-menu .has-sub ul li a::after {
@@ -1002,6 +1004,7 @@ border-top: 0;
 z-index: 9;
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
     background-image: linear-gradient(to right, #1E3259, #3854A6);
+    padding: 20px 5px 0px 10px;
 }
 .header-three .sticky-menu {
   margin-top: 0;
@@ -1139,7 +1142,7 @@ line-height: 45px;
 .breadcrumb-area {
 background-size: cover;
 position: relative;
-    min-height: 200px;
+    min-height: 120px;
     background-repeat: no-repeat;
     background-color: #000;
 }
@@ -1155,7 +1158,7 @@ position: relative;
   text-align: center !important;
 }
 .breadcrumb {
-display: inline-block;
+display: inline;
 -ms-flex-wrap: wrap;
 flex-wrap: unset;
 padding: 0;
@@ -1164,6 +1167,7 @@ list-style: none;
 background-color: unset;
 border-radius: 30px;
 background:var(--secondary-color);
+/* background: #FFBF00; */
 padding: 15px 35px;
 position: relative;
 }
@@ -2016,8 +2020,9 @@ width: 307px;
 	margin-bottom: 15px;
 }
 .s-about-content .txt-clr{
-    color: #245b73;
-    font-size: 18px;
+    /* color: #245b73; */
+    color:black;
+    font-size: 17px;
     line-height: 28px;
     text-align: justify;
 }
@@ -2740,11 +2745,15 @@ background: #fff7ef;
 }
 
 .services-content2 h5{
-    font-size: 24px;
+    font-size: 21px;
     margin-bottom: 15px !important;
 }
 .services-content2 h5 a{
-    color: #30313d;
+    /* color: #30313d; */
+    color:white;
+}
+.services-content2 p{
+    color: white;
 }
 .services-box .ss-btn2{
     width: 60px;
@@ -4031,8 +4040,9 @@ box-shadow: 3px 4px 15px #00000026;
 }
 
 .s-about-content h2{
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 .s-about-content h3{
     font-size: 30px;

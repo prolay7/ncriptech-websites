@@ -1,110 +1,144 @@
-<section class="contact-info-area pt-100 pb-70">
-<div class="container">
-<div class="row">
-<div class="col-lg-4 col-sm-6">
-<div class="single-contact-info">
-<i class="flaticon-call"></i>
-<h3>Call us</h3>
-<a href="tel:+1(514)312-5678">Phone :+91-9091526251</a>
 
-</div>
-</div>
-<div class="col-lg-4 col-sm-6">
-<div class="single-contact-info">
-<i class="flaticon-pin"></i>
-<h3>Our location</h3>
-<a href="#">Plot No. - 82, Vill- Banior,P.O- Banior, P.S- Nalhati, Dist- Birbhum, Pin- 731243, West Bengal(India). 7384052529</a>
-</div>
-</div>
-<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-<div class="single-contact-info">
-<i class="flaticon-email"></i>
-<h3>Email</h3>
-<a href=""><span class="" data-cfemail="">secretary.rangamati@gmail.com</span></a>
+    <!-- services-area-end -->
 
-</div>
-</div>
-</div>
-</div>
-</section>
+    <!-- contact-area -->
+    <section id="contact" class="contact-area after-none contact-bg pt-60 pb-60 p-relative fix" style="background: #e7f0f8;">
+        <div class="container">
+            <div class="row">
+               
+               
+                <div class="col-lg-6">
+                    <div class="contact-bg">
+                    <div class="about-title  contact_head second-title pb-25">  
+                                  
+                                  <h2>CONTACT US</span></h2> 
+                                  <p>Feel free to contact us anytime.We will get back to you as soon as possible</p>                                  
+                              </div>
+                        <form action="" method="post" class="contact-form  text-center">
+                            <!-- Form fields -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="contact-field p-relative c-name mb-30">                                    
+                                        <input type="text" id="firstn" name="firstn" placeholder="First Name" required>
+                                        <i class="icon fal fa-user"></i>
+                                    </div>                               
+                                </div>
+                                <div class="col-lg-12">                               
+                                    <div class="contact-field p-relative c-subject mb-30">                                   
+                                        <input type="text" id="email" name="email" placeholder="Email" required>
+                                        <i class="icon fal fa-envelope"></i>
+                                    </div>
+                                </div>		
+                                <div class="col-lg-12">                               
+                                    <div class="contact-field p-relative c-subject mb-30">                                   
+                                        <input type="text" id="phone" name="phone" placeholder="Phone No." required>
+                                        <i class="icon fal fa-phone"></i>
+                                    </div>
+                                </div>	                            
+                                <div class="col-lg-12">
+                                    <div class="contact-field p-relative c-message mb-30">                                  
+                                        <textarea name="message" id="message" cols="30" rows="50" placeholder="Write comments"></textarea>
+                                        <i class="icon fal fa-edit"></i>
+                                    </div>
+                                    <div class="slider-btn  text-center">                                          
+                                        <button class="btn ss-btn" name="send" data-animation="fadeInRight" data-delay=".8s">Make An Request <i class="fal fa-long-arrow-right"></i></button>				
+                                    </div>                             
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.636996380529!2d87.96196757440988!3d24.289406467872073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa25f516adf76d%3A0xdf4dfd4440ce3d49!2sGITANJALI%20INSTITUTE%20OF%20NURSING!5e0!3m2!1sen!2sin!4v1709705398080!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services-area pt-20 pb-90 fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                <div class="about-title  contact_head second-title pb-25" style="
+    margin-bottom: 20px;
+    margin-top: 20px;
+"> 
+                                  
+                                  <h2>GET IN TOUCH</span></h2> 
+                                                                 
+                              </div>
+                </div>
+            </div>
+            <div class="contact-address-box row">
+                    <!--Start Single Contact Address Box-->
+                    <div class="col-sm-4 single-contact-address-box text-center">
+                        <div class="icon-holder">
+                            <span class="icon-clock-1">
+                                <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span>
+                            </span>
+                        </div>
+                        
+                        <div class="services-content2">
+                        <img src="public/img/pharma/call.jpg" style="
+    border-radius: 20px;margin-bottom: 20px;
+">
+                            <h5><a href="tel:+14440008888">+91 - 7076380855</a></h5>   
+                            <p>(Admission Cell)</p>
+                        </div>
+                    </div>
+                    <!--End Single Contact Address Box-->
+                    <!--Start Single Contact Address Box-->
+                    <div class="col-sm-4 single-contact-address-box main-branch">
+                
+                     
+                        <div class="services-content2 address">
+                        <img src="public/img/pharma/email.jpg" style="
+    border-radius: 20px;margin-bottom: 20px;
+">
+                            <h5>GITANJALI INSTITUTE OF NURSING</h5>   
+                            <p>NH-60,Lohapur,P.S:Nalhati
+Dist:Birbhum,West Bengal - 731237
+Mobile : +91 9832640870
+Web : gitanjalicn.in</p></div>
+                    </div>
+                    <!--End Single Contact Address Box-->
+                    <!--Start Single Contact Address Box-->
+                    <div class="col-sm-4 single-contact-address-box text-center">
+                        <div class="icon-holder">
+                            <span class="icon-question-2">
+                                <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+                            </span>
+                        </div>
+                        <div class="services-content2">
+                        <img src="public/img/pharma/location.jpg" style="
+    border-radius: 20px;margin-bottom: 20px;
+">
+                            <h5><a href="mailto:office.gitanjalinursing@gmail.com">office.gitanjalinursing@gmail.com</a></h5>   
+                            <p>(Email Address)</p>
+                        </div>
+                    </div>
+                    <!--End Single Contact Address Box-->
+        </div>
+    </div>
+    </section>
+            <!-- contact-area-end -->
 
-
-<section class="main-contact-area pb-100">
-<div class="container">
-<div class="row">
-<div class="col-12">
-<div class="contact-wrap contact-pages mb-0">
-<div class="contact-form">
-<div class="section-title">
-<h2>Drop us a message for any query</h2>
-<p>For more information about our courses, get in touch <br> with Rangamati contacts</p>
-</div>
-<form action="" method="post">
-<div class="row">
-<div class="col-lg-6 col-sm-6">
-<div class="form-group">
-<label>Name</label>
-<input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name">
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-6 col-sm-6">
-<div class="form-group">
-<label>Email Address</label>
-<input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email">
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-12">
-<div class="form-group">
-<label>Phone No</label>
-<input type="text" name="phone" id="phone" class="form-control" required data-error="Please enter your Phone no">
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-12">
-<div class="form-group">
-<label>Message</label>
-<textarea name="message" class="form-control" id="message" cols="30" rows="10" required data-error="Write your message"></textarea>
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-12 col-md-12">
-<button  name="send" class="default-btn btn-two">
-Send Message
-</button>
-</div>
-
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
-<div class="map-area">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3635.744626243402!2d87.82122787441094!3d24.320541266651396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa1787bb83ab03%3A0x2484b1c9d1d0b097!2sRangamati%20Shikshan%20Ashram%20B.Ed%20%26%20D.El.Ed%2C%20Banior%2C%20Nalhati!5e0!3m2!1sen!2sin!4v1713185608596!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Check if the form is submitted
-if(isset($_POST['send'])) { // Corrected from 'submit' to 'send'
-    $name = $_POST['name'];
+if(isset($_POST['send'])) {
+    $name = $_POST['firstn']; // Changed from 'name' to 'firstn'
     $phone = $_POST['phone'];
     $email = $_POST['email'];
-    $message = $_POST['message'];
-   
+    $msg = $_POST['message']; // Changed from 'msg' to 'message'
 
     // Load Composer's autoloader
     require 'php_mailer/Exception.php';
     require 'php_mailer/PHPMailer.php';
     require 'php_mailer/SMTP.php';
+
     // Create an instance
     $mail = new PHPMailer(true);
 
@@ -120,22 +154,23 @@ if(isset($_POST['send'])) { // Corrected from 'submit' to 'send'
 
         // Recipients
         $mail->setFrom('waytoadmissions21@gmail.com', 'Contact Form');
-        $mail->addAddress('secretary.rangamati@gmail.com', 'Rangamati Secretary');
+        $mail->addAddress('gitanjali.nursing@gmail.com
+
+        ', 'gitanjali'); // Recipient's email
 
         // Content
         $mail->isHTML(true);
         $mail->Subject = 'Admission Query';
         $mail->Body    = 'Sender Name: ' . $name . '<br>' .
-                         'Phone Number: ' . $phone . '<br>' .
+                         'Sender Phone: ' . $phone . '<br>' .
                          'Sender Email: ' . $email . '<br>' .
-                         'Message: ' . $message;
-                    
+                         'Message: ' . $msg;
 
         // Send email
         $mail->send();
-        echo "<div class='success1'>Message has been sent!</div>";
+        echo "<div class='success'>Message has been sent!</div>";
     } catch (Exception $e) {
-        echo "<div class='error1'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</div>";
+        echo "<div class='error'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</div>";
     }
 }
 ?>

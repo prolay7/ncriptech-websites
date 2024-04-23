@@ -8,7 +8,7 @@
                             <div class="about-content s-about-content pl-15 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
                                 <div class="about-title second-title pb-25">  
                                   
-                                    <h2>Principle Message</h2>                                   
+                                    <h2>About Us</h2>                                   
                                 </div>
                                    <p class="txt-clr">Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational.</p>
                                     <p class="txt-clr">We are proud to offer top ranige in employment services such and asser payroll and benefits administrato managemen and asistance with global business range ployment employer  readings from religious texts or literature are also commonly inc compliance.</p>
@@ -20,8 +20,8 @@
                             <div class="s-about-img2 p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
                                 <img src="public/img/pharma/chairman.png" alt="img">                                
                             </div>
-                            <h2>Principle's Name</h2>
-                            <p>(Principle)</p>
+                            <h2>Chairman's Name</h2>
+                            <p>(Chairman)</p>
                           
                         </div>
                     </div>

@@ -17,7 +17,7 @@ $logo_top=$base_url.'public/img/logo/header-logo.png';
 $logo_bottom=$base_url.'public/img/logo/footer-logo.png';
 
 
-$breadcrumb_bg=$base_url.'public/img/nursing/inner-banner-bg.jpg';
+$breadcrumb_bg=$base_url.'public/img/pharma/breadcrum.webp';
 $bg_404=$base_url.'public/img/bg/404-img.png';
 $bg_comeingsoon=$base_url.'public/img/class/comeing.jpg';
 $features_img='public/img/features/img-07.jpeg';
@@ -113,7 +113,58 @@ $bread_cumbs=array(
 	'coming-soon'=>array(
 		$base_url=>'Home',
 		''=>'coming-soon'
-	)
+	),
+	'chairman_message'=>array(
+		$base_url=>'Home',
+		''=>'Chairman message'
+	),
+	'vision_mission'=>array(
+		$base_url=>'Home',
+		''=>'Vision & Mission'
+	),
+	'about_us'=>array(
+		$base_url=>'Home',
+		''=>'About Us'
+	),
+	'gallery'=>array(
+		$base_url=>'Home',
+		''=>'Gallery'
+	),
+	'secretory_message'=>array(
+		$base_url=>'Home',
+		''=>'secretory Message'
+	),
+	'chairman_message'=>array(
+		$base_url=>'Home',
+		''=>'Chairman Message'
+	),
+	'principle_message'=>array(
+		$base_url=>'Home',
+		''=>'Principle Message'
+	),
+	'infrastructure'=>array(
+		$base_url=>'Home',
+		''=>'Infrastructure'
+	),
+	'classroom'=>array(
+		$base_url=>'Home',
+		''=>'Classroom'
+	),
+	'accomodation'=>array(
+		$base_url=>'Home',
+		''=>'Accomodation'
+	),
+	'transport'=>array(
+		$base_url=>'Home',
+		''=>'Transportation'
+	),
+	'course'=>array(
+		$base_url=>'Home',
+		''=>'Course offered'
+	),
+
+
+
 
 
 );
@@ -121,27 +172,27 @@ $bread_cumbs=array(
 $header_menus = array(
     "Home" => $base_url,
     "About" => array(
-        'About Us' => $base_url ."about",
-        "Chairman message" => "noc",
-        "Principle message" => "wbnc",
-        "Secretory message" => "wbush_affiliation",
-        "vission & mission" => "inc_bsc_nursing",
-        "affiliation" => "inc_gnm_nursing"
+        'About Us' => $base_url ."about_us",
+        "Chairman message" => "chairman_message",
+        "Principle message" => "principle_message",
+        "Secretory message" => "secretory_message",
+        "vission & mission" => "vision_mission",
+        "affiliation" => "affiliation"
     ),
     "Courses" => array(
-        "Course offered" => "https://www.gitanjalicollegegroup.org/",
-        "Admission Enquiry" => "https://www.gitanjalicollegeedu.org/",
-        "Fee Structure" => "",
-		"Online Fees payments" => "",
+        "Course offered" => "course",
+        "Admission Enquiry" => "admission",
+        "Fee Structure" => "fee",
+		"Online Fees payments" => "payment",
     ),
     "Facilities" => array(
-        "Infrastructure" => "bscn",
-        "Classroom" => "pbins",
-		"Accomodation" => "pbins",
-		"Transportation" => "pbins",
+        "Infrastructure" => "infrastructure",
+        "Classroom" => "classroom",
+		"Accomodation" => "accomodation",
+		"Transportation" => "transport",
     ),
   
-    "Gallery" => $base_url ."our-gallery",
+    "Gallery" => $base_url ."gallery",
     "Contact" => "contact"
 );
 
@@ -150,27 +201,29 @@ $header_menu_special=array('text'=>'Apply Now','url'=>$base_url.'apply_now');
 $pages_arr=[
 	""=>"home",
 	"about"=>"about",
-	"courses"=>"courses",
-	"noc"=>"about",
-	"wbnc"=>"about",
-	"inc_bsc_nursing"=>"about",
-	"inc_gnm_nursing"=>"about",
-	"our-gallery"=>"others",
-	"bsc_prospectus"=>"others",
-	"gnm_prospectus"=>"others",
+	"course"=>"course",
+
+	
 	"contact"=>"others",
 	"privacy_policy"=>"others",
 	"terms&condition"=>"others",
 	"refund_policy"=>"others",
 	"apply_now"=>"others",
 
-	"wbush_affiliation"=>"about",
-	"bscn"=>"course",
-	"pbins"=>"course",
-	"blog-details"=>"others",
-	
+
+	"gallery"=>"about",
 	'coming-soon'=>"others",
 	'mail'=>"others",
+	'chairman_message'=>"about",
+	'vision_mission'=>"about",
+	'principle_message'=>"about",
+	'secretory_message'=>"about",
+	'about_us'=>"about",
+	'infrastructure'=>"facilities",
+	'classroom'=>"facilities",
+	'accomodation'=>"facilities",
+	'transport'=>"facilities",
+
 
 
 ];
@@ -188,66 +241,6 @@ $footer_menues=[
 ];
 
 
-$course_curriculam=[
-	'Playgroup'=>array(
-		'img'=>'public/img/class/img-20.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Rosebud / Playgroup',
-		'sub_heading'=>'English, Mathematics, Drawing (No book concern).',
-		'link'=>$base_url.'curriculum'
-	),
-	
-	'class Nursury'=>array(
-		'img'=>'public/img/class/img-02.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Nursery & KG',
-		'sub_heading'=>'Bengali/Hindi, English, Mathematics, Art and Drawing.',
-		'link'=>$base_url.'curriculum'
-	),
-	'class I-IV'=>array(
-		'img'=>'public/img/class/img-10.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class I to Class IV',
-		'sub_heading'=>' Bengali/Hindi, English, Mathematics, Science, Social Science......',
-		'link'=>$base_url.'curriculum'
-	),
-	'class V-VIII'=>array(
-		'img'=>'public/img/class/img-14.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class V to VIII',
-		'sub_heading'=>'Bengali/Hindi, English, Maths, Science, Social Science......',
-		'link'=>$base_url.'curriculum'
-	),
-	'class IX-X'=>array(
-		'img'=>'public/img/class/img-08.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class IX and X',
-		'sub_heading'=>'Bengali/Hindi, English, Maths, Science, Social Science......',
-		'link'=>$base_url.'curriculum'
-	),
-	'class XI-XII (Science Stream)'=>array(
-		'img'=>'public/img/class/img-04.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class XI and XII',
-		'sub_heading'=>'(Science Stream)Any five of the following: English, Maths, Physics......',
-		'link'=>$base_url.'curriculum'
-	),
-
-	'class XI-XII (Commerce Stream)'=>array(
-		'img'=>'public/img/class/img-04.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class XI and XII',
-		'sub_heading'=>'(Commerce Stream)Any five of the following :English, Maths......',
-		'link'=>$base_url.'curriculum'
-	),
-	'class XI-XII (Humanities)'=>array(
-		'img'=>'public/img/class/img-04.jpeg',
-		'img_alt'=>'Image',
-		'heading'=>'Class XI and XII',
-		'sub_heading'=>'(Humanities)Any five of the following : English, History......',
-		'link'=>$base_url.'curriculum'
-	),
-];
 
 
 // home page slider
