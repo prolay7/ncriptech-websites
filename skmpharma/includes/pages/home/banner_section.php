@@ -59,15 +59,15 @@
       </div>
     </div>
     <div class="carousel-item c-item">
-      <img src="public/img/pharma/mobile1.webp" class="d-block w-100 c-img" alt="Slide 2">
+      <img src="public/img/pharma/banner_mobile2.webp" class="d-block w-100 c-img" alt="Slide 2">
       <div class="carousel-caption">
         <div class="container">
           <div class="row">
             <div class="col-lg-7 col-md-7">
               <div class="slider-content s-slider-content">
-                <h5 class="wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" style="animation-delay: 0.4s;">World class education</h5>
+                <h5 class="wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" style="animation-delay: 0.4s;">Explore Excellence at Skm</h5>
                 <h4 data-animation="fadeInUp" data-delay=".4s" class="wow fadeInUp animated" style="animation-delay: 0.4s;">Pharmaceutical Science &amp; Research</h4>
-                <h1 data-animation="fadeInUp" data-delay=".6s" class="wow fadeInUp animated" style="animation-delay: 0.6s;">World Best Diploma</h1>
+                <h1 data-animation="fadeInUp" data-delay=".6s" class="wow fadeInUp animated" style="animation-delay: 0.6s;">Best Bachalor</h1>
                 <h2 data-animation="fadeInUp" data-delay=".6s" class="wow fadeInUp animated" style="animation-delay: 0.6s;">Programme</h2>
               </div>
             </div>
@@ -76,15 +76,15 @@
       </div>
     </div>
     <div class="carousel-item c-item">
-      <img src="public/img/pharma/mobile1.webp" class="d-block w-100 c-img" alt="Slide 3">
+      <img src="public/img/pharma/banner_mobile3.webp" class="d-block w-100 c-img" alt="Slide 3">
       <div class="carousel-caption">
         <div class="container">
           <div class="row">
             <div class="col-lg-7 col-md-7">
               <div class="slider-content s-slider-content">
-                <h5 class="wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" style="animation-delay: 0.4s;">Best college</h5>
+                <h5 class="wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" style="animation-delay: 0.4s;">Discover Innovation at Skm</h5>
                 <h4 data-animation="fadeInUp" data-delay=".4s" class="wow fadeInUp animated" style="animation-delay: 0.4s;">Pharmaceutical Science &amp; Research</h4>
-                <h1 data-animation="fadeInUp" data-delay=".6s" class="wow fadeInUp animated" style="animation-delay: 0.6s;">World Best Diploma</h1>
+                <h1 data-animation="fadeInUp" data-delay=".6s" class="wow fadeInUp animated" style="animation-delay: 0.6s;">Leading in Bachalor</h1>
                 <h2 data-animation="fadeInUp" data-delay=".6s" class="wow fadeInUp animated" style="animation-delay: 0.6s;">Programme</h2>
               </div>
             </div>

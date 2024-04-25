@@ -15,7 +15,7 @@
                 <div class="item"><img src="public/img/pharma/link4.png" alt="" class="img-fluid"></div>
                 <div class="item"><img src="public/img/pharma/link5.png" alt="" class="img-fluid"></div>
                 <div class="item"><img src="public/img/pharma/link6.png" alt="" class="img-fluid"></div>
-                <div class="item"><img src="public/img/pharma/link1.png" alt="" class="img-fluid"></div>
+                <div class="item"><img src="public/img/pharma/link2.png" alt="" class="img-fluid"></div>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
             autoplayHoverPause: true,
             responsive: {
                 0: {
-                    items: 1
+                    items: 3
                 },
                 768: {
                     items: 3

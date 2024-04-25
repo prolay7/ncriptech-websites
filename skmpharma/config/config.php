@@ -19,7 +19,9 @@ $logo_bottom=$base_url.'public/img/logo/footer-logo.png';
 
 $breadcrumb_bg=$base_url.'public/img/pharma/breadcrum.webp';
 $bg_404=$base_url.'public/img/bg/404-img.png';
-$bg_comeingsoon=$base_url.'public/img/class/comeing.jpg';
+
+
+$bg_comeingsoon=$base_url.'public/img/pharma/coming_soon.jpg';
 $features_img='public/img/features/img-07.jpeg';
 $admission_home_img='public/img/features/img-14.jpeg';
 
@@ -163,6 +165,18 @@ $bread_cumbs=array(
 		''=>'Course offered'
 	),
 
+	'affiliation'=>array(
+		$base_url=>'Home',
+		''=>'Affiliation'
+	),
+	'coming_soon'=>array(
+		$base_url=>'Home',
+		''=>'Coming-soon'
+	),
+
+	
+	
+
 
 
 
@@ -177,13 +191,13 @@ $header_menus = array(
         "Principle message" => "principle_message",
         "Secretory message" => "secretory_message",
         "vission & mission" => "vision_mission",
-        "affiliation" => "affiliation"
+        "affiliation" => "coming_soon"
     ),
     "Courses" => array(
         "Course offered" => "course",
-        "Admission Enquiry" => "admission",
-        "Fee Structure" => "fee",
-		"Online Fees payments" => "payment",
+        "Admission Enquiry" => "coming_soon",
+        "Fee Structure" => "coming_soon",
+		"Online Fees payments" => "coming_soon",
     ),
     "Facilities" => array(
         "Infrastructure" => "infrastructure",
@@ -212,7 +226,7 @@ $pages_arr=[
 
 
 	"gallery"=>"about",
-	'coming-soon'=>"others",
+	'coming_soon'=>"others",
 	'mail'=>"others",
 	'chairman_message'=>"about",
 	'vision_mission'=>"about",
@@ -255,48 +269,49 @@ $slides = [
     ],
     [
         'image' => 'public/img/pharma/banner2.jpg',
-        'caption' => 'World class education',
+        'caption' => 'Explore Excellence at Skm',
         'subtitle' => 'Pharmaceutical Science &amp; Research',
-        'title' => 'World Best Diploma',
-        'programme' => 'Programme',
+        'title' => 'Best Bachelor',
+        'programme' => ' Programme',
     ],
     [
         'image' => 'public/img/pharma/banner3.jpg',
-        'caption' => 'Best college',
+        'caption' => 'Discover Innovation at Skm',
         'subtitle' => 'Pharmaceutical Science &amp; Research',
-        'title' => 'World Best Diploma',
+        'title' => 'Leading in Bachelor',
         'programme' => 'Programme',
     ],
 ];
 
 // home page course
 
-$courses = [
+$courses_home = [
     [
         'image' => 'public/img/bg/couress-img-1.jpg',
         'category' => 'diploma',
         'title' => 'Diploma in Pharmacy',
-        'description' => 'Seamlessly visualize quality intellectual capital without superior collaboration and ideatically',
+        'description' => 'Typically, a Diploma in Pharmacy program lasts for two years.',
         'link' => '',
-        'link_text' => 'Read More',
+
         'icon' => 'fal fa-graduation-cap',
     ],
     [
         'image' => 'public/img/bg/couress-img-2.jpg',
         'category' => 'Economics',
         'title' => 'Bachalor in Pharmacy',
-        'description' => 'Seamlessly visualize quality intellectual capital without superior collaboration and ideatically',
+        'description' => '
+		Bachelor of Pharmacy (BPharm) programs typically have a duration of four years.',
         'link' => '',
-        'link_text' => 'Read More',
+      
         'icon' => 'fal fa-graduation-cap',
     ],
     [
         'image' => 'public/img/bg/couress-img-3.jpg',
         'category' => 'Media',
-        'title' => 'Masters in Pharmacy',
-        'description' => 'Seamlessly visualize quality intellectual capital without superior collaboration and ideatically',
+        'title' => 'Bachalor in Pharmacy(L)',
+        'description' => 'Bachelor of Pharmacy (Lateral Entry) course duration is typically 3 years.',
         'link' => '',
-        'link_text' => 'Read More',
+       
         'icon' => 'fal fa-graduation-cap',
     ],
     // Add more courses as needed
@@ -311,12 +326,12 @@ $tab_panes = [
     [
         'id' => 'about-mission',
         'title' => 'Our Mission',
-        'content' => 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.'
+        'content' => 'Pharmaceutical colleges aim to train and educate students to become skilled professionals in the field of pharmacy. They provide comprehensive learning experiences to equip students with the knowledge, skills, and values necessary to excel in pharmaceutical sciences, patient care, research, and community service'
     ],
     [
         'id' => 'about-vision',
         'title' => 'Our Vision',
-        'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer.'
+        'content' => 'Our Colleges aims to be a pioneer in pharmaceutical education and research. We envision a future where our graduates are at the forefront of healthcare innovation, making meaningful contributions to society through their expertise in pharmacy.'
     ]
 ];
 
@@ -325,24 +340,7 @@ $image_paths = [
     'main-img-2' => 'public/img/pharma/about_1.webp',
     'shape-3' => 'public/img/pharma/White_Dot.png'
 ];
-// campus section
-$features = [
-    [
-        'icon' => 'public/img/pharma/time.png',
-        'title' => 'Student Life',
-        'description' => 'Nostrud exer ciation laboris nis aliqup comodo perspiatix omnis iste natus.'
-    ],
-    [
-        'icon' => 'public/img/pharma/gym.png',
-        'title' => 'Arts & Clubs',
-        'description' => 'Omnis iste natus error sit voluptatem accusan tium doloreque laudantum.'
-    ],
-    [
-        'icon' => 'public/img/pharma/art_1.png',
-        'title' => 'Sports & Fitness',
-        'description' => 'Tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis.'
-    ]
-];
+
 
 // campus section
 
@@ -350,17 +348,17 @@ $features = [
     [
         'icon' => 'public/img/pharma/time.png',
         'title' => 'Student Life',
-        'description' => 'Nostrud exer ciation laboris nis aliqup comodo perspiatix omnis iste natus.'
+        'description' => 'Experience a vibrant community dedicated to pharmaceutical education and professional development.'
     ],
     [
         'icon' => 'public/img/pharma/gym.png',
         'title' => 'Arts & Clubs',
-        'description' => 'Omnis iste natus error sit voluptatem accusan tium doloreque laudantum.'
+        'description' => 'Engage in diverse activities and clubs tailored to the interests of aspiring pharmacists, fostering creativity and collaboration.'
     ],
     [
         'icon' => 'public/img/pharma/art_1.png',
         'title' => 'Sports & Fitness',
-        'description' => 'Tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis.'
+        'description' => 'Stay active and maintain well-being through opportunities for physical activity and fitness tailored to the needs of future healthcare professionals.'
     ]
 ];
 $imagePaths = [
@@ -373,119 +371,52 @@ $partners_logo=[
 	"public/images/home1/logo3.webp"=>'',
 	"public/images/home1/logo4.webp"=>''
 ];
+//course page course
+$courses = array(
+    array(
+        "name" => "D.Pharm",
+        "image" => "public/img/pharma/Courses1.webp",
+        "description" => "Diploma in Pharmacy (D.Pharm) is a foundational academic program in the field of pharmacy. It is designed to impart knowledge and skills related to pharmaceutical sciences, drug manufacturing, dispensing, and healthcare.",
+    ),
+    array(
+        "name" => "B.Pharm",
+        "image" => "public/img/pharma/Course2.webp",
+        "description" => "
+		A Bachelor of Pharmacy (B.Pharm) is an undergraduate academic degree program in the field of pharmacy. It focuses on the study of pharmaceutical sciences, including drug composition, uses, therapeutic roles, side effects, and interactions",
+    ),
+    array(
+        "name" => "B.Pharm(L)",
+        "image" => "public/img/pharma/Course3.webp",
+        "description" => "
+		A Bachelor of Pharmacy (B.Pharm) lateral entry program is designed for students who have already completed a Diploma in Pharmacy (D.Pharm) or an equivalent qualification. This program offers a streamlined pathway for these students to enter directly into the third year of the B.Pharm course, skipping the initial two years.",
+    )
+);
 
 
-$dcuments_info=[
-	'SOCIETIES/TRUST/COMPANY REGISTRATION CERTIFICATE'=>'public/docs/Society-Registration-Certificate.pdf',
-	'NO OBJECTION CERTIFICATE (NOC)'=>'public/docs/No-Objection-Certificate.pdf',
-	'VALID BUILDING SAFETY CERTIFICATE'=>'public/docs/Building-Safety-Certificate.pdf',
-	'DEO CERTIFICATE'=>'public/docs/DEO-Certificate.pdf',
-	'VALID WATER, HEALTH AND SANITATION CERTIFICATES'=>'public/docs/Safe-Drinking-Water-Sanitary-Condition-Certificate-June23.pdf',
-	'RECOGNITION CERTIFICATE'=>'public/docs/Recognition-Certificate.pdf',
-	'VALID FIRE SAFETY CERTIFICATE'=>'public/docs/Fire-Safety-Certificate.pdf',
-	'Valid Land Certificate'=>'public/docs/Certificate-of-Land-Annexure-X.pdf',
-	'Self Declaration'=>'public/docs/Self-Declaration.pdf'
-];
-
-$results_info=[
-	'FEE STRUCTURE OF THE SCHOOL'=>'public/docs/Fee-Structure-23-24.pdf',
-	'ANNUAL ACADEMIC CALANDER'=>'public/docs/Academic-Calender-23-24.pdf',
-	'SCHOOL MANAGEMENT COMMITTEE (SMC)'=>'public/docs/School-Managing-Committee-23-24.pdf',
-	'PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS'=>'public/docs/Parent-Teacher-Association-23-24.pdf',
-	'POSH Committee'=>'public/docs/POSH-Committee-23-24.pdf',
-	'POSCO Committee'=>'public/docs/POSCO-Committee-23-24.pdf'
-];
-
-
-$infras_info['one']=[
-	'public/img/class/img-18.jpeg'=>array(
-		'TOTAL CAMPUS AREA OF THE SCHOOL (IN SQ MTR)'=>array(
-			'type'=>'text',
-			'text'=>'8660 sq.mtr.'
-		),
-	
-		'NO. AND SIZE OF THE CLASS ROOMS'=>array(
-			'type'=>'text',
-			'text'=>'14 (48.03sq.mtr. / 517 sq.ft.)'
-		),
-	
-		'NO. AND SIZE OF LABORATORIES (INCLUDING COMPUTER LABS)'=>array(
-			'type'=>'text',
-			'text'=>'6 (97.08 sq.mtr. / 1045 sq.ft.)'
-		),
-		'INTERNET FACILITY'=>array(
-			'type'=>'text',
-			'text'=>'YES'
-		),
-		'NO. OF GIRLS TOILETS'=>array(
-			'type'=>'text',
-			'text'=>'Urinal 9, Toilet 9'
-		),
-	
-		'NO. OF BOYS TOILETS'=>array(
-			'type'=>'text',
-			'text'=>'Urinal 18, Toilet 9'
-		)
-	)
-];
-
-$infras_info['two']=[
-	'public/img/class/img-08.jpeg'=>array(		
-		'SCHOOL INSPECTION (COVERING THE INFRASTRUCTURE)'=>array(
-			'type'=>'video',
-			'text'=>'<iframe width="560" height="315" src="https://www.youtube.com/embed/LscU89wol0g?si=e4vK_7l5kDS5j_XA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-		)
-	)
-];
+$pharma_courses = array(
+    array(
+        "name" => "D.Pharm",
+        "image" => "public/img/pharma/Courses1.webp",
+        "overview" => "The duration of the D.Pharm course is typically 2 years, divided into multiple semesters or academic terms.",
+        "offer" => "The curriculum of D.Pharm covers various subjects such as Pharmaceutics, Pharmaceutical Chemistry, Pharmacology, Pharmacognosy, and Hospital Pharmacy. Students also undergo practical training to gain hands-on experience in pharmacy practices."
+    ),
+    array(
+        "name" => "B.Pharm",
+        "image" => "public/img/pharma/Course2.webp",
+        "overview" => "The Bachelor of Pharmacy lateral program typically lasts for Four years.",
+        "offer" => "Students enrolled in a B.Pharm lateral entry program undergo advanced coursework and practical training focused on pharmaceutical sciences, pharmacology, medicinal chemistry, ."
+    ),
+    array(
+        "name" => "B.Pharm(L)",
+        "image" => "public/img/pharma/Course3.webp",
+        "overview" => "The Bachelor of Pharmacy lateral program typically lasts for Three years.",
+        "offer" => "Our B.Pharm (Lateral Entry) program is designed for students with prior education in pharmacy. Building on their existing knowledge, we offer advanced coursework and practical training to accelerate their path to a successful career in pharmacy."
+    )
+);
 
 
-$cwsn_lift_infos=[
-	'3 year AMC Kingfisher Elevator'=>'',
-	'Undertaking Kingfisher Elevator'=>'',
-	'Invoice of Lift'=>'',
-	'Undertaking Gyanjyoti Public School'=>'',
-	'CWSN access Plan through Lift'=>''
-];
 
-$cwsn_toilet_infos=[
-	'CWSN Toilet Gr. Fl. for Boys'=>'',
-	'CWSN Toilet 1st Fl. for Boys'=>'',
-	'CWSN Toilet 2nd Fl. for Boys'=>'',
-	'CWSN Toilet Gr. Fl. for Girls'=>'',
-	'CWSN Toilet 1st Fl. for Girls'=>'',
-	'CWSN Toilet 2nd Fl. for Girls'=>''
-];
 
-$teaching_staff['one']=[
-	'public/img/class/img-18.jpeg'=>array(
-		'PRINCIPAL'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Bidisha Chatterjee'
-		),
-	
-		'Teacher-in-Charge'=>array(
-			'type'=>'text',
-			'text'=>'14 (48.03sq.mtr. / 517 sq.ft.)'
-		),
-	
-		'Co-Ordinator'=>array(
-			'type'=>'text',
-			'text'=>'Smt Deepika Mustafi'
-		),
-		'PGT'=>array(
-			'type'=>'text',
-			'text'=>'0'
-		),
-		'TGT'=>array(
-			'type'=>'text',
-			'text'=>'13'
-		),	
-		'PRT'=>array(
-			'type'=>'text',
-			'text'=>'2'
-		)
-	)
-];
 
 //Meta data
 

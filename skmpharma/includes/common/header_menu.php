@@ -128,25 +128,25 @@
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>principle_message">Principle Message</a></li>
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>secretory_message">Secretory Message</a></li>
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>vision_mission">Vission & mission</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>affiliation">Affiliation</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>coming_soon">Affiliation</a></li>
         </ul>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Courses</p></a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="<?php echo $base_url; ?>course">Courses offered </a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>">Admission Enquiry</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about_us">Fee Structure</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>about_us">Online Fees payments</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>coming_soon">Admission Enquiry</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>coming_soon">Fee Structure</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>coming_soon">Online Fees payments</a></li>
         </ul>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Facilities</p></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>bscn">Infrastructure</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>pbins">Classroom</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>pbins">Accomodation</a></li>
-          <li><a class="dropdown-item" href="<?php echo $base_url; ?>pbins">Transportation</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>infrastructure">Infrastructure</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>classroom">Classroom</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>accomodation">Accomodation</a></li>
+          <li><a class="dropdown-item" href="<?php echo $base_url; ?>transport">Transportation</a></li>
 
         </ul>
       </li>
@@ -154,7 +154,7 @@
      
    
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo $base_url; ?>our-gallery"><p>Gallery</p></a>
+        <a class="nav-link" href="<?php echo $base_url; ?>gallery"><p>Gallery</p></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?php echo $base_url; ?>contact"><p>Contact</p></a>
@@ -174,9 +174,10 @@
       </div>
       <!-- <button><i class="fas fa-phone-alt"></i> Free Consultation</button> -->
     
-      <a href="https://api.whatsapp.com/send?phone=917076380855" class="whatsapp-color"><i class="fab fa-whatsapp"></i></a>
-      <a href="tel:917076380855" class="messenger-color "><i class="fab fa fa-phone"></i></a>
-      <a href="mailto:gitanjali.nursing@gmail.com"  class="telegram-color "><i class="fab fa fa-envelope"></i></a>
+    
+      <a href="tel:91-8768000093" class="messenger-color "><i class="fab fa fa-phone"></i></a>
+      <a href="mailto:director.skmipsr@gmail.com"  class="telegram-color "><i class="fab fa fa-envelope"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=91-8768000093" class="whatsapp-color"><i class="fab fa-whatsapp"></i></a>
     
     
     </div>

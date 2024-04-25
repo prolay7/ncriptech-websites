@@ -26,8 +26,8 @@
                                 <div class="footer-link">
                                     <ul>                                        
                                         <li><a href="<?php echo $base_url; ?>">Home</a></li>
-                                        <li><a href="<?php echo $base_url; ?>about"> About</a></li>
-                                        <li><a href="<?php echo $base_url; ?>bscn">Courses</a></li>
+                                        <li><a href="<?php echo $base_url; ?>about_us"> About</a></li>
+                                        <li><a href="<?php echo $base_url;?>course">Courses</a></li>
                                         <li><a href="<?php echo $base_url; ?>contact"> Contact Us</a></li>
                                        
                                     </ul>
@@ -43,9 +43,9 @@
                                     <ul>                                        
                                       
                                         <li><a href="">Blog </a></li>
-                                        <li><a href="<?php echo $base_url; ?>privacy_policy">Privacy-policy</a></li>
-                                        <li><a href="<?php echo $base_url; ?>terms&condition">Terms & Condition</a></li>
-                                        <li><a href="<?php echo $base_url; ?>refund_policy">Refund policy</a></li>
+                                        <li><a href="<?php echo $base_url; ?>coming_soon">Privacy-policy</a></li>
+                                        <li><a href="<?php echo $base_url; ?>coming_soon">Terms & Condition</a></li>
+                                        <li><a href="<?php echo $base_url; ?>coming_soon">Refund policy</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -97,11 +97,7 @@
                                     <li>
                                         <i class="icon fal fa-map-marker-check"></i>
                                         <span>Add:Vill+P.O- Lohapur, P.S- Nalhati, Dist- Birbhum, Pin- 731237, W.B
-<br></span><p style="
-    margin-left: 55px;
-">
-Mobile : +91 9832640870 <br>
-Web : gitanjalicn.in</p>
+<br></span>
                                     </li>
                                     
                                 </ul>
@@ -171,4 +167,8 @@ Web : gitanjalicn.in</p>
 </script>
  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
    </script>
+
+
+
+
 

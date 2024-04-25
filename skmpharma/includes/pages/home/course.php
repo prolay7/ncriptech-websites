@@ -1,4 +1,9 @@
-
+<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js">
+</script>
+ <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
+   </script>
 <section class="shop-area pt-30 pb-60 p-relative desktop-course " data-animation="fadeInUp animated" data-delay=".2s">
                 <div class="container">
                 <div class="section-title center-align mb-50 wow fadeInDown  animated" data-animation="fadeInDown" data-delay=".4s" style="visibility: visible; animation-name: fadeInDown;">
@@ -9,7 +14,7 @@
                             </div>
                     <div class="row align-items-center">
                         <?php
-                    foreach ($courses as $course) {
+                    foreach ($courses_home as $course) {
 ?>
 <div class="col-lg-4 col-md-6 ">
     <div class="courses-item mb-30 hover-zoomin">
@@ -49,7 +54,7 @@
 
         <!-- Owl Carousel Container -->
         <div id="popular-courses-carousel" class="owl-carousel owl-theme">
-            <?php foreach ($courses as $course): ?>
+            <?php foreach ($courses_home as $course): ?>
                 <div class="item">
                     <div class="col-lg-4 col-md-6">
                         <div class="courses-item mb-30 hover-zoomin">

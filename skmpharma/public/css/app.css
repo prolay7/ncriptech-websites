@@ -4367,11 +4367,11 @@ body.sal-disabled [data-sal|="flip"] {
   bottom: -30px;
   right: 130px;
 }
-.about-content {
+/* .about-content {
   padding-left: 30px;
  
   padding-right: 50px;
-}
+} */
 @media only screen and (max-width: 991px) {
   .about-content {
     padding-left: 0;
@@ -4605,7 +4605,7 @@ body.sal-disabled [data-sal|="flip"] {
 .about-style-3 .about-content .tab-content p {
   margin-bottom: 20px;
   color:white;
-  font-size: 16px;
+  font-size: 17px;
   text-align: justify;
   
 }
@@ -6768,9 +6768,9 @@ body.sal-disabled [data-sal|="flip"] {
 }
 .edu-counterup .title {
   margin-bottom: 0;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
-  font-weight: var(--p-medium);
+  font-weight:600;
 }
 .edu-counterup.counterup-style-1 {
   box-shadow: 0 10px 30px 6px rgba(0, 0, 0, 0.07);
@@ -21430,7 +21430,7 @@ blockquote .author {
 }
 .gap-lg-top-equal {
   padding-top: 80px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   /* background-image: url('/public/img/pharma/Circle.png');
   z-index: 1; */
 }
@@ -21446,7 +21446,7 @@ blockquote .author {
 }
 @media only screen and (max-width: 767px) {
   .gap-lg-top-equal {
-    padding-top: 80px;
+    padding-top: 10px;
   }
 }
 .brand-section-gap {

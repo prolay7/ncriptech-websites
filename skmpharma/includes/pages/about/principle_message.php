@@ -1,5 +1,5 @@
         <!-- about-area -->
-        <section class="about-area chairman about-p pt-120 pb-120 p-relative fix" style="background: #f7f9ff;">
+        <section class="about-area chairman about-p pt-120 pb-50 p-relative fix" style="background: #f7f9ff;">
                <div class="animations-06"><img src="img/bg/an-img-01.png" alt="an-img-01"></div>
                 <div class="animations-09"><img src="img/bg/slider_shape03.png" alt="contact-bg-an-01"></div>
                 <div class="container">
@@ -10,8 +10,9 @@
                                   
                                     <h2>Principle Message</h2>                                   
                                 </div>
-                                   <p class="txt-clr">Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational.</p>
-                                    <p class="txt-clr">We are proud to offer top ranige in employment services such and asser payroll and benefits administrato managemen and asistance with global business range ployment employer  readings from religious texts or literature are also commonly inc compliance.</p>
+                                <p class="txt-clr">As we embark on another academic year at our esteemed pharmaceutical college, I want to extend a warm welcome to all of you.</p>
+                                   <p class="txt-clr">Our mission at [Pharma College Name] is not only to provide top-notch education but also to cultivate future leaders in the pharmaceutical industry. </p>
+                                    <p class="txt-clr">I encourage each of you to embrace the challenges and opportunities that come your way during your time here. Remember that success is not just measured by academic achievements, but also by your growth as individuals and professionals. </p>
                                    
                             
                             </div>

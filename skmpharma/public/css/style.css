@@ -759,7 +759,7 @@ color: #b8bfc3;
     font-weight: 500;
 }
 .slider-btn{
-    display: inline-block;
+    display: block;
     position: relative;
 }
 
@@ -1430,6 +1430,7 @@ background-color: white;
 padding: 5px;
 width:400px;
 font-weight: 600;
+text-align: left;
 }
 
 .slider-content h4 {
@@ -1443,6 +1444,7 @@ font-weight: 600;
     padding: 5px;
     width: 500px;
     height: 25px;
+    text-align: left;
  
 font-weight: 600;
 }
@@ -1453,14 +1455,16 @@ font-weight: 600;
     width:240px;
     padding:5px;
     font-weight: 600;
+    text-align: left;
 }
 .slider-content h1{
     background-color: #3854a7;
     color:white;
     font-size: 40px;
-    width:400px;
+    width:420px;
     padding: 10px;
     font-weight: 600;
+    text-align: left;
 }
 /* .slider-content h5::after {
   content: "";

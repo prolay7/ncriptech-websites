@@ -1,5 +1,5 @@
         <!-- about-area -->
-        <section class="about-area chairman about-p pt-120 pb-120 p-relative fix" style="background: #f7f9ff;">
+        <section class="about-area chairman about-p pt-120 pb-50 p-relative fix" style="background: #f7f9ff;">
                <div class="animations-06"><img src="img/bg/an-img-01.png" alt="an-img-01"></div>
                 <div class="animations-09"><img src="img/bg/slider_shape03.png" alt="contact-bg-an-01"></div>
                 <div class="container">

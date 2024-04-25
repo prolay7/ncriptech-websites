@@ -840,7 +840,7 @@ background-color: aliceblue;
 }
 
 #main-button ~ .messenger-color {
-  background: linear-gradient(0deg, #ff0000, #ff0000);
+  background: linear-gradient(0deg, #017AB1, #01ABE6);
 }
 
 #main-button.open ~ a {
@@ -885,7 +885,7 @@ background-color: aliceblue;
 	width:250px;
 	text-align: center;
 	position:absolute;
-	top:200px;
+	top:120px;
 	left:50%;
 	transform:translateX(-50%);
 	color:whitesmoke;
@@ -1000,9 +1000,9 @@ background-color: aliceblue;
   color:white;
 }
 
-.logo{
+/* .logo{
   background-color:  #29417d;
-}
+} */
 /* quick links */
  #college-slider .item img{
   height: 100px!important;
@@ -1121,22 +1121,28 @@ position:relative;
   user-select: none;
   -webkit-user-select: none;
   text-shadow: 2px 2px 2px white;
-  border-radius: 50%;
+  border-radius: 100%;
+  background-color: black;
+  width:50px;
+  height:50px;
+  margin-left:15px;
  
 }
 
 /* Position the "next button" to the right */
 .next {
-  left: 1050px;
+  left: 1000px;
   border-radius: 3px 0 0 3px;
-  background-color: #ffffff27;
-  border-radius: 50%;
+  background-color: black;
+  border-radius: 100%;
+  width:50px;
+  height:50px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(240, 233, 233, 0.8);
 }
 
 .prev a:hover,
@@ -1221,7 +1227,7 @@ position:relative;
   }
 
   .left-slide {
-    width: 100%;
+    width:90%;
   }
 
   .thumbs {
@@ -1235,10 +1241,10 @@ position:relative;
     display: none;
   } */
   .next {
-    left: 300px;
+    left: 270px;
     border-radius: 3px 0 0 3px;
     text-shadow: 2px 2px 2px white;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .prev, .next {
@@ -1258,7 +1264,7 @@ position:relative;
 }
 
 .vision .about-content {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 
@@ -1281,6 +1287,7 @@ position:relative;
 }
 .gallery{
   margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 .contact_head h2{
@@ -1545,14 +1552,16 @@ flex-direction: row;
 flex-wrap: wrap;
 align-items: center;    
 }
-.single-contact-address-box {
+.single-contact-address-box  {
 position: relative;
 display: block;
 /* background: #131313; */
-background-image: url(../img/pharma/Contact_Us.webp);
+background-image: url(../img/pharma/contact_img_2.png);
 padding: 85px 30px 77px;
 background-size: cover;
 }
+
+
 .single-contact-address-box .icon-holder{
 position: relative;
 display: block;
@@ -1733,3 +1742,14 @@ margin: 0;
 .address{
   text-align: center;
 }
+
+.header-three .main-menu ul li a:hover {
+  
+  color: white;
+}
+
+.main-menu .has-sub ul li a:hover{
+  color:var(--primary-color)!important;
+}
+
+
