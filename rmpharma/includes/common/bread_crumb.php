@@ -12,7 +12,10 @@
                 </div>
             </div>
             <div class="breadcrumb-wrap2">
-                  
+            <div class="about-title second-title pb-25">  
+    <h2><?php echo isset($page_headings[$lastUriSegment]) ? $page_headings[$lastUriSegment] : "Default Heading"; ?></h2>
+         </div>
+      
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <?php

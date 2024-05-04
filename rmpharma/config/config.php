@@ -17,9 +17,9 @@ $logo_top=$base_url.'public/img/logo/header-logo.png';
 $logo_bottom=$base_url.'public/img/logo/footer-logo.png';
 
 
-$breadcrumb_bg=$base_url.'public/img/nursing/inner-banner-bg.jpg';
+$breadcrumb_bg=$base_url.'public/img/rmpharma/breadcram.webp';
 $bg_404=$base_url.'public/img/bg/404-img.png';
-$bg_comeingsoon=$base_url.'public/img/class/comeing.jpg';
+$bg_comeingsoon=$base_url.'public/img/rmpharma/coming_soon.jpg';
 $features_img='public/img/features/img-07.jpeg';
 $admission_home_img='public/img/features/img-14.jpeg';
 
@@ -42,41 +42,66 @@ $bread_cumbs=array(
 		$base_url=>'Home',
 		''=>'About Us'
 	),
-	'noc'=>array(
+
+	'vission_mission'=>array(
 		$base_url=>'Home',
-		''=>'NOC govt of W.B'
+		''=>'Vission & Mission'
+
+		
 	),
-	'wbnc'=>array(
+
+	
+	'chairman'=>array(
 		$base_url=>'Home',
-		''=>'WBNC'
+		''=>'Chairman Message'
 	),
-	'wbush_affiliation'=>array(
+
+	'principle'=>array(
 		$base_url=>'Home',
-		''=>'WBUHS Affiliation 2023-2024'
+		''=>'Principle Message'
 	),
-	'inc_bsc_nursing'=>array(
+
+	'faculty'=>array(
 		$base_url=>'Home',
-		''=>'INC BSC NURSING DOCUMENTS'
+		''=>'Teacher Details'
 	),
-	'inc_gnm_nursing'=>array(
+
+	'non_teaching'=>array(
 		$base_url=>'Home',
-		''=>'INC GNM NURSING DOCUMENTS'
+		''=>'Non teaching Staff'
 	),
-	'our-gallery'=>array(
+
+	'calender'=>array(
 		$base_url=>'Home',
-		''=>'Gallery'
+		''=>'Academic Calender'
 	),
-	'bscn'=>array(
+	'gallery'=>array(
 		$base_url=>'Home',
-		''=>'BSC COURSE DETAILS'
+		''=>'Our gallery'
 	),
-	'pbins'=>array(
+	'govt'=>array(
 		$base_url=>'Home',
-		''=>'GNM COURSE DETAILS'
+		''=>'Governing body'
 	),
-	'bsc_prospectus'=>array(
+
+
+
+
+
+
+	'd.pharma'=>array(
 		$base_url=>'Home',
-		''=>'BSC PROSPECTUS'
+		''=>'D.Pharma'
+	),
+	
+	'affiliation'=>array(
+		$base_url=>'Home',
+		''=>'Affiliation'
+	),
+
+	'prospectus'=>array(
+		$base_url=>'Home',
+		''=>'Prospectus'
 	),
 	'gnm_prospectus'=>array(
 		$base_url=>'Home',
@@ -110,7 +135,7 @@ $bread_cumbs=array(
 		$base_url=>'Home',
 		''=>'APPLY NOW'
 	),
-	'coming-soon'=>array(
+	'coming_soon'=>array(
 		$base_url=>'Home',
 		''=>'coming-soon'
 	)
@@ -118,44 +143,81 @@ $bread_cumbs=array(
 
 );
 
-$header_menus = array(
-    "Home" => $base_url,
-    "About Us" => array(
-        'Overview' => $base_url ."about",
-        "NOC Govt of W.B" => "noc",
-        "WBNC" => "wbnc",
-        "WBUHS Affiliation 2023-2024" => "wbush_affiliation",
-        "INC BSC Nursing documents" => "inc_bsc_nursing",
-        "INC GNM Nursing documents" => "inc_gnm_nursing"
-    ),
-    "College" => array(
-        "Gitanjali College Of Pharmacy" => "https://www.gitanjalicollegegroup.org/",
-        "Gitanjali College Of Education" => "https://www.gitanjalicollegeedu.org/",
-        "Gitanjali Institute Of Nursing" => "https://www.gitanjalicn.in/"
-    ),
-    "Courses" => array(
-        "BSC Nursing" => "bscn",
-        "GNM Nursing" => "pbins"
-    ),
-    "Prospectus" => array(
-        "BSC Nursing" => "bsc_prospectus",
-        "GNM Nursing" => "gnm_prospectus"
-    ),
-    "Gallery" => $base_url ."our-gallery",
-    "Contact" => "contact"
+$page_headings = array(
+    'about' => 'About Us',
+    'vission_mission' => 'Our Vision & Mission',
+    'chairman' => 'Chairman Message',
+	'principle' => 'Principle Message',
+	'faculty' => 'Teachers Details',
+	'prospectus' => 'Prospectus',
+
+	'non_teaching' => 'Non Teaching Staff',
+	'calender' => 'Academic Calender',
+	'gallery' => 'Our Gallery',
+	'd.pharma'=>'Diploma in Pharmacy',
+	'affiliation'=>'Affiliation',
+	'contact'=>'Contact Us',
+	'govt'=>'Governing body',
+	'coming_soon'=>'coming-soon',
+
 );
 
-$header_menu_special=array('text'=>'Apply Now','url'=>$base_url.'apply_now');
+$header_menus = array(
+    "HOME" => $base_url,
+    "ABOUT" => array(
+        'About College' => $base_url ."about",
+        "Vission & Mission" => "vission_mission",
+        "Chairman Message" => "chairman",
+        "Principle Message" => "principle",
+        "Govt Body" => "govt",
+		"Gallery"=>"gallery",
+
+    ),
+    "ACADEMICS" => array(
+        "Faculty" => "faculty",
+        "Non Teaching Staff" => "non_teaching",
+        "Academic Calender" => "coming_soon"
+    ),
+    "COURSES" => array(
+        "D.pharma" => "d.pharma",
+        "Prospectus" => "prospectus",
+		"Recognization"=>"coming_soon",
+		"Affiliation"=>"affiliation",
+		"Admission Form"=>"coming_soon",
+    ),
+    "STUDENT CORNER" => array(
+        "Online Class" => "coming_soon",
+        "Alumuni" => "coming_soon",
+		"Activity  Club" => "coming_soon",
+		"Anti Ragging" => "coming_soon",
+		"Anti Discrimination" => "coming_soon",
+    ),
+
+   
+);
+
+
 
 $pages_arr=[
 	""=>"home",
 	"about"=>"about",
 	"courses"=>"courses",
-	"noc"=>"about",
-	"wbnc"=>"about",
-	"inc_bsc_nursing"=>"about",
-	"inc_gnm_nursing"=>"about",
-	"our-gallery"=>"others",
+
+	"vission_mission"=>"about",
+	"chairman"=>"about",
+	"principle"=>"about",
+	"govt"=>"about",
+
+	"faculty"=>"Academic",
+	"non_teaching"=>"Academic",
+	"calender"=>"Academic",
+
+	"d.pharma"=>"course",
+	"affiliation"=>"course",
+	"prospectus"=>"course",
+
+
+	"gallery"=>"others",
 	"bsc_prospectus"=>"others",
 	"gnm_prospectus"=>"others",
 	"contact"=>"others",
@@ -165,11 +227,11 @@ $pages_arr=[
 	"apply_now"=>"others",
 
 	"wbush_affiliation"=>"about",
-	"bscn"=>"course",
+
 	"pbins"=>"course",
 	"blog-details"=>"others",
 	
-	'coming-soon'=>"others",
+	'coming_soon'=>"others",
 	'mail'=>"others",
 
 
@@ -188,8 +250,53 @@ $footer_menues=[
 ];
 
 
+// home about section
+
+$about_content = array(
+    'title' => 'A Few Words About Our College',
+    'subtitle' => 'About Our College',
+    'description' => 'Ranagamati College of Pharmacy is dedicated to providing quality education in the field of pharmacy. Our mission is to produce highly skilled pharmacists who contribute to the healthcare sector. With state-of-the-art facilities and experienced faculty, we strive to foster innovation and excellence in pharmaceutical education.We are committed to continuous improvement, adapting to advancements in pharmaceutical science and technology to provide the best education possible. Join us at Ranagamati College of Pharmacy and embark on a journey towards a rewarding career in pharmacy.',
+    'button_text' => 'Read More',
+	'button_link' => $base_url . '/about',
+    'image_src' => 'public/img/rmpharma/about_us.webp',
+    'image_alt' => 'img'
+);
 
 
+// home notification content
+
+$notification_content = array(
+    'title' => 'Notification',
+    'image_src' => 'public/img/rmpharma/notification.webp',
+    'items' => array(
+        'coming-soon',
+        'coming-soon',
+        'coming-soon',
+        'coming-soon',
+        'coming-soon',
+        'coming-soon',
+        'coming-soon'
+    ),
+    'button_text' => 'Read More',
+    'button_link' =>  $base_url , // Adjust link as needed
+);
+
+
+$college_information = array(
+    'title' => 'COLLEGE INFORMATION',
+    'image_src' => 'public/img/rmpharma/News_updates.webp',
+    'items' => array(
+        'Estd. January, 2022',
+        'Working Days - Monday to Friday',
+        'Well maintained Medicinal Garden',
+        'Separate in-campus hostel for boys and girls',
+        'Central Instrument Laboratory',
+        'Well designed internet-enabled Smart Classrooms with proper ventilation and lighting',
+        'Central Library'
+    ),
+    'button_text' => 'Read More',
+    'button_link' => $base_url // Adjust link as needed
+);
 $slides = [
     [
         'image' => 'public/img/rmpharma/Banner1.webp',
@@ -201,14 +308,23 @@ $slides = [
     ],
     [
         'image' => 'public/img/rmpharma/Banner2.webp',
-		'caption' => 'One of the best Pharmacy College In India',
+		'caption' => 'A Leading Institution in Pharmacy Education',
    
         'title' => 'RANGAMATI COLLEGE OF',
 		'title1' => ' PHARMACY',
   
     ],
     [
-        'image' => 'public/img/rmpharma/Banner1.webp',
+        'image' => 'public/img/rmpharma/Banner3.webp',
+        'caption' => 'Excellence in Pharmaceutical Education',
+   
+        'title' => 'RANGAMATI COLLEGE OF',
+		'title1' => ' PHARMACY',
+  
+    ],
+
+	[
+        'image' => 'public/img/rmpharma/slider4.webp',
         'caption' => 'One of the best Pharmacy College In India',
    
         'title' => 'RANGAMATI COLLEGE OF',
@@ -217,6 +333,67 @@ $slides = [
     ],
 ];
 
+
+
+
+$slides_mobile = [
+    [
+        'image' => 'public/img/rmpharma/mob_banner1.png',
+        'caption' => 'One of the best Pharmacy College In India',
+   
+        'title' => 'RANGAMATI COLLEGE OF',
+		'title1' => ' PHARMACY',
+  
+    ],
+    [
+        'image' => 'public/img/rmpharma/mob_banner2.png',
+		'caption' => 'One of the best Pharmacy College In India',
+   
+        'title' => 'RANGAMATI COLLEGE OF',
+		'title1' => ' PHARMACY',
+  
+    ],
+    [
+        'image' => 'public/img/rmpharma/mobile_banner3.png',
+        'caption' => 'One of the best Pharmacy College In India',
+   
+        'title' => 'RANGAMATI COLLEGE OF',
+		'title1' => ' PHARMACY',
+  
+    ],
+
+	[
+        'image' => 'public/img/rmpharma/mob_banner4.png',
+        'caption' => 'One of the best Pharmacy College In India',
+   
+        'title' => 'RANGAMATI COLLEGE OF',
+		'title1' => ' PHARMACY',
+  
+    ],
+];
+
+// d.pharma course
+
+$carrerOptions = [
+    "Pharmacy Technician",
+    "Hospital Pharmacist Assistant:",
+    "Retail Pharmacist",
+    "Pharmaceutical Sales Representative",
+    "Pharmaceutical Research Assistant",
+    "Pharmacy Technician Trainer"
+];
+
+$courseOverview = [
+    "D.Pharm, or Diploma in Pharmacy, is a two-year undergraduate program in the pharmaceutical sciences field. The curriculum covers subjects such as pharmaceutical chemistry, pharmacology, pharmaceutics, pharmacognosy, and pharmacy practice. Eligibility criteria for admission typically include completion of higher secondary education with a minimum of 50% marks in the science stream, with subjects like Chemistry, Biology, and Physics. Alternatively, students can apply after completing a Diploma in Pharmacy Technician course."
+];
+
+$pharmaEligibility = [
+    "The eligibility criteria for the D.Pharm (Diploma in Pharmacy) course typically include completion of higher secondary education (10+2) with a minimum aggregate of 50% marks in the science stream. Candidates must have studied English, Chemistry, Biology, and Physics as core subjects in the qualifying examination"
+];
+
+$admissionProcedure = [
+    "The admission process for D.Pharm programs usually involves fulfilling eligibility criteria, submitting application forms, and clearing entrance exams or merit-based selection processes. "
+];
 
 $partners_logo=[
 	"public/images/home1/logo1.webp"=>'',
@@ -456,6 +633,19 @@ $galleries=[
 	'public/img/nursing/gallery6.jpg'
 ];
 
+
+// gallery page
+$image_urls = array(
+    "https://picsum.photos/id/251/1200/800.webp",
+    "https://picsum.photos/id/678/1200/800.webp",
+    "https://picsum.photos/id/74/1200/800.webp",
+    "https://picsum.photos/id/92/1200/800.webp",
+    "https://picsum.photos/id/62/1200/800.webp",
+    "https://picsum.photos/id/575/1200/800.webp",
+    "https://picsum.photos/id/110/1200/800.webp",
+    "https://picsum.photos/id/177/1200/800.webp",
+    "https://picsum.photos/id/197/1200/800.webp"
+);
 
 //Meta data
 

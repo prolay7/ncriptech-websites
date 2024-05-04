@@ -8,7 +8,7 @@
                     <div class="row justify-content-center align-items-center">
                          <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="s-about-img p-relative  wow fadeInLeft  animated" data-animation="fadeInLeft" data-delay=".4s" style="visibility: visible; animation-name: fadeInLeft;">
-                                <img src="public/img/nursing/about1.jpg" alt="img">   
+                                <img src="public/img/rmpharma/college_img.jpg" alt="img">   
                                <div class="about-text second-about three-about">
                                     <span>25 <sub>+</sub></span> 
                                     <p>Years of Experience</p>
@@ -18,14 +18,15 @@
                         </div>
                         
 					<div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="about-content s-about-content pl-15 wow fadeInRight   animated" data-animation="fadeInRight" data-delay=".4s" style="visibility: visible; animation-name: fadeInRight;">
+                            <div class="about-content  pl-15 wow fadeInRight   animated" data-animation="fadeInRight" data-delay=".4s" style="visibility: visible; animation-name: fadeInRight;">
                                 <div class="about-title second-title pb-25">  
-                                    <h5><i class="fal fa-graduation-cap"></i> About Our college</h5>
-                                    <h2> About Gitanjali Institute Of Nursing</h2>                                   
+                                 
+                                    <h2> About Rangamati College of Pharmacy</h2>                                   
                                 </div>
                                    <p class="txt-clr">
-Gitanjali Institute of Nursing is a dedicated educational institution situated in Lohapur, Kantagaria, West Bengal . With a firm commitment to nurturing future generations of healthcare professionals, the institute operates with a clear mission: to deliver top-notch nursing education, training, and research opportunities..</p>
-                                    <p>At Gitanjali Institute of Nursing, students can pursue a variety of courses tailored to meet the demands of the healthcare industry. These programs typically include the Bachelor of Science in Nursing (B.Sc. Nursing) and General Nursing and Midwifery (GNM), among others.</p>
+
+                                   Rangamati College of Pharmacy is a premier institution dedicated to providing exceptional education and training in the field of pharmacy. </p>
+                                    <p>Our rigorous curriculum is designed to equip students with the knowledge, skills, and ethical values necessary to meet the evolving demands of the pharmaceutical sector. Through cutting-edge research, industry collaborations, and hands-on learning experiences, we strive to prepare graduates who are not only competent professionals but also compassionate caregivers dedicated to improving public health. At Rangamati College of Pharmacy, we are shaping the future of pharmacy by empowering our students to make a positive impact on society and transform healthcare delivery.</p>
 
                                     <p></p>
                                 

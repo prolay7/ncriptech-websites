@@ -128,7 +128,7 @@ background-position: 0 -100px;
   margin-left: 30px;
 }
     .main-menu {
-  margin-right: -40px;
+  margin-left: -120px;
 }
     .call-area h2 {
   color: #fff;
@@ -1554,7 +1554,7 @@ box-shadow: 0 0 0 0;
 }
     .team-area-content li {
   display: inline-block;
-  margin-top: 15px;
+ 
 }
     .team-area-content li .icon {
   margin-right: 0;
@@ -1616,7 +1616,7 @@ margin-bottom: 50px;
   border-right: none;
 }
     .single-counter p {
-margin-top: -8px;
+margin-top: 8px;
 padding-left: 15px;
 text-align: left;   
 }
@@ -1633,6 +1633,7 @@ margin-top: 120px;
     .slider-content h5 {
     font-size: 15px;
     margin-top: 0;
+    font-weight: 300;
 }
     .overlay-bg-01,.overlay-bg-02,.overlay-bg-03,.overlay-bg-04 {
   display: none;
@@ -1697,7 +1698,7 @@ margin-top: 120px;
 }
     .team-img-box img {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
         height: auto;
 }
     .breadcrumb-wrap nav {
@@ -1932,7 +1933,7 @@ display: inline-block;
 }
     
     .btn.ss-btn {
-    padding: 20px 15px;
+    padding: 15px 15px;
     font-size: 14px;
 }
     .about-content .nav-tabs .nav-link {
@@ -1990,7 +1991,7 @@ border: 1px solid #000;
     margin-top: -40px;
   }
     .cta-area{
-        padding: 100px 0;
+        padding: 20px 0;
     }
     .cta-area.cta-bg::before {
     height: 100%;
@@ -2345,7 +2346,7 @@ border-bottom: none;
     padding-bottom: 3px;
 }
 .about-title h2 {
-	font-size: 40px;
+	font-size: 30px;
 	letter-spacing: -1px;
 }
 .features-content p {
@@ -2356,7 +2357,7 @@ border-bottom: none;
 	padding-right: 0;
 }
 .section-title h2 {
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 }
 .footer-top-heiding .section-title h2 {
@@ -2484,6 +2485,10 @@ background: #002e5b;
 	box-shadow: none;
 	padding: 0;
 	margin-top: 0;
+    display: none;
+}
+.desktop-banner{
+    margin-top:150px;
 }
 .second-menu::before {
 	content: none;
@@ -2602,9 +2607,11 @@ margin: 0;
 .breadcrumb-area {
     background-position: 0 0;
     background-color: #fff;
-   min-height: 200px;
+   min-height: 250px;
 }
-
+.breadcrumb-wrap2 .about-title h2 {
+    font-size: 25px;
+}
 .details__content h2 {
 	font-size: 24px;
 }
@@ -2731,6 +2738,132 @@ margin: 0;
  height: auto;
     
 }
+.shop-area .courses-item {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.counter-area {
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.s-about-content {
+    background-color: white;
+    padding: 20px;
+    margin:auto;
+    margin-top: 100px;
+    width: auto;
+    z-index: -1;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+    box-shadow: 5px 8.66px 58px 0px rgb(0 0 0 / 24%);
+}
+.s-about-content h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+    height: 4px;
+    width: 320px;
+    background: var(--primary-color);
+}
+
+.team-area-content {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.s-about-content1 {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    /* margin-left: 150px; */
+    /* margin-top: 100px; */
+    width: auto;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+    box-shadow: 5px 8.66px 58px 0px rgb(0 0 0 / 24%);
+    position: relative;
+}
+.s-about-content1 h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+    height: 4px;
+    width: 300px;
+    background: var(--primary-color);
+}
+.footer-link ul li {
+    display: inline-block;
+}
+
+.about-area{
+    padding-top: 30px;
+}
+
+.s-about-content3 {
+
+    padding: 30px;
+    width: auto;
+    margin: auto;
+    box-shadow: 5px 8.66px 58px 0px rgb(0 0 0 / 24%);
+    background-image: url(../img/rmpharma/principle_bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-area-content2 {
+   padding-top: 60px;
+   padding-bottom: 0px;
+}
+.about__shadow {
+    width: 310px;
+    height: 385px;
+    top: .5rem;
+    right: 4.5rem;
+    border: 4px solid var(--secondary-color);
+    z-index: -1;
+    transition: background-color 0.4s;
+}
+.about__shadow1 {
+    width: 300px;
+    height: 385px;
+    position: absolute;
+
+    top:1650px;
+    right: -2px;
+    border: 4px solid var(--secondary-color);
+    z-index: -1;
+    transition: background-color 0.4s;
+}
+.section-sp1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.team-area-content1 {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.faculty {
+    padding-left: 0px;
+}
+.project-detail {
+    position: relative;
+    padding: 50px 0 60px;
+    text-align: justify;
+}
+.slider-btn2 .btn {
+    width:300px;
+}
+.services-area .services-box{
+    margin-bottom: 40px;
+}
+.services-area {
+    padding-bottom: 20px;
+}
+
+.s-about-content {
+position:initial;
+}
 }
 
 /* Large Mobile :480px. */
@@ -2832,10 +2965,60 @@ mobile devices */
     .c-img{
         height: auto;
     }
-
-    .slider-content {
-        display: none;
+    .second-header-btn .btn {
+        background: var(--secondary-color);
+        font-size: 10px;
+        color: #fff;
+        width: auto;
+        padding: 5px 10px;
+        position: relative;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+        /* border: 1px solid white; */
     }
+    .slider-content {
+        display: inline-block;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: -150px;
+        align-items: center;
+    }
+
+    .slider-content h1 {
+        color: white;
+        font-size: 20px;
+        font-family: 'Source sans 3', sans-serif;
+        margin-bottom: 5px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 20px !important;
+        height: 20px !important;
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+    }
+    .carousel-indicators {
+        position: absolute;
+        left: 47%;
+        transform: translateX(-50%);
+        list-style: none;
+        padding: 0;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        /* padding: 10px; */
+        display: flex !important;
+      
+    }
+
+    .slider-content h5{
+        margin-bottom: 10px;
+    }
+
+    .breadcrumb {
+        margin-bottom: 20px;
+    }
+
 }
 
   /* Media query for desktop devices */
@@ -2847,6 +3030,23 @@ mobile devices */
     .mobile-menu {
        display: none;  /* Hide mobile menu on desktop */
     }
+
+    .desktop-banner{
+        display: block;
+    }
+
+    .mobile-banner{
+        display:none;
+    }
+
+    .desktop-notification{
+        display: block;
+    }
+
+    .mobile-notification{
+        display:none;
+    }
+
 }
 
   /* Media query for mobile devices */
@@ -2861,6 +3061,41 @@ mobile devices */
     a.meanmenu-reveal {
         display: none;
     }
+
+    .desktop-banner{
+        display:none;
+    }
+
+    .mobile-banner{
+        display:block;
+        margin-top:70px;
+    }
+    .desktop-notification{
+        display: none;
+    }
+
+    .mobile-notification{
+        display:block;
+    }
+
+    .count {
+        font-size: 35px;
+        color: #fff;
+        font-weight: 600;
+        margin-top: 10px;
+        line-height: 1;
+        font-family: 'Jost', sans-serif;
+        display: inline-block;
+    }
+
+    .counter img {
+        width: 60px;
+        padding: 5px;
+    }
+    p{
+        font-size: 15px;
+    }
+
 }
 
 
@@ -2875,35 +3110,35 @@ mobile devices */
   @media only screen and (min-width: 360px) and (max-width: 389px) {
    
       .ticon{
-        margin-left: 10px;
+        margin-left: 90px;
     }
   }
 
   @media only screen and (min-width: 390px) and (max-width: 392px) {
    
       .ticon{
-        margin-left: 70px;
+        margin-left:110px;
     }
   }
 
   @media only screen and (min-width: 393px) and (max-width: 411px) {
   
       .ticon{
-        margin-left: 40px;
+        margin-left: 110px;
     }
   }
 
   @media only screen and (min-width: 412px) and (max-width: 427px) {
    
       .ticon{
-        margin-left: 50px;
+        margin-left: 120px;
     }
   }
 
   @media only screen and (min-width: 428px) and (max-width: 479px) {
     
       .ticon{
-        margin-left: 80px;
+        margin-left: 140px;
     }
   }
 
