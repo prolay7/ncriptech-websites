@@ -287,7 +287,7 @@ $slides = [
 
 $courses_home = [
     [
-        'image' => 'public/img/bg/couress-img-1.jpg',
+        'image' => 'public/img/pharma/Course2.webp',
         'category' => 'diploma',
         'title' => 'Diploma in Pharmacy',
         'description' => 'Typically, a Diploma in Pharmacy program lasts for two years.',
@@ -296,7 +296,7 @@ $courses_home = [
         'icon' => 'fal fa-graduation-cap',
     ],
     [
-        'image' => 'public/img/bg/couress-img-2.jpg',
+        'image' => 'public/img/pharma/Courses1.webp',
         'category' => 'Economics',
         'title' => 'Bachalor in Pharmacy',
         'description' => '
@@ -306,7 +306,7 @@ $courses_home = [
         'icon' => 'fal fa-graduation-cap',
     ],
     [
-        'image' => 'public/img/bg/couress-img-3.jpg',
+        'image' => 'public/img/pharma/Course3.webp',
         'category' => 'Media',
         'title' => 'Bachalor in Pharmacy(L)',
         'description' => 'Bachelor of Pharmacy (Lateral Entry) course duration is typically 3 years.',
