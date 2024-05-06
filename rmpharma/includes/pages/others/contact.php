@@ -46,7 +46,7 @@
                 </div>
 <br>
                   <div class="col-lg-6">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3034.6515807644573!2d87.823887!3d24.315095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa192a2b8e8a75%3A0xd70f4bea3fd071a0!2sRangamati%20Institute%20of%20Nursing!5e1!3m2!1sen!2sin!4v1714652416771!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3635.7446262433937!2d87.82122787441092!3d24.32054126665139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa1787bb83ab03%3A0x2484b1c9d1d0b097!2sRangamati%20Shikshan%20Ashram%20B.Ed%20%26%20D.El.Ed%2C%20Banior%2C%20Nalhati!5e0!3m2!1sen!2sin!4v1714993945562!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

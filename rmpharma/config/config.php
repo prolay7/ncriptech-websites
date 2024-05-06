@@ -258,7 +258,7 @@ $about_content = array(
     'description' => 'Ranagamati College of Pharmacy is dedicated to providing quality education in the field of pharmacy. Our mission is to produce highly skilled pharmacists who contribute to the healthcare sector. With state-of-the-art facilities and experienced faculty, we strive to foster innovation and excellence in pharmaceutical education.We are committed to continuous improvement, adapting to advancements in pharmaceutical science and technology to provide the best education possible. Join us at Ranagamati College of Pharmacy and embark on a journey towards a rewarding career in pharmacy.',
     'button_text' => 'Read More',
 	'button_link' => $base_url . '/about',
-    'image_src' => 'public/img/rmpharma/about_us.webp',
+    'image_src' => 'public/img/rmpharma/about_collage.webp',
     'image_alt' => 'img'
 );
 
@@ -299,7 +299,7 @@ $college_information = array(
 );
 $slides = [
     [
-        'image' => 'public/img/rmpharma/Banner1.webp',
+        'image' => 'public/img/rmpharma/slider11.webp',
         'caption' => 'One of the best Pharmacy College In India',
    
         'title' => 'RANGAMATI COLLEGE OF',
@@ -307,7 +307,7 @@ $slides = [
   
     ],
     [
-        'image' => 'public/img/rmpharma/Banner2.webp',
+        'image' => 'public/img/rmpharma/slider6.webp',
 		'caption' => 'A Leading Institution in Pharmacy Education',
    
         'title' => 'RANGAMATI COLLEGE OF',
@@ -324,7 +324,7 @@ $slides = [
     ],
 
 	[
-        'image' => 'public/img/rmpharma/slider4.webp',
+        'image' => 'public/img/rmpharma/slider10.webp',
         'caption' => 'One of the best Pharmacy College In India',
    
         'title' => 'RANGAMATI COLLEGE OF',
@@ -338,7 +338,7 @@ $slides = [
 
 $slides_mobile = [
     [
-        'image' => 'public/img/rmpharma/mob_banner1.png',
+        'image' => 'public/img/rmpharma/slider11_mobile.webp',
         'caption' => 'One of the best Pharmacy College In India',
    
         'title' => 'RANGAMATI COLLEGE OF',
@@ -346,7 +346,7 @@ $slides_mobile = [
   
     ],
     [
-        'image' => 'public/img/rmpharma/mob_banner2.png',
+        'image' => 'public/img/rmpharma/slider6_mobile.webp',
 		'caption' => 'One of the best Pharmacy College In India',
    
         'title' => 'RANGAMATI COLLEGE OF',
@@ -363,7 +363,7 @@ $slides_mobile = [
     ],
 
 	[
-        'image' => 'public/img/rmpharma/mob_banner4.png',
+        'image' => 'public/img/rmpharma/slider10_mobile.webp',
         'caption' => 'One of the best Pharmacy College In India',
    
         'title' => 'RANGAMATI COLLEGE OF',
