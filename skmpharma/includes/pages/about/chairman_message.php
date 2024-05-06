@@ -10,8 +10,8 @@
                                   
                                     <h2>CHAIRMAN'S MESSAGE</h2>                                   
                                 </div>
-                                   <p class="txt-clr">Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational.</p>
-                                    <p class="txt-clr">We are proud to offer top ranige in employment services such and asser payroll and benefits administrato managemen and asistance with global business range ployment employer  readings from religious texts or literature are also commonly inc compliance.</p>
+                                   <p class="txt-clr">To our dear students, I encourage you to embrace every opportunity that comes your way with enthusiasm and determination. Remember that your journey at SKMPharma College is not just about acquiring academic credentials but also about nurturing your curiosity, honing your skills, and cultivating a mindset of lifelong learning. Seize every moment to explore, innovate, and make a meaningful impact in the world around you.</p>
+                                    <p class="txt-clr">To our dedicated staff members, I extend my sincere appreciation for your invaluable contributions behind the scenes. Your hard work and commitment are the driving force behind the seamless functioning of our institution, enabling us to uphold our standards of excellence and service..</p>
                                    
                             
                             </div>

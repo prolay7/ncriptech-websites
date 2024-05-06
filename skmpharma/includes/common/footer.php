@@ -1,90 +1,57 @@
 
         <!-- footer -->
         <footer class="footer-bg footer-p pt-40">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        
-                        <div class="col-xl-4 col-lg-3 col-sm-6">
-                            <div class="footer-widget mb-30">
-                                <div class="copy-text">
-                                <a href="index-2.html"><img src="public/img/pharma/skm_logo.png" alt="img"></a>   
-                            </div>
-                             
-                                <div class="f-contact">
-                                     <p>SKM Institue of Pharmacetutical Science & Research was established in the year 2022 by agnibina Trust, having an impressive campus is dedicated to develop and nurture pharmaceutical education and research</p>
-                                    
-                                    </div>
-                                  
-                            </div>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-lg-3 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="copy-text">
+                            <a href="index-2.html"><img src="<?php echo $footerData['logoUrl']; ?>" alt="img"></a>
                         </div>
-						<div class="col-xl-2 col-lg-2 col-sm-6">
-                            <div class="footer-widget mb-30">
-                                <div class="f-widget-title">
-                                    <h2>Our Links</h2>
-                                </div>
-                                <div class="footer-link">
-                                    <ul>                                        
-                                        <li><a href="<?php echo $base_url; ?>">Home</a></li>
-                                        <li><a href="<?php echo $base_url; ?>about_us"> About</a></li>
-                                        <li><a href="<?php echo $base_url;?>course">Courses</a></li>
-                                        <li><a href="<?php echo $base_url; ?>contact"> Contact Us</a></li>
-                                       
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="f-contact">
+                            <p><?php echo $footerData['aboutText']; ?></p>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-sm-6">
-                            <div class="footer-widget mb-30">
-                                <div class="f-widget-title">
-                                    <h2>Our Links</h2>
-                                </div>
-                                <div class="footer-link">
-                                    <ul>                                        
-                                      
-                                        <li><a href="">Blog </a></li>
-                                        <li><a href="<?php echo $base_url; ?>coming_soon">Privacy-policy</a></li>
-                                        <li><a href="<?php echo $base_url; ?>coming_soon">Terms & Condition</a></li>
-                                        <li><a href="<?php echo $base_url; ?>coming_soon">Refund policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="f-widget-title">
+                            <h2>Quick Links</h2>
                         </div>
-                        <!-- <div class="col-xl-3 col-lg-3 col-sm-6">
-                            <div class="footer-widget mb-30">
-                                <div class="f-widget-title">
-                                    <h2>Latest Post</h2>
-                                </div>
-                                <div class="recent-blog-footer">
-                                    <ul>
-                                        <li>
-                                            <div class="thum"> <img src="public/img/blog/s-blogimg-01.png" alt="img"></div>
-                                            <div class="text"> <a href="blog-details.html">Nothing impossble to need hard work</a>
-                                            <span>7 March, 2020</span></div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="thum"> <img src="public/img/blog/s-blogimg-02.png" alt="img"></div>
-                                            <div class="text"> <a href="blog-details.html">Nothing impossble to need hard work</a>
-                                            <span>7 March, 2020</span></div>
-                                        </li>
-                                    
-                                    </ul>
-                                   
-                                     
-                                </div>
-                            </div>
-                        </div>   -->
-                        <div class="col-xl-4 col-lg-4 col-sm-6">
-                            <div class="footer-widget mb-30">
-                                <div class="f-widget-title">
-                                  <h2>Contact Us</h2>
-                                </div>
-                                <div class="f-contact">
-                                    <ul>
+                        <div class="footer-link">
+                            <ul>
+                                <?php foreach ($footerData['quickLinks'] as $link) { ?>
+                                    <li><a href="<?php echo $link['url']; ?>"><?php echo $link['text']; ?></a></li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="f-widget-title">
+                            <h2>Our Links</h2>
+                        </div>
+                        <div class="footer-link">
+                            <ul>
+                                <?php foreach ($footerData['footerLinks'] as $link) { ?>
+                                    <li><a href="<?php echo $link['url']; ?>"><?php echo $link['text']; ?></a></li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="f-widget-title">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="f-contact">
+                        <ul>
                                     <li class="mt-2">
                                         <i class="icon fal fa-phone"></i>
-                                        <span><a href="tel:+91 - 7076380855">Call:+91-8768000093</a></span>
+                                        <span><a href="tel:+91 - 7076380855">Call:+91-8768000093/<br>9002659019</a></span>
                                     </li>
                                    <li>
                                     <i class="icon fal fa-envelope"></i>
@@ -101,40 +68,32 @@
                                     </li>
                                     
                                 </ul>
-                                    
-                                    </div>
-                                
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="copyright-wrap">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4">
-                          
-                            <div class="footer-social ">                                    
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </div>  
-                        </div>
 
-                        <div class="col-lg-4 text-center">          
-                            
-                        </div>
-                       <div class="col-lg-4 text-right text-xl-right">
-                       All rights reserved | Developed By <a href="https://ncriptech.com/" target="blank" style="
-    color: white;
-">ncriptech.com</a>
-                    
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </div>
+    <div class="copyright-wrap">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="footer-social ">
+                        <?php foreach ($footerData['socialLinks'] as $social) { ?>
+                            <a href="<?php echo $social['url']; ?>"><i class="<?php echo $social['icon']; ?>" ></i></a>
+                        <?php } ?>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center"></div>
+                <div class="col-lg-4 text-right text-xl-right">
+                    <?php echo $footerData['developer']['text']; ?><a href="<?php echo $footerData['developer']['url']; ?>"  style="
+    color: white;" target="_blank"><?php echo $footerData['developer']['name']; ?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
         <!-- footer-end -->
          <!-- JS here -->
      <script src="<?php echo $base_url;?>public/js/vendor/modernizr-3.5.0.min.js"></script>

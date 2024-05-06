@@ -44,46 +44,14 @@ $bread_cumbs=array(
 		$base_url=>'Home',
 		''=>'About Us'
 	),
-	'noc'=>array(
-		$base_url=>'Home',
-		''=>'NOC govt of W.B'
-	),
-	'wbnc'=>array(
-		$base_url=>'Home',
-		''=>'WBNC'
-	),
-	'wbush_affiliation'=>array(
-		$base_url=>'Home',
-		''=>'WBUHS Affiliation 2023-2024'
-	),
-	'inc_bsc_nursing'=>array(
-		$base_url=>'Home',
-		''=>'INC BSC NURSING DOCUMENTS'
-	),
-	'inc_gnm_nursing'=>array(
-		$base_url=>'Home',
-		''=>'INC GNM NURSING DOCUMENTS'
-	),
+	
+	
 	'our-gallery'=>array(
 		$base_url=>'Home',
 		''=>'Gallery'
 	),
-	'bscn'=>array(
-		$base_url=>'Home',
-		''=>'BSC COURSE DETAILS'
-	),
-	'pbins'=>array(
-		$base_url=>'Home',
-		''=>'GNM COURSE DETAILS'
-	),
-	'bsc_prospectus'=>array(
-		$base_url=>'Home',
-		''=>'BSC PROSPECTUS'
-	),
-	'gnm_prospectus'=>array(
-		$base_url=>'Home',
-		''=>'JNM PROSPECTUS'
-	),
+
+	
 		
 	'contact'=>array(
 		$base_url=>'Home',
@@ -190,8 +158,8 @@ $header_menus = array(
         "Chairman message" => "chairman_message",
         "Principle message" => "principle_message",
         "Secretory message" => "secretory_message",
-        "vission & mission" => "vision_mission",
-        "affiliation" => "coming_soon"
+        "Vision & mission" => "vision_mission",
+        "Affiliation" => "coming_soon"
     ),
     "Courses" => array(
         "Course offered" => "course",
@@ -242,17 +210,37 @@ $pages_arr=[
 
 ];
 
-$footer_menues=[
-	'Home'=>$base_url.'',
-	'About'=>$base_url.'about',
-	'courses'=>$base_url.'bscn',
-	'Contact-us'=>$base_url.'contact_us',
-	'Blog'=>$base_url.'',
+// footer menu
 
-	'Terms & Condition'=>$base_url.'terms&condition',
-	'privacy & Policy'=>$base_url.'Privacy_Policy',
-	'refund policy'=>$base_url.'refund_policy',
-];
+$footerData = array(
+    'logoUrl' => 'public/img/pharma/skm_logo.png',
+    'aboutText' => 'SKM Institute of Pharmaceutical Science & Research was established in the year 2022 by Agnibina Trust, having an impressive campus dedicated to developing and nurturing pharmaceutical education and research.',
+    'quickLinks' => array(
+        array('text' => 'Home', 'url' => $base_url),
+        array('text' => 'About', 'url' => $base_url . 'about_us'),
+        array('text' => 'Courses', 'url' => $base_url . 'course'),
+        array('text' => 'Contact Us', 'url' => $base_url . 'contact'),
+    ),
+    'footerLinks' => array(
+        array('text' => 'Blog', 'url' => ''),
+        array('text' => 'Privacy-policy', 'url' => $base_url . 'coming_soon'),
+        array('text' => 'Terms & Condition', 'url' => $base_url . 'coming_soon'),
+        array('text' => 'Refund policy', 'url' => $base_url . 'coming_soon'),
+    ),
+    
+    'socialLinks' => array(
+        array('icon' => 'fab fa-facebook-f', 'url' => '#'),
+        array('icon' => 'fab fa-instagram', 'url' => '#'),
+        array('icon' => 'fab fa-twitter', 'url' => '#'),
+    ),
+    'developer' => array(
+        'text' => 'All rights reserved | Developed By ',
+        'url' => 'https://ncriptech.com/',
+        'name' => 'ncriptech.com'
+    )
+);
+
+
 
 
 
@@ -290,8 +278,8 @@ $courses_home = [
         'image' => 'public/img/pharma/Course2.webp',
         'category' => 'diploma',
         'title' => 'Diploma in Pharmacy',
-        'description' => 'Typically, a Diploma in Pharmacy program lasts for two years.',
-        'link' => '',
+        'description' => 'Typically, a Diploma in Pharmacy(D.Pharma) program lasts for two years.',
+        'link' =>  $base_url ."course",
 
         'icon' => 'fal fa-graduation-cap',
     ],
@@ -301,7 +289,7 @@ $courses_home = [
         'title' => 'Bachalor in Pharmacy',
         'description' => '
 		Bachelor of Pharmacy (BPharm) programs typically have a duration of four years.',
-        'link' => '',
+        'link' =>  $base_url ."course",
       
         'icon' => 'fal fa-graduation-cap',
     ],
@@ -310,7 +298,7 @@ $courses_home = [
         'category' => 'Media',
         'title' => 'Bachalor in Pharmacy(L)',
         'description' => 'Bachelor of Pharmacy (Lateral Entry) course duration is typically 3 years.',
-        'link' => '',
+        'link' =>  $base_url ."course",
        
         'icon' => 'fal fa-graduation-cap',
     ],
@@ -362,7 +350,7 @@ $features = [
     ]
 ];
 $imagePaths = [
-    'public/img/pharma/photo_collage.webp',
+    'public/img/pharma/photocollage.webp',
     
 ];
 $partners_logo=[
@@ -415,9 +403,38 @@ $pharma_courses = array(
 );
 
 
+// archive section
 
+$features1 = [
+    [
+        'icon' => 'public/img/pharma/press-button.png',
+        'title' => 'Apply Online',
+        'content' => 'With excellence in education, SKM INSTITUTE OF PHARMACEUTICAL SCIENCES AND RESEARCH stands among the best pharmacy colleges in West Bengal'
+    ],
+    [
+        'icon' => 'public/img/pharma/write.png',
+        'title' => 'Download Prospectus',
+        'content' => 'Download our prospectus from following link',
+        'link' => 'public/img/pharma/d_pharma_prospectus.pdf'
+    ],
+    [
+        'icon' => 'public/img/pharma/notebook.png',
+        'title' => 'Affiliation & Approvals',
+        'content' => 'PCI (Pharmacy Council of India), WBSCTVE&SD, and Higher Education, Govt. of West Bengal.'
+    ]
+];
 
+// about page about
 
+$aboutData = array(
+    'title' => 'About Us',
+    'content' => array(
+        'SKM Institute of Pharmaceutical Science And Research stands among the best pharmacy colleges in West Bengal. SKMIPSR established in 2022 by agnibina Trust, having an impressive campus is dedicated to develop and nurture pharmaceutical education and research. The college is offering Diploma in Pharmacy Course or, D.Pharma.',
+        'At Skm institute of pharmaceutical science & research, we are dedicated to nurturing the next generation of pharmaceutical professionals who will lead the industry forward with innovation, integrity, and compassion.',
+        'Our institution stands as a beacon of excellence in pharmaceutical education, offering cutting-edge programs, world-class faculty, and state-of-the-art facilities.'
+    ),
+    'imageSrc' => 'public/img/pharma/college_img.webp'
+);
 //Meta data
 
 $page_meta=[
@@ -538,62 +555,15 @@ $page_meta=[
 
 
 ];
+// gallery 
+$galleryImages = array(
+    'https://iili.io/JGDL71V.jpg',
+    'https://iili.io/JGDLShG.jpg',
+    'https://iili.io/JGDLpCx.png',
+    'https://iili.io/JGDiiMl.jpg'
+);
 
-$teaching_staff['one']=[
-	'public/img/class/img-08.jpeg'=>array(
-		'PRINCIPAL'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Bidisha Chatterjee'
-		),
-	
-		'Teacher-in-Charge'=>array(
-			'type'=>'text',
-			'text'=>'14 (48.03sq.mtr. / 517 sq.ft.)'
-		),
-	
-		'Co-Ordinator'=>array(
-			'type'=>'text',
-			'text'=>'Smt Deepika Mustafi'
-		),
-		'PGT'=>array(
-			'type'=>'text',
-			'text'=>'0'
-		),
-		'TGT'=>array(
-			'type'=>'text',
-			'text'=>'13'
-		),	
-		'PRT'=>array(
-			'type'=>'text',
-			'text'=>'2'
-		)
-	)
-];
 
-$teaching_staff['two']=[
-	'public/img/class/img-17.jpeg'=>array(
-		'PET'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Swarnali Chakraborty ( B.A., B.P.Ed., M.P.Ed.)'
-		),
-		'NTT'=>array(
-			'type'=>'text',
-			'text'=>'4'
-		),
-		'DETAILS OF SPECIAL EDUCATOR'=>array(
-			'type'=>'text',
-			'text'=>'Smt. Tulika Das ( B.A., Spl. B.Ed.)'
-		),
-		'Counselor & Wellness Teacher'=>array(
-			'type'=>'text',
-			'text'=>'Dr. Suparna Ray (Chatterjee), MBBS, M.D. (Neuro Psyciatrist)'
-		),
-		'Lab Attendent'=>array(
-			'type'=>'text',
-			'text'=>'1'
-		)
-	)
-];
 
 $page_keywords=[
 	"home"=>"nurse training institute in kolkata,kolkata nursing training institute,nursing college with own hospital,nursing college at hooghly",

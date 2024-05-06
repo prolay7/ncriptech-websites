@@ -26,7 +26,7 @@
             <h3><a href="<?php echo $course['link']; ?>"><?php echo $course['title']; ?></a></h3>
             <p><?php echo $course['description']; ?></p>
             <div class="second-header-btn">
-                      <a href="" class="btn">View Course</a>
+                      <a href="<?php echo $base_url?>course" class="btn">View Course</a>
                     </div>
         </div>
         <!-- <div class="icon">
@@ -65,7 +65,7 @@
                                 <h3><a href="<?php echo $course['link']; ?>"><?php echo $course['title']; ?></a></h3>
                                 <p><?php echo $course['description']; ?></p>
                                 <div class="second-header-btn">
-                                    <a href="" class="btn">View Course</a>
+                                    <a href="<?php echo $base_url?>course" class="btn">View Course</a>
                                 </div>
                             </div>
                         </div>

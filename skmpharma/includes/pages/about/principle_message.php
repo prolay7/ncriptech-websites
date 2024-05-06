@@ -11,7 +11,8 @@
                                     <h2>Principle Message</h2>                                   
                                 </div>
                                 <p class="txt-clr">As we embark on another academic year at our esteemed pharmaceutical college, I want to extend a warm welcome to all of you.</p>
-                                   <p class="txt-clr">Our mission at [Pharma College Name] is not only to provide top-notch education but also to cultivate future leaders in the pharmaceutical industry. </p>
+                                   <p class="txt-clr">Our mission at  SKM INSTITUTE OF
+PHARMACEUTICAL SCIENCE & RESEARCH is not only to provide top-notch education but also to cultivate future leaders in the pharmaceutical industry. </p>
                                     <p class="txt-clr">I encourage each of you to embrace the challenges and opportunities that come your way during your time here. Remember that success is not just measured by academic achievements, but also by your growth as individuals and professionals. </p>
                                    
                             
